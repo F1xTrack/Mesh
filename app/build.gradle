@@ -43,6 +43,8 @@ android {
     
     aaptOptions {
         ignoreAssetsPattern "!.svn:!.git:.*:!CVS:!thumbs.db:!picasa.ini:!*.scc:*~"
+        noCompress 'tflite'
+        additionalParameters '--no-auto-version'
     }
     
     packagingOptions {
