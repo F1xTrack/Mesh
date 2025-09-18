@@ -37,8 +37,7 @@
     "react-native-share": "^10.0.2",
     "react-native-text-input-mask": "^2.0.0",
     "react-native-webview": "^13.6.4",
-    "react-native-yamap": "^1.0.0",
-    "react-native-ucrop": "^0.5.3"
+    "react-native-yamap": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

@@ -2,7 +2,6 @@ plugins {
     id 'com.android.application'
     id 'com.google.gms.google-services'
     id 'com.google.firebase.crashlytics'
-    id 'com.huawei.agconnect'
 }
 
 android {
@@ -119,11 +118,6 @@ dependencies {
     implementation 'com.google.mlkit:barcode-scanning:17.2.0'
     implementation 'com.google.mlkit:vision-common:17.3.0'
     
-    // Huawei HMS
-    implementation 'com.huawei.hms:push:6.12.0.300'
-    implementation 'com.huawei.hms:base:6.12.0.300'
-    implementation 'com.huawei.hms:opendevice:6.12.0.300'
-    implementation 'com.huawei.agconnect:agconnect-core:1.9.1.300'
     
     // RuStore
     implementation 'ru.rustore.sdk:pushclient:1.7.0'
@@ -193,8 +187,6 @@ dependencies {
     // Push Notifications
     implementation 'com.dieam:react-native-push-notification:8.1.1'
     
-    // Huawei HMS React Native
-    implementation 'com.huawei.hms:react-native-hms-push:6.12.0.300'
     
     // Testing
     testImplementation 'junit:junit:4.13.2'

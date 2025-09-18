@@ -66,6 +66,14 @@
         <intent>
             <action android:name="ru.vk.store.RequestIgnoreBatteryOptimizations"/>
         </intent>
+        <package android:name="com.huawei.android.pushagent"/>
+        <intent>
+            <action android:name="com.huawei.hms.core.aidlservice"/>
+        </intent>
+        <intent>
+            <action android:name="com.huawei.hms.core"/>
+        </intent>
+        <package android:name="com.huawei.works"/>
     </queries>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
@@ -104,6 +112,9 @@
     <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
     <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
     <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
     <uses-permission android:name="android.permission.READ_APP_BADGE"/>
     <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
     <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
@@ -198,6 +209,14 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_provider_paths"/>
         </provider>
+        <service android:name="com.huawei.hms.p015rn.push.services.MessagingHeadlessService"/>
+        <service
+            android:name="com.huawei.hms.p015rn.push.remote.HmsPushMessageService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
         <meta-data
             android:name="firebase_analytics_collection_enabled"
             android:value="true"/>
@@ -805,5 +824,102 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths"/>
         </provider>
+        <receiver
+            android:name="com.huawei.hms.support.api.push.PushMsgReceiver"
+            android:permission="ru.mes.dnevnik.permission.PROCESS_PUSH_MSG"
+            android:exported="true"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY"/>
+                <action android:name="com.huawei.intent.action.PUSH"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.hms.support.api.push.PushReceiver"
+            android:permission="ru.mes.dnevnik.permission.PROCESS_PUSH_MSG"
+            android:exported="true"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REGISTRATION"/>
+                <action android:name="com.huawei.android.push.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.huawei.hms.support.api.push.service.HmsMsgService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":pushservice"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="com.huawei.push.msg.NOTIFY_MSG"/>
+                <action android:name="com.huawei.push.msg.PASSBY_MSG"/>
+            </intent-filter>
+        </service>
+        <provider
+            android:name="com.huawei.hms.support.api.push.PushProvider"
+            android:readPermission="ru.mes.dnevnik.permission.PUSH_PROVIDER"
+            android:writePermission="ru.mes.dnevnik.permission.PUSH_WRITE_PROVIDER"
+            android:exported="true"
+            android:authorities="ru.mes.dnevnik.huawei.push.provider"/>
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:push"
+            android:value="push:6.12.0.300"/>
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:push:push"
+            android:value="1"/>
+        <activity
+            android:name="com.huawei.hms.support.api.push.TransActivity"
+            android:exported="false"/>
+        <provider
+            android:name="com.huawei.hms.aaid.InitProvider"
+            android:exported="false"
+            android:authorities="ru.mes.dnevnik.aaidinitprovider"
+            android:initOrder="500"/>
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:opendevice"
+            android:value="opendevice:6.12.0.300"/>
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:opendevice:push"
+            android:value="1"/>
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:base"
+            android:value="base:6.12.0.300"/>
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:base:hmscore"
+            android:value="1"/>
+        <meta-data
+            android:name="availableLoaded"
+            android:value="yes"/>
+        <activity
+            android:theme="@style/Base_Translucent"
+            android:name="com.huawei.hms.activity.BridgeActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:screenOrientation="behind"
+            android:configChanges="fontScale|layoutDirection|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|locale"
+            android:hardwareAccelerated="true">
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"/>
+        </activity>
+        <activity
+            android:name="com.huawei.hms.activity.EnableServiceActivity"
+            android:exported="false"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <provider
+            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+            android:exported="false"
+            android:authorities="ru.mes.dnevnik.AGCInitializeProvider"/>
+        <service
+            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/Theme.PlayCore.Transparent"
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:exported="false"
+            android:stateNotNeeded="true"/>
+        <meta-data
+            android:name="com.huawei.hms.client.appid"
+            android:value="appid=103398301"/>
     </application>
 </manifest>
