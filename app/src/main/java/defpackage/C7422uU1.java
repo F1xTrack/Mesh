@@ -6,7 +6,6 @@ import android.content.ComponentName;
 import android.os.Build;
 import android.os.PersistableBundle;
 import com.google.android.gms.common.internal.Preconditions;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 
 /* renamed from: uU1, reason: case insensitive filesystem */
 /* loaded from: classes.dex */

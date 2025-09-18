@@ -5,7 +5,6 @@ import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.NoSuchKeyException;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.WritableMap;
-import com.huawei.hms.push.AttributionReporter;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;
 
 /* renamed from: bu, reason: case insensitive filesystem */

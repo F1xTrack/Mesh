@@ -2,8 +2,6 @@ package com.swmansion.rnscreens;
 
 import android.view.View;
 import com.facebook.react.uimanager.ViewGroupManager;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import java.util.HashMap;
 import java.util.Map;
 import kotlin.Metadata;

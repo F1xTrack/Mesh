@@ -2,7 +2,6 @@ package com.yandex.metrica.impl.ob;
 
 import com.facebook.crypto.mac.NativeMac;
 import com.google.android.gms.dynamite.descriptors.com.google.android.gms.measurement.dynamite.ModuleDescriptor;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import io.appmetrica.analytics.impl.C4473c9;
 import java.io.IOException;
 

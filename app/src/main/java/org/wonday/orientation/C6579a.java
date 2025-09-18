@@ -5,7 +5,6 @@ import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
-import com.huawei.hms.framework.network.grs.GrsBaseInfo;
 import p000.AbstractC3929dS;
 
 /* renamed from: org.wonday.orientation.a */

@@ -9,7 +9,6 @@ import com.google.android.gms.common.GoogleApiAvailabilityLight;
 import com.google.android.gms.common.internal.Objects;
 import com.google.android.gms.common.internal.Preconditions;
 import com.google.android.gms.common.util.PlatformVersion;
-import com.huawei.hms.framework.common.ExceptionCode;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 

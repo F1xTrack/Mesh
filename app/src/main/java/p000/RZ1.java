@@ -1,7 +1,6 @@
 package p000;
 
 import android.widget.ImageView;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
 import java.io.IOException;
 import java.io.InputStream;
 import java.security.MessageDigest;

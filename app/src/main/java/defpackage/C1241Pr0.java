@@ -22,7 +22,6 @@ import android.util.SparseBooleanArray;
 import android.view.Surface;
 import com.android.billingclient.api.BillingResult;
 import com.android.billingclient.api.SkuDetailsResponseListener;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import com.vk.push.core.analytics.AnalyticsBaseParamsConstantsKt;
 import com.yandex.metrica.impl.ob.InterfaceC3013q;
 import java.io.DataInputStream;

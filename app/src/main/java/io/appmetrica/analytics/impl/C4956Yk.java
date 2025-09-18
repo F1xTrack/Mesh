@@ -2,7 +2,6 @@ package io.appmetrica.analytics.impl;
 
 import android.net.Uri;
 import android.text.TextUtils;
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
 import io.appmetrica.analytics.coreapi.internal.control.DataSendingRestrictionController;
 import io.appmetrica.analytics.coreapi.internal.identifiers.AdTrackingInfoResult;
 import io.appmetrica.analytics.coreapi.internal.identifiers.AdvertisingIdsHolder;

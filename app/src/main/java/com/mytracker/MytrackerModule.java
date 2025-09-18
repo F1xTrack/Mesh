@@ -8,7 +8,6 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import com.p018my.tracker.MyTracker;
 import com.p018my.tracker.MyTrackerConfig;
 import com.p018my.tracker.MyTrackerParams;

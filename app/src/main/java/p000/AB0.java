@@ -1,7 +1,6 @@
 package p000;
 
 import com.google.android.gms.location.GeofenceStatusCodes;
-import com.huawei.hms.support.api.entity.auth.AuthCode;
 
 /* loaded from: classes.dex */
 public abstract class AB0 extends Exception {

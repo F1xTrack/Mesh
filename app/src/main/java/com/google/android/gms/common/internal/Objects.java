@@ -2,7 +2,6 @@ package com.google.android.gms.common.internal;
 
 import android.os.Bundle;
 import com.google.android.gms.common.annotation.KeepForSdk;
-import com.huawei.hms.framework.common.ContainerUtils;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

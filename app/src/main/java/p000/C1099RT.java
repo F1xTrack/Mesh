@@ -9,8 +9,6 @@ import android.os.Bundle;
 import android.provider.DocumentsContract;
 import com.facebook.react.bridge.BaseJavaModule;
 import com.google.firebase.perf.network.FirebasePerfOkHttpClient;
-import com.huawei.hms.p015rn.push.constants.Core;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import expo.modules.filesystem.DownloadOptions;
 import expo.modules.filesystem.FileSystemUploadOptions;
 import expo.modules.filesystem.RelocatingOptions;

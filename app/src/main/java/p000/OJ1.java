@@ -12,7 +12,6 @@ import com.dylanvann.fastimage.GlideRequests;
 import com.facebook.react.views.view.C1932a;
 import com.google.android.gms.common.api.Api;
 import com.google.android.gms.tasks.Task;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.Collection;

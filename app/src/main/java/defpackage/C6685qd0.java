@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.vk.push.common.messaging.RemoteMessage;
 import com.vk.push.core.data.source.ManifestDataSource;
 import expo.modules.adapters.react.NativeModulesProxy;

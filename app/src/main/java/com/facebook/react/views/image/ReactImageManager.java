@@ -5,7 +5,6 @@ import android.graphics.Shader;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.uimanager.SimpleViewManager;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import com.swmansion.reanimated.layoutReanimation.Snapshot;
 import java.util.Arrays;
 import java.util.HashMap;

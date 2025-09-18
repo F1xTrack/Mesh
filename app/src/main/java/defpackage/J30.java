@@ -1,7 +1,6 @@
 package defpackage;
 
 import com.facebook.react.bridge.Promise;
-import com.huawei.hms.rn.push.remote.HmsPushProfile;
 
 /* loaded from: classes.dex */
 public final /* synthetic */ class J30 implements InterfaceC3299cy0, InterfaceC1415Rx0 {

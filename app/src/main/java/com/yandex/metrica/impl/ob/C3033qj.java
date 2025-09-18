@@ -1,7 +1,6 @@
 package com.yandex.metrica.impl.ob;
 
 import android.util.Pair;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import com.yandex.metrica.impl.ob.Bi;
 import com.yandex.metrica.impl.ob.C3240ym;
 import java.util.ArrayList;

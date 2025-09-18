@@ -9,7 +9,6 @@ import android.view.Surface;
 import androidx.activity.a;
 import androidx.work.impl.workers.ConstraintTrackingWorker;
 import com.google.firebase.perf.metrics.AppStartTrace;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.vk.push.common.AppInfo;
 import com.vk.push.common.Logger;
 import com.vk.push.core.ipc.BaseIPCClient;

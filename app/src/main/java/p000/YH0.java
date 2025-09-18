@@ -7,7 +7,6 @@ import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.WritableNativeMap;
 import com.google.android.material.timepicker.C1949e;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import java.util.Calendar;
 
 /* loaded from: classes2.dex */

@@ -2,7 +2,6 @@ package defpackage;
 
 import android.os.Bundle;
 import com.google.android.gms.common.internal.Preconditions;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import java.util.concurrent.ConcurrentHashMap;
 
 /* loaded from: classes.dex */

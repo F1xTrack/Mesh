@@ -14,7 +14,6 @@ import androidx.fragment.app.DialogInterfaceOnCancelListenerC1725g;
 import androidx.fragment.app.Fragment;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.google.android.gms.tasks.Task;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;

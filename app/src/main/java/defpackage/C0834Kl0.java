@@ -19,7 +19,6 @@ import android.support.v4.media.session.ParcelableVolumeInfo;
 import android.support.v4.media.session.PlaybackStateCompat;
 import androidx.versionedparcelable.ParcelImpl;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelReader;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import defpackage.C0834Kl0;
 import defpackage.NX;
 import java.util.ArrayList;

@@ -1,7 +1,6 @@
 package io.appmetrica.analytics.impl;
 
 import android.content.ContentValues;
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
 import io.appmetrica.analytics.coreapi.internal.data.Converter;
 import io.appmetrica.analytics.protobuf.nano.MessageNano;
 import kotlin.jvm.internal.DefaultConstructorMarker;

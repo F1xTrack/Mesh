@@ -12,7 +12,6 @@ import android.os.Environment;
 import android.os.ParcelFileDescriptor;
 import android.text.TextUtils;
 import android.webkit.MimeTypeMap;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;

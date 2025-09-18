@@ -4,7 +4,6 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import io.sentry.C5122f;
 import io.sentry.C5185y;
 import io.sentry.EnumC5148n1;

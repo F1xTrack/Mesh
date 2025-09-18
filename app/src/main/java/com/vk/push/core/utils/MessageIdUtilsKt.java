@@ -1,6 +1,5 @@
 package com.vk.push.core.utils;
 
-import com.huawei.hms.rn.push.constants.RemoteMessageAttributes;
 import defpackage.AbstractC7538v51;
 import defpackage.AbstractC8069xu;
 import defpackage.O90;

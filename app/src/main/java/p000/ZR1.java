@@ -3,7 +3,6 @@ package p000;
 import android.os.Bundle;
 import com.facebook.react.modules.appstate.AppStateModule;
 import com.google.android.gms.common.internal.Preconditions;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import java.util.Iterator;
 import java.util.TreeSet;
 import org.json.JSONException;

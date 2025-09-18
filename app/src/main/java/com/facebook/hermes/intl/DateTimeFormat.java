@@ -1,7 +1,6 @@
 package com.facebook.hermes.intl;
 
 import android.os.Build;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
 import io.appmetrica.analytics.networktasks.internal.CommonUrlParts;
 import java.text.AttributedCharacterIterator;
 import java.util.ArrayList;

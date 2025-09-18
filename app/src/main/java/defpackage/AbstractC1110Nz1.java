@@ -10,7 +10,6 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.opengl.Matrix;
 import android.os.Build;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;

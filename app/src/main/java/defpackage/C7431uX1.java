@@ -1,7 +1,6 @@
 package defpackage;
 
 import android.text.TextUtils;
-import com.huawei.hms.framework.common.ContainerUtils;
 import java.util.HashMap;
 
 /* renamed from: uX1, reason: case insensitive filesystem */

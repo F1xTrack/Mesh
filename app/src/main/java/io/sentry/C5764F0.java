@@ -1,6 +1,5 @@
 package io.sentry;
 
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import io.sentry.config.AbstractC6003a;
 import java.util.Arrays;
 import java.util.concurrent.ConcurrentHashMap;

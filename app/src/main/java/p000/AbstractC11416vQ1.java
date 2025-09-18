@@ -8,7 +8,6 @@ import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.WritableMap;
 import com.google.firebase.perf.network.FirebasePerfUrlConnection;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

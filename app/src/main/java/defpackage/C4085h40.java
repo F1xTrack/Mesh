@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import java.io.Closeable;
 import java.io.IOException;
 import java.net.Socket;

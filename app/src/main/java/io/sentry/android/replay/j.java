@@ -2,7 +2,6 @@ package io.sentry.android.replay;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import com.huawei.hms.framework.common.ContainerUtils;
 import defpackage.AbstractC2141aT1;
 import defpackage.AbstractC4175hY0;
 import defpackage.AbstractC5702lU;

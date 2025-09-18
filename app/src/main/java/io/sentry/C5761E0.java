@@ -1,6 +1,5 @@
 package io.sentry;
 
-import com.huawei.hms.adapter.internal.CommonCode;
 import com.p019vk.push.core.analytics.AnalyticsBaseParamsConstantsKt;
 import io.appmetrica.analytics.coreutils.internal.system.ConstantDeviceInfo;
 import java.io.File;

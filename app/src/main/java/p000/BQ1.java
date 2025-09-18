@@ -2,7 +2,6 @@ package p000;
 
 import android.content.Context;
 import android.content.res.Resources;
-import com.huawei.hms.p015rn.push.constants.Core;
 import java.io.InputStream;
 
 /* loaded from: classes.dex */

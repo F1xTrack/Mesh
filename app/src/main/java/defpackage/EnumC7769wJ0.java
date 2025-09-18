@@ -2,7 +2,6 @@ package defpackage;
 
 import android.view.View;
 import androidx.emoji2.text.flatbuffer.FlexBuffers;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import io.appmetrica.analytics.impl.C4473c9;
 import ru.mes.dnevnik.R;
 

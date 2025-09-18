@@ -2,7 +2,6 @@ package defpackage;
 
 import android.os.Handler;
 import android.os.Looper;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.vk.push.common.DefaultLogger;
 import com.vk.push.common.Logger;
 import com.vk.push.common.ads.PushAdsProvider;

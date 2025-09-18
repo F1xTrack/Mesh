@@ -4,7 +4,6 @@ import android.annotation.TargetApi;
 import android.app.ActivityManager;
 import android.app.usage.UsageStatsManager;
 import android.content.Context;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.yandex.metrica.DoNotInline;
 import com.yandex.metrica.impl.ob.H;
 import kotlin.Metadata;

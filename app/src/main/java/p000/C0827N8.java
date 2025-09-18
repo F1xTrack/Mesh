@@ -23,7 +23,6 @@ import com.google.android.gms.common.api.internal.TaskApiCall;
 import com.google.android.gms.common.internal.Preconditions;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.tasks.Task;
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
 import com.p019vk.push.common.Logger;
 import com.p019vk.push.core.domain.repository.MetadataRepository;
 import io.appmetrica.analytics.networktasks.internal.CommonUrlParts;

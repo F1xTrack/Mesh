@@ -7,8 +7,6 @@ import android.database.DatabaseUtils;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 import android.text.TextUtils;
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import com.yandex.metrica.impl.ob.A;
 import com.yandex.metrica.impl.ob.C3071s8;
 import com.yandex.metrica.impl.ob.O8;

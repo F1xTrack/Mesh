@@ -1,6 +1,5 @@
 package ru.ok.tracer.upload;
 
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import defpackage.D51;
 import defpackage.O90;
 import kotlin.Metadata;

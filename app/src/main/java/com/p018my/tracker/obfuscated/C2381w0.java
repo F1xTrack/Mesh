@@ -1,9 +1,6 @@
 package com.p018my.tracker.obfuscated;
 
 import android.content.Context;
-import com.huawei.hms.ads.installreferrer.api.InstallReferrerClient;
-import com.huawei.hms.ads.installreferrer.api.InstallReferrerStateListener;
-import com.huawei.hms.ads.installreferrer.api.ReferrerDetails;
 import p000.N61;
 
 /* renamed from: com.my.tracker.obfuscated.w0 */

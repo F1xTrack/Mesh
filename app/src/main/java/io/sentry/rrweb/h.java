@@ -1,6 +1,5 @@
 package io.sentry.rrweb;
 
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import io.sentry.A0;
 import io.sentry.ILogger;
 import io.sentry.InterfaceC5141l0;

@@ -1,7 +1,6 @@
 package io.appmetrica.analytics.impl;
 
 import android.database.Cursor;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import io.appmetrica.analytics.coreapi.internal.db.DatabaseScript;
 
 /* loaded from: classes2.dex */

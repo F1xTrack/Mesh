@@ -10,7 +10,6 @@ import android.util.Size;
 import android.util.SparseArray;
 import com.google.android.gms.dynamite.descriptors.com.google.android.gms.measurement.dynamite.ModuleDescriptor;
 import com.google.firebase.components.ComponentRegistrar;
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayDeque;

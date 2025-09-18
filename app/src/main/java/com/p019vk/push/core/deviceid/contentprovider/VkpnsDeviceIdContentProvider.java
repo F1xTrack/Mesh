@@ -6,7 +6,6 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.MatrixCursor;
 import android.net.Uri;
-import com.huawei.hms.actions.SearchIntents;
 import com.p019vk.push.common.DefaultLogger;
 import com.p019vk.push.core.deviceid.DeviceIdRepositoryProvider;
 import kotlin.Metadata;

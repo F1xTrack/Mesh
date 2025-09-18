@@ -1,6 +1,5 @@
 package com.vk.push.core.base;
 
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import defpackage.AbstractC3767fP1;
 import defpackage.AbstractC7625vY1;
 import defpackage.C3895g41;

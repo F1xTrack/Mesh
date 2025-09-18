@@ -5,7 +5,6 @@ import android.os.Environment;
 import android.util.Base64;
 import android.webkit.MimeTypeMap;
 import com.facebook.react.bridge.ReactApplicationContext;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;

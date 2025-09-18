@@ -1,6 +1,5 @@
 package p000;
 
-import com.huawei.hms.p015rn.push.constants.Core;
 
 /* renamed from: nj1 */
 /* loaded from: classes.dex */

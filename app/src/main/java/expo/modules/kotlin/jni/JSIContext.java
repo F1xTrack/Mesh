@@ -4,7 +4,6 @@ import com.facebook.jni.HybridData;
 import com.facebook.react.bridge.RuntimeExecutor;
 import com.facebook.react.turbomodule.core.CallInvokerHolderImpl;
 import com.facebook.soloader.SoLoader;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import expo.modules.kotlin.exception.JavaScriptEvaluateException;
 import expo.modules.kotlin.sharedobjects.SharedObject;
 import java.lang.ref.WeakReference;

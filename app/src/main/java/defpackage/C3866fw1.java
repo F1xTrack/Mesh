@@ -21,8 +21,6 @@ import com.facebook.react.bridge.WritableMap;
 import com.google.android.gms.common.internal.Preconditions;
 import com.google.android.gms.dynamite.descriptors.com.google.android.gms.measurement.dynamite.ModuleDescriptor;
 import com.google.android.gms.tasks.Task;
-import com.huawei.hms.adapter.internal.AvailableCode;
-import com.huawei.hms.support.api.entity.core.JosStatusCodes;
 import com.vk.push.core.remote.config.omicron.util.UrlEncoder;
 import java.io.IOException;
 import java.lang.reflect.ParameterizedType;

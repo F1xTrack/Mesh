@@ -1,6 +1,5 @@
 package p000;
 
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import io.appmetrica.analytics.networktasks.internal.CommonUrlParts;
 
 /* renamed from: cb */

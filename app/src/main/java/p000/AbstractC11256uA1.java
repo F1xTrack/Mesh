@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.net.Uri;
 import android.util.AttributeSet;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 
 /* renamed from: uA1, reason: case insensitive filesystem */
 /* loaded from: classes.dex */

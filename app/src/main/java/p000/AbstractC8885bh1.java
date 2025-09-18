@@ -6,7 +6,6 @@ import android.net.Uri;
 import android.provider.ContactsContract;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;
 
 /* renamed from: bh1, reason: case insensitive filesystem */

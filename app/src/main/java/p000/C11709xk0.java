@@ -6,7 +6,6 @@ import android.net.Uri;
 import android.os.ParcelFileDescriptor;
 import android.provider.ContactsContract;
 import com.facebook.imagepipeline.image.EncodedImage;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;

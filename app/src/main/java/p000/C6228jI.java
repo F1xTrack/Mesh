@@ -2,7 +2,6 @@ package p000;
 
 import android.content.pm.PackageInfo;
 import android.graphics.PointF;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.p019vk.push.core.ipc.IpcRequest;
 import java.io.IOException;
 import java.util.ArrayList;

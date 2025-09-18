@@ -5,7 +5,6 @@ import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import com.facebook.react.bridge.WritableMap;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import java.util.Arrays;
 
 /* renamed from: Ce1 */

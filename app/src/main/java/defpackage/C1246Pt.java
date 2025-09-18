@@ -2,7 +2,6 @@ package defpackage;
 
 import android.content.Context;
 import com.facebook.react.bridge.ReactApplicationContext;
-import com.huawei.hms.push.AttributionReporter;
 import com.microsoft.codepush.react.CodePushDialog;
 import com.microsoft.codepush.react.CodePushNativeModule;
 import java.io.IOException;

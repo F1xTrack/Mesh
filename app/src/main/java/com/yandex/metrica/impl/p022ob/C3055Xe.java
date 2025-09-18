@@ -1,8 +1,6 @@
 package com.yandex.metrica.impl.p022ob;
 
 import android.content.ContentValues;
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import com.yandex.metrica.impl.p022ob.C2766M;
 import com.yandex.metrica.impl.p022ob.C3028Wc;
 

@@ -1,6 +1,5 @@
 package com.p019vk.push.core.retry;
 
-import com.huawei.hms.p015rn.push.constants.Core;
 import com.p019vk.push.common.Logger;
 import com.p019vk.push.core.backoff.BackOff;
 import com.p019vk.push.core.backoff.ExponentialBackOff;

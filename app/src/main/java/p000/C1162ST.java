@@ -1,6 +1,5 @@
 package p000;
 
-import com.huawei.hms.adapter.internal.AvailableCode;
 import expo.modules.filesystem.DownloadOptions;
 import expo.modules.filesystem.FileSystemUploadOptions;
 import expo.modules.filesystem.InfoOptions;

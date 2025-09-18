@@ -14,7 +14,6 @@ import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.ReadableMapKeySetIterator;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
-import com.huawei.hms.support.api.entity.core.CommonCode;
 import java.util.LinkedHashMap;
 import java.util.Objects;
 import kotlin.Metadata;

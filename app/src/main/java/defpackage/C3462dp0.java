@@ -13,7 +13,6 @@ import android.os.Trace;
 import android.util.Pair;
 import android.view.Surface;
 import com.google.android.gms.common.Scopes;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import com.swmansion.reanimated.layoutReanimation.Snapshot;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;

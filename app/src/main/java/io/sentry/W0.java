@@ -1,7 +1,6 @@
 package io.sentry;
 
 import android.app.Activity;
-import com.huawei.hms.rn.push.constants.LocalNotification;
 import io.sentry.android.core.ActivityLifecycleIntegration;
 import io.sentry.android.core.C5087d;
 import io.sentry.android.core.C5088e;

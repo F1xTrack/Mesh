@@ -1,9 +1,6 @@
 package defpackage;
 
 import android.os.Bundle;
-import com.huawei.hms.push.constant.RemoteMessageConst;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
-import com.huawei.hms.rn.push.constants.RemoteMessageAttributes;
 import com.yandex.varioqub.config.model.ConfigValue;
 import org.json.JSONException;
 import org.json.JSONObject;

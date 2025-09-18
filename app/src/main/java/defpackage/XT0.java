@@ -3,7 +3,6 @@ package defpackage;
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
-import com.huawei.hms.support.api.entity.core.CommonCode;
 import com.vk.push.common.Logger;
 import com.vk.push.core.base.DelayedAction;
 

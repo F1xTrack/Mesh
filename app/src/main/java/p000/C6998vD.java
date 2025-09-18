@@ -7,7 +7,6 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;

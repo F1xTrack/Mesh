@@ -1,7 +1,6 @@
 package com.yandex.metrica.impl.ob;
 
 import android.location.Location;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import com.yandex.metrica.PreloadInfo;
 import com.yandex.metrica.YandexMetricaConfig;
 import io.appmetrica.analytics.networktasks.internal.CommonUrlParts;

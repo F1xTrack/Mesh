@@ -1,7 +1,6 @@
 package com.facebook.react.fabric;
 
 import com.facebook.jni.HybridData;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import kotlin.Metadata;
 import kotlin.jvm.internal.DefaultConstructorMarker;
 

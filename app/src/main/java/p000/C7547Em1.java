@@ -3,7 +3,6 @@ package p000;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.modules.websocket.WebSocketModule;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import io.appmetrica.analytics.BuildConfig;
 import java.util.Map;
 

@@ -2,7 +2,6 @@ package io.appmetrica.analytics.impl;
 
 import android.location.Location;
 import android.text.TextUtils;
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
 import io.appmetrica.analytics.PreloadInfo;
 import java.util.HashMap;
 import java.util.Map;

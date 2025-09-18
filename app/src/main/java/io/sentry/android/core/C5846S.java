@@ -3,7 +3,6 @@ package io.sentry.android.core;
 import android.net.ConnectivityManager;
 import android.net.Network;
 import android.net.NetworkCapabilities;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import io.sentry.C5760E;
 import io.sentry.C6017f;
 import io.sentry.EnumC6069n1;

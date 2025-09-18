@@ -2,7 +2,6 @@ package defpackage;
 
 import android.graphics.Bitmap;
 import android.net.Uri;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.vk.push.core.remote.config.omicron.OmicronEnvironment;
 import java.nio.charset.Charset;
 import java.util.List;

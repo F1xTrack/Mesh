@@ -4,7 +4,6 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.AsyncTask;
 import com.google.firebase.perf.network.FirebasePerfOkHttpClient;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import com.yalantis.ucrop.UCropActivity;
 import java.io.Closeable;
 import java.io.File;

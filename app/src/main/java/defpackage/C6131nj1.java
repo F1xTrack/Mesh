@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.rn.push.constants.Core;
 
 /* renamed from: nj1 */
 /* loaded from: classes.dex */

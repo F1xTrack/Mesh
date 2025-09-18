@@ -2,7 +2,6 @@ package com.p019vk.push.core.base;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import com.huawei.hms.p015rn.push.constants.Core;
 import com.p019vk.push.core.utils.ResultExtensionsKt;
 import kotlin.Metadata;
 import kotlin.jvm.internal.DefaultConstructorMarker;

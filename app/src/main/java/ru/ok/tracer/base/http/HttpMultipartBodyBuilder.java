@@ -1,6 +1,5 @@
 package ru.ok.tracer.base.http;
 
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import defpackage.AbstractC3557eJ0;
 import defpackage.AbstractC8069xu;
 import defpackage.InterfaceC6099nZ;

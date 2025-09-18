@@ -2,7 +2,6 @@ package defpackage;
 
 import com.facebook.react.bridge.WritableNativeArray;
 import com.facebook.react.bridge.WritableNativeMap;
-import com.huawei.hms.rn.push.constants.RemoteMessageAttributes;
 import com.vk.push.common.messaging.ClickActionType;
 import java.io.Serializable;
 import java.util.Map;

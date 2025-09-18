@@ -10,8 +10,6 @@ import android.util.AttributeSet;
 import android.widget.NumberPicker;
 import android.widget.TimePicker;
 import androidx.fragment.app.AbstractActivityC1730l;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import io.appmetrica.analytics.coreutils.internal.system.ConstantDeviceInfo;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

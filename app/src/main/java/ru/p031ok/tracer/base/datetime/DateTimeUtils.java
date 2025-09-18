@@ -1,7 +1,6 @@
 package ru.p031ok.tracer.base.datetime;
 
 import android.os.Build;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;

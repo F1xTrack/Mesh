@@ -1,7 +1,6 @@
 package defpackage;
 
 import android.widget.ImageView;
-import com.huawei.hms.rn.push.constants.LocalNotification;
 import java.io.IOException;
 import java.io.InputStream;
 import java.security.MessageDigest;

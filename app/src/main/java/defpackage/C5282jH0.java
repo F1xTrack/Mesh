@@ -17,7 +17,6 @@ import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.bridge.WritableNativeMap;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import java.util.concurrent.atomic.AtomicReference;
 
 /* renamed from: jH0, reason: case insensitive filesystem */

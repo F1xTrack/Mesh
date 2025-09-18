@@ -5,7 +5,6 @@ import android.os.Looper;
 import android.os.ParcelFileDescriptor;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.WritableArray;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.vk.push.common.AppInfo;
 import com.vk.push.common.Logger;
 import com.vk.push.common.ads.PushAdsProvider;

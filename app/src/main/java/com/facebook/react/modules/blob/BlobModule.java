@@ -10,7 +10,6 @@ import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.modules.network.NetworkingModule;
 import com.facebook.react.modules.websocket.WebSocketModule;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;

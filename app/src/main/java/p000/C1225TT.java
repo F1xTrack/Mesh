@@ -8,7 +8,6 @@ import android.view.inputmethod.InputMethodManager;
 import com.facebook.react.bridge.ModuleSpec;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.yoga.YogaNative;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.p019vk.push.common.DefaultLogger;
 import com.p019vk.push.common.Logger;
 import com.p019vk.push.core.data.imageloader.ImageDownloader;

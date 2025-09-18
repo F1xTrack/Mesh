@@ -11,7 +11,6 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import com.google.android.gms.common.wrappers.Wrappers;
-import com.huawei.hms.support.api.entity.core.JosStatusCodes;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 

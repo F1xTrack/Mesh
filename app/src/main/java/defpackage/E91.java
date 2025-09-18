@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.rn.push.constants.LocalNotification;
 import java.util.HashMap;
 
 /* loaded from: classes.dex */

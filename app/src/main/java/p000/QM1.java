@@ -10,7 +10,6 @@ import android.text.TextUtils;
 import com.google.android.gms.common.util.concurrent.NamedThreadFactory;
 import com.google.android.gms.measurement.internal.AppMeasurementDynamiteService;
 import com.google.firebase.iid.FirebaseInstanceIdReceiver;
-import com.huawei.hms.support.api.entity.core.CommonCode;
 import java.lang.ref.SoftReference;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutionException;

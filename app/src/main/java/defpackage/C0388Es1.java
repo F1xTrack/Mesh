@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.rn.push.constants.Core;
 import com.vk.push.common.Logger;
 import com.vk.push.core.backoff.BackOff;
 import com.vk.push.core.base.exception.HostIsNotMasterException;

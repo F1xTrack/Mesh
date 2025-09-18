@@ -10,7 +10,6 @@ import android.util.SparseArray;
 import android.view.View;
 import com.facebook.react.uimanager.UIManagerModule;
 import com.google.android.gms.common.api.internal.RemoteCall;
-import com.huawei.agconnect.core.ServiceDiscovery;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;
 import java.util.ArrayList;
 import java.util.Collections;

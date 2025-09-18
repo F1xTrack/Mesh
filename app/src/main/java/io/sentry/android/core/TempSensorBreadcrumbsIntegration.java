@@ -5,7 +5,6 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import io.sentry.C5759D1;
 import io.sentry.C5760E;
 import io.sentry.C6017f;

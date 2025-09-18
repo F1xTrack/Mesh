@@ -6,7 +6,6 @@ import android.graphics.BitmapFactory;
 import android.util.Base64;
 import com.google.firebase.components.ComponentRegistrar;
 import com.google.firebase.perf.network.FirebasePerfUrlConnection;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.vk.push.core.filedatastore.JsonDeserializer;
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;

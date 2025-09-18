@@ -9,8 +9,6 @@ import android.text.TextUtils;
 import com.facebook.react.modules.appstate.AppStateModule;
 import com.google.android.gms.common.internal.Preconditions;
 import com.google.android.gms.common.util.Clock;
-import com.huawei.hms.framework.common.ContainerUtils;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;
 import java.io.IOException;
 import java.util.ArrayList;

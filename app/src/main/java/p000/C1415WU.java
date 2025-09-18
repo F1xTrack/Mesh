@@ -3,7 +3,6 @@ package p000;
 import android.net.TrafficStats;
 import android.text.TextUtils;
 import com.google.android.gms.common.internal.Preconditions;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;
 import java.io.IOException;
 import java.net.HttpURLConnection;

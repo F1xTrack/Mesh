@@ -20,7 +20,6 @@ import androidx.fragment.app.Fragment;
 import androidx.work.impl.WorkDatabase_Impl;
 import com.google.android.gms.common.internal.ServiceSpecificExtraArgs;
 import com.google.android.gms.tasks.Task;
-import com.huawei.hms.android.SystemUtils;
 import com.p019vk.push.common.HostInfoProvider;
 import java.io.File;
 import java.io.FileOutputStream;

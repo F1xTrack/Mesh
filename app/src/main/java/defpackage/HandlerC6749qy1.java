@@ -7,7 +7,6 @@ import android.os.Message;
 import android.os.Messenger;
 import android.os.Parcelable;
 import android.util.Log;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;
 import java.util.Objects;
 import java.util.regex.Matcher;

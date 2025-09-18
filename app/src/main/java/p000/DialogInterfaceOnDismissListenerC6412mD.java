@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.widget.DatePicker;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.WritableNativeMap;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import com.reactcommunity.rndatetimepicker.DatePickerModule;
 import java.util.Calendar;
 

@@ -1,7 +1,6 @@
 package ru.p031ok.tracer.crash.report;
 
 import android.content.Context;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import java.io.BufferedWriter;
 import java.io.ByteArrayOutputStream;
 import java.io.File;

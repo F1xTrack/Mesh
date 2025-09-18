@@ -5,7 +5,6 @@ import android.graphics.ColorFilter;
 import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.graphics.RectF;
-import com.huawei.hms.framework.network.grs.GrsBaseInfo;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;

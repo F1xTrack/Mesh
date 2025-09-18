@@ -17,8 +17,6 @@ import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelWriter;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import com.google.android.gms.common.util.PlatformVersion;
-import com.huawei.hms.adapter.internal.CommonCode;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import p000.AbstractC1198T2;
 import p000.C10613p90;
 import p000.O90;

@@ -22,7 +22,6 @@ import com.google.android.gms.common.util.DefaultClock;
 import com.google.android.gms.measurement.internal.AppMeasurementDynamiteService;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.behavior.SwipeDismissBehavior;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.killserver.screenshotprev.RNScreenshotPreventModule;
 import com.microsoft.codepush.react.CodePushNativeModule;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;

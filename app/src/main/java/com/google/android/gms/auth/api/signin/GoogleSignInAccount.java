@@ -13,7 +13,6 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelWriter;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import com.google.android.gms.common.util.Clock;
 import com.google.android.gms.common.util.DefaultClock;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;

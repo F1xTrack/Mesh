@@ -1,7 +1,6 @@
 package io.appmetrica.analytics.identifiers.impl;
 
 import android.content.Intent;
-import com.huawei.hms.common.PackageConstants;
 
 /* loaded from: classes2.dex */
 public abstract class k {

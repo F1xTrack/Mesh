@@ -10,7 +10,6 @@ import android.view.View;
 import android.widget.OverScroller;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.WritableMap;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import io.legere.pdfiumandroid.PdfDocument;
 
 /* renamed from: gL */

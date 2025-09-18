@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.support.api.entity.core.JosStatusCodes;
 
 /* loaded from: classes.dex */
 public abstract class MA1 {

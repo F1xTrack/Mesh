@@ -6,7 +6,6 @@ import android.os.Build;
 import com.facebook.react.interfaces.exceptionmanager.ReactJsExceptionHandler;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.concurrent.ExecutorsRegistrar;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import java.lang.reflect.Constructor;
 import java.util.Set;
 import java.util.concurrent.ScheduledExecutorService;

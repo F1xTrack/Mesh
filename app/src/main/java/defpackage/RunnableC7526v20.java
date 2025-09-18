@@ -3,7 +3,6 @@ package defpackage;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.modules.toast.ToastModule;
-import com.huawei.hms.rn.availability.HMSAvailabilityModule;
 
 /* renamed from: v20, reason: case insensitive filesystem */
 /* loaded from: classes.dex */

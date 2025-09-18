@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.text.TextUtils;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import io.sentry.android.core.RunnableC5105w;
 import java.util.ArrayDeque;
 import java.util.Objects;

@@ -1,6 +1,5 @@
 package com.p019vk.push.common.messaging;
 
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import com.p019vk.push.common.utils.StringExtensionsKt;
 import kotlin.Metadata;
 import kotlin.jvm.internal.DefaultConstructorMarker;

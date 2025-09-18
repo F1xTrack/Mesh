@@ -11,7 +11,6 @@ import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.UIManager;
 import com.facebook.react.bridge.UiThreadUtil;
-import com.huawei.hms.push.AttributionReporter;
 import com.mrousavy.camera.frameprocessors.VisionCameraInstaller;
 import com.mrousavy.camera.frameprocessors.VisionCameraProxy;
 import java.util.concurrent.CancellationException;

@@ -2,7 +2,6 @@ package io.appmetrica.analytics.impl;
 
 import android.content.Context;
 import android.text.TextUtils;
-import com.huawei.hms.p015rn.push.constants.ResultCode;
 import io.appmetrica.analytics.AppMetrica;
 import io.appmetrica.analytics.coreutils.internal.services.PackageManagerUtils;
 import io.appmetrica.analytics.coreutils.internal.time.TimePassedChecker;

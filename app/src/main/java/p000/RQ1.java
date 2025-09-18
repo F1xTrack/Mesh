@@ -1,6 +1,5 @@
 package p000;
 
-import com.huawei.hms.p015rn.push.constants.Core;
 
 /* loaded from: classes.dex */
 public abstract class RQ1 {

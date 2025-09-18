@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.actions.SearchIntents;
 
 /* renamed from: jC, reason: case insensitive filesystem */
 /* loaded from: classes2.dex */

@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 
 /* renamed from: Uo1 */
 /* loaded from: classes.dex */

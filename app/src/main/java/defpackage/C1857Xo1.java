@@ -33,7 +33,6 @@ import com.burnweb.rnsendintent.RNSendIntentModule;
 import com.facebook.imagepipeline.image.EncodedImage;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;

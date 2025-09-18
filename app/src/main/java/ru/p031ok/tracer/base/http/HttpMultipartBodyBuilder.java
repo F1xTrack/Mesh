@@ -1,6 +1,5 @@
 package ru.p031ok.tracer.base.http;
 
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

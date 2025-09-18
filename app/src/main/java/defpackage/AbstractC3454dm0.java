@@ -1,7 +1,6 @@
 package defpackage;
 
 import android.graphics.Rect;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import java.io.EOFException;
 import java.util.ArrayList;
 import java.util.HashMap;

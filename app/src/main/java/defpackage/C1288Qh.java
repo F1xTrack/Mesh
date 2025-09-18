@@ -3,7 +3,6 @@ package defpackage;
 import android.content.res.AssetManager;
 import android.os.Build;
 import androidx.fragment.app.l;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

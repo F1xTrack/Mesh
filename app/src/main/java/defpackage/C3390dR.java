@@ -7,7 +7,6 @@ import android.os.Message;
 import android.os.SystemClock;
 import android.util.Pair;
 import com.google.android.gms.location.GeofenceStatusCodes;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;

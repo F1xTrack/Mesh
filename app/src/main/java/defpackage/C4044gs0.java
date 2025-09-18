@@ -2,7 +2,6 @@ package defpackage;
 
 import android.database.Cursor;
 import android.os.Build;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import com.statstracker.data.MessageDatabase_Impl;
 import com.vk.push.core.analytics.AnalyticsBaseParamsConstantsKt;
 import io.appmetrica.analytics.networktasks.internal.CommonUrlParts;

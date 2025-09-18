@@ -2,7 +2,6 @@ package defpackage;
 
 import android.net.Uri;
 import android.text.TextUtils;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import com.yandex.varioqub.config.model.ConfigValue;
 import java.io.IOException;
 import java.math.RoundingMode;

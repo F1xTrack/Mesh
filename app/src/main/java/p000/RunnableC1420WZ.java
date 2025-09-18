@@ -23,8 +23,6 @@ import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
 import com.google.android.gms.common.internal.Preconditions;
 import com.google.android.gms.tasks.Task;
-import com.huawei.hms.adapter.internal.AvailableCode;
-import com.huawei.hms.p015rn.push.constants.Core;
 import com.p019vk.push.core.analytics.AnalyticsBaseParamsConstantsKt;
 import java.lang.ref.ReferenceQueue;
 import java.lang.reflect.Method;

@@ -1,6 +1,5 @@
 package ru.ok.tracer.base.http;
 
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import defpackage.AbstractC7680vr;
 import defpackage.O90;
 import java.io.IOException;

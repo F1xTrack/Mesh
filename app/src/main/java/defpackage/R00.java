@@ -11,7 +11,6 @@ import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.UiThreadUtil;
 import com.facebook.react.bridge.WritableArray;
 import com.facebook.react.bridge.WritableMap;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 
 /* loaded from: classes2.dex */
 public abstract class R00 {

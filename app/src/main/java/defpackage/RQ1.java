@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.rn.push.constants.Core;
 
 /* loaded from: classes.dex */
 public abstract class RQ1 {

@@ -1,6 +1,5 @@
 package ru.ok.tracer.base.http;
 
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import defpackage.O90;
 import java.io.Closeable;
 import java.io.IOException;

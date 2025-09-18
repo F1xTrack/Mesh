@@ -9,7 +9,6 @@ import android.content.pm.PackageInfo;
 import android.content.pm.ProviderInfo;
 import android.content.pm.ResolveInfo;
 import android.content.pm.ServiceInfo;
-import com.huawei.hms.support.api.entity.core.CommonCode;
 import io.appmetrica.analytics.coreutils.impl.C4314a;
 import io.appmetrica.analytics.coreutils.impl.C4315b;
 import io.appmetrica.analytics.coreutils.impl.C4316c;

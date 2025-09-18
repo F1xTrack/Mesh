@@ -1,6 +1,5 @@
 package p000;
 
-import com.huawei.hms.actions.SearchIntents;
 
 /* renamed from: jC */
 /* loaded from: classes2.dex */

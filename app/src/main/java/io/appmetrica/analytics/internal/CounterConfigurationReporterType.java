@@ -1,6 +1,5 @@
 package io.appmetrica.analytics.internal;
 
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
 import kotlin.Metadata;
 import kotlin.jvm.internal.DefaultConstructorMarker;
 import p000.O90;

@@ -1,7 +1,6 @@
 package io.appmetrica.analytics.impl;
 
 import android.text.TextUtils;
-import com.huawei.hms.rn.push.constants.ResultCode;
 import io.appmetrica.analytics.coreapi.internal.executors.ICommonExecutor;
 import io.appmetrica.analytics.networktasks.internal.NetworkServiceLocator;
 import io.appmetrica.analytics.networktasks.internal.NetworkTask;

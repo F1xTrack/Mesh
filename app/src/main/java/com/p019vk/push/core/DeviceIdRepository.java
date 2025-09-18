@@ -1,6 +1,5 @@
 package com.p019vk.push.core;
 
-import com.huawei.hms.p015rn.push.constants.Core;
 import kotlin.Metadata;
 import p000.F91;
 import p000.InterfaceC1382Vy;

@@ -1,6 +1,5 @@
 package com.yandex.metrica.impl.ob;
 
-import com.huawei.hms.framework.network.grs.GrsBaseInfo;
 
 /* renamed from: com.yandex.metrica.impl.ob.e1, reason: case insensitive filesystem */
 /* loaded from: classes2.dex */

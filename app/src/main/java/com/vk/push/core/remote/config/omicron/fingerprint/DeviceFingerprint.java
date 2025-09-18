@@ -6,7 +6,6 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Build;
 import android.provider.Settings;
-import com.huawei.hms.rn.push.constants.LocalNotification;
 import com.vk.push.core.analytics.AnalyticsBaseParamsConstantsKt;
 import com.vk.push.core.remote.config.omicron.AnalyticsHandler;
 import java.text.SimpleDateFormat;

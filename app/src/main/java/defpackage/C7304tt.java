@@ -1,8 +1,6 @@
 package defpackage;
 
 import android.os.Looper;
-import com.huawei.hms.adapter.internal.AvailableCode;
-import com.huawei.hms.support.api.entity.auth.AuthCode;
 import com.vk.push.core.filedatastore.JsonDeserializer;
 import java.util.ArrayDeque;
 import java.util.ArrayList;

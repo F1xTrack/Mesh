@@ -12,8 +12,6 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Parcelable;
 import androidx.versionedparcelable.CustomVersionedParcelable;
-import com.huawei.hms.framework.network.grs.GrsBaseInfo;
-import com.huawei.hms.p015rn.push.constants.Core;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Objects;
 import p000.K50;

@@ -1,6 +1,5 @@
 package com.p019vk.push.core.utils;
 
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;
 import kotlin.Metadata;
 import p000.AbstractC11374v51;

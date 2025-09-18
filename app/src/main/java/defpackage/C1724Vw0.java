@@ -8,7 +8,6 @@ import android.webkit.GeolocationPermissions;
 import android.webkit.PermissionRequest;
 import androidx.fragment.app.v;
 import com.google.android.gms.tasks.Task;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.vk.push.core.remote.config.omicron.Data;
 import com.vk.push.core.remote.config.omicron.DataId;
 import com.vk.push.core.remote.config.omicron.Omicron;

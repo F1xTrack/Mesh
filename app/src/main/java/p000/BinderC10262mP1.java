@@ -10,7 +10,6 @@ import com.google.android.gms.common.GooglePlayServicesUtilLight;
 import com.google.android.gms.common.GoogleSignatureVerifier;
 import com.google.android.gms.common.internal.Preconditions;
 import com.google.android.gms.common.util.UidVerifier;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

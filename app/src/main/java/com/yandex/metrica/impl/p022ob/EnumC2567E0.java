@@ -1,6 +1,5 @@
 package com.yandex.metrica.impl.p022ob;
 
-import com.huawei.hms.framework.network.grs.GrsBaseInfo;
 import kotlin.jvm.internal.DefaultConstructorMarker;
 
 /* renamed from: com.yandex.metrica.impl.ob.E0 */

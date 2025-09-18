@@ -1,7 +1,6 @@
 package defpackage;
 
 import android.graphics.drawable.Animatable;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 
 /* loaded from: classes.dex */
 public final class HK0 extends C7810wX implements InterfaceC3301cz {

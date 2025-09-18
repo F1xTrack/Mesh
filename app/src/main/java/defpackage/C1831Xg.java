@@ -3,7 +3,6 @@ package defpackage;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import com.huawei.hms.support.api.entity.core.CommonCode;
 
 /* renamed from: Xg, reason: case insensitive filesystem */
 /* loaded from: classes.dex */

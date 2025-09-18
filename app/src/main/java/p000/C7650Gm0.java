@@ -6,8 +6,6 @@ import android.content.res.Resources;
 import com.dylanvann.fastimage.FastImageViewPackage;
 import com.facebook.react.bridge.UIManagerProvider;
 import com.horcrux.svg.SvgPackage;
-import com.huawei.hms.p015rn.availability.HMSAvailabilityPackage;
-import com.huawei.hms.p015rn.push.HmsPushPackage;
 import com.reactnative.ivpusic.imagepicker.C2404e;
 import com.swmansion.reanimated.ReanimatedPackage;
 import io.appmetrica.analytics.reactnative.AppMetricaPackage;

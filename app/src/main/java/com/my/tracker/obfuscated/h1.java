@@ -1,7 +1,6 @@
 package com.my.tracker.obfuscated;
 
 import android.text.TextUtils;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.my.tracker.MyTracker;
 import com.my.tracker.MyTrackerParams;
 import com.my.tracker.ads.AdEvent;

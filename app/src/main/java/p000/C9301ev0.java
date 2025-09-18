@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.ConnectivityManager;
-import com.huawei.hms.support.api.entity.core.CommonCode;
 
 /* renamed from: ev0, reason: case insensitive filesystem */
 /* loaded from: classes.dex */

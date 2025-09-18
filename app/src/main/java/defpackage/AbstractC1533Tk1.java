@@ -5,8 +5,6 @@ import com.facebook.react.bridge.Dynamic;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.uimanager.ViewManager;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
-import com.huawei.hms.rn.push.constants.RemoteMessageAttributes;
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;

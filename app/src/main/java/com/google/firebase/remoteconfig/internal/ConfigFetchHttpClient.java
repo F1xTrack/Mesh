@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Build;
-import com.huawei.hms.push.AttributionReporter;
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.IOException;

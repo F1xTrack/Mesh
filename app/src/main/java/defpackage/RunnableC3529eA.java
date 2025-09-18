@@ -17,7 +17,6 @@ import android.view.View;
 import androidx.fragment.app.v;
 import com.facebook.react.modules.devloading.DevLoadingModule;
 import com.google.android.material.textfield.TextInputLayout;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import java.util.Date;
 import java.util.LinkedHashMap;
 import java.util.Map;

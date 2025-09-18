@@ -8,7 +8,6 @@ import com.google.android.gms.common.internal.ShowFirstParty;
 import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelWriter;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
-import com.huawei.hms.framework.network.grs.GrsBaseInfo;
 import java.util.Comparator;
 
 @SafeParcelable.Class(creator = "DetectedActivityCreator")

@@ -4,7 +4,6 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
-import com.huawei.hms.push.AttributionReporter;
 
 /* renamed from: Kr0, reason: case insensitive filesystem */
 /* loaded from: classes2.dex */

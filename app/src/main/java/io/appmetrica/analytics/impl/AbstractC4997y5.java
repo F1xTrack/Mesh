@@ -1,7 +1,5 @@
 package io.appmetrica.analytics.impl;
 
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import io.appmetrica.analytics.coreutils.internal.collection.CollectionUtils;
 import java.util.List;
 

@@ -12,7 +12,6 @@ import android.view.View;
 import android.view.Window;
 import androidx.profileinstaller.ProfileInstallReceiver;
 import androidx.recyclerview.widget.RecyclerView;
-import com.huawei.hms.rn.push.constants.LocalNotification;
 import java.io.Serializable;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

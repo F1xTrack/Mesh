@@ -7,8 +7,6 @@ import android.content.res.TypedArray;
 import android.text.TextUtils;
 import android.view.View;
 import com.facebook.react.uimanager.BaseViewManager;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import com.swmansion.reanimated.layoutReanimation.Snapshot;
 import java.lang.reflect.InvocationTargetException;
 import p000.AbstractC11406vL1;

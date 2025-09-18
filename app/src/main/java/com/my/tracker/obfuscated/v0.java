@@ -1,7 +1,6 @@
 package com.my.tracker.obfuscated;
 
 import android.content.Context;
-import com.huawei.hms.ads.identifier.AdvertisingIdClient;
 
 /* loaded from: classes2.dex */
 public final class v0 {

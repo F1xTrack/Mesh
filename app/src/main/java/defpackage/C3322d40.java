@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import java.io.IOException;
 
 /* renamed from: d40, reason: case insensitive filesystem */

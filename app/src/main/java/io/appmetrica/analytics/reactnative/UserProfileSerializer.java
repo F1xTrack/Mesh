@@ -2,7 +2,6 @@ package io.appmetrica.analytics.reactnative;
 
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
 import io.appmetrica.analytics.profile.Attribute;
 import io.appmetrica.analytics.profile.BirthDateAttribute;
 import io.appmetrica.analytics.profile.BooleanAttribute;

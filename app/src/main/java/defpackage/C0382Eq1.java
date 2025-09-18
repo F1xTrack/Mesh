@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import com.vk.push.common.analytics.BaseAnalyticsEvent;
 import com.vk.push.core.analytics.ExtensionsKt;
 import com.vk.push.core.utils.MessageIdUtilsKt;

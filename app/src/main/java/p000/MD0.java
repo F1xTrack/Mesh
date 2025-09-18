@@ -25,7 +25,6 @@ import com.facebook.react.bridge.ReactMarkerConstants;
 import com.facebook.react.bridge.UiThreadUtil;
 import com.facebook.react.fabric.mounting.SurfaceMountingManager;
 import com.facebook.react.uimanager.UIManagerModule;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.swmansion.reanimated.ReanimatedModule;
 import com.swmansion.reanimated.layoutReanimation.SharedTransitionManager;
 import java.io.File;

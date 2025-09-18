@@ -1,6 +1,5 @@
 package com.vk.push.common.messaging;
 
-import com.huawei.hms.rn.push.constants.RemoteMessageAttributes;
 import com.vk.push.common.utils.StringExtensionsKt;
 import defpackage.F91;
 import defpackage.O90;

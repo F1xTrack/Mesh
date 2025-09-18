@@ -15,7 +15,6 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.WritableMap;
-import com.huawei.hms.push.AttributionReporter;
 import java.io.IOException;
 import java.lang.reflect.Field;
 import java.util.ArrayList;

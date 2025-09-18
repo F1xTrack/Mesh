@@ -1,6 +1,5 @@
 package ru.p031ok.tracer.upload;
 
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import kotlin.Metadata;
 import org.json.JSONException;
 import org.json.JSONObject;

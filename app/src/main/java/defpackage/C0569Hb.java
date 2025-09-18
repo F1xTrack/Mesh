@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.push.constant.RemoteMessageConst;
 
 /* renamed from: Hb, reason: case insensitive filesystem */
 /* loaded from: classes.dex */

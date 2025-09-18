@@ -2,7 +2,6 @@ package p000;
 
 import com.facebook.react.bridge.WritableNativeArray;
 import com.facebook.react.bridge.WritableNativeMap;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import com.p019vk.push.common.messaging.ClickActionType;
 import java.io.Serializable;
 import java.util.Map;

@@ -7,8 +7,6 @@ import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 import android.text.TextUtils;
 import com.facebook.react.bridge.ReactContext;
-import com.huawei.hms.p015rn.push.constants.Core;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;
 import java.io.File;
 import java.util.ArrayList;

@@ -7,7 +7,6 @@ import android.widget.CompoundButton;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.uimanager.SimpleViewManager;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import p000.AbstractC11406vL1;
 import p000.AbstractC11746y12;
 import p000.C10169lh0;

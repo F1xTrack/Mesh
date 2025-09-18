@@ -2,7 +2,6 @@ package defpackage;
 
 import android.os.Build;
 import android.os.ParcelFileDescriptor;
-import com.huawei.hms.android.SystemUtils;
 
 /* renamed from: ok, reason: case insensitive filesystem */
 /* loaded from: classes.dex */

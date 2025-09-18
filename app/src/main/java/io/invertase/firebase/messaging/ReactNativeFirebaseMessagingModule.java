@@ -18,8 +18,6 @@ import com.facebook.react.bridge.WritableNativeMap;
 import com.google.android.gms.common.util.concurrent.NamedThreadFactory;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.messaging.FirebaseMessaging;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;
 import io.invertase.firebase.common.ReactNativeFirebaseModule;
 import java.util.HashMap;

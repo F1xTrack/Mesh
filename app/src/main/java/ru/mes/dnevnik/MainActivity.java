@@ -5,7 +5,6 @@ import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.os.Build;
 import android.os.Bundle;
-import com.huawei.hms.support.api.entity.core.CommonCode;
 import java.lang.ref.WeakReference;
 import java.lang.reflect.InvocationTargetException;
 import kotlin.Metadata;

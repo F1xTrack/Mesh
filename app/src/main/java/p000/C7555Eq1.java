@@ -1,6 +1,5 @@
 package p000;
 
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import com.p019vk.push.common.analytics.BaseAnalyticsEvent;
 import com.p019vk.push.core.analytics.ExtensionsKt;
 import com.p019vk.push.core.utils.MessageIdUtilsKt;

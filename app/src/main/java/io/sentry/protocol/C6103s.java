@@ -1,6 +1,5 @@
 package io.sentry.protocol;
 
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
 import io.sentry.ILogger;
 import io.sentry.InterfaceC5749A0;
 import io.sentry.InterfaceC6058l0;

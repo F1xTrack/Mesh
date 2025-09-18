@@ -21,7 +21,6 @@ import com.google.android.gms.common.GoogleApiAvailabilityLight;
 import com.google.android.gms.common.internal.Preconditions;
 import com.google.android.gms.common.util.CollectionUtils;
 import com.google.android.gms.common.wrappers.Wrappers;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;
 import java.io.ByteArrayInputStream;
 import java.math.BigInteger;

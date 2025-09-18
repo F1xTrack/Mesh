@@ -5,7 +5,6 @@ import android.media.MediaMetadataRetriever;
 import android.net.Uri;
 import android.view.View;
 import com.google.mlkit.vision.common.internal.MobileVisionBase;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.File;

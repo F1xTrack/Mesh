@@ -2,7 +2,6 @@ package com.facebook.hermes.intl;
 
 import android.icu.util.Currency;
 import android.os.Build;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
 import com.yandex.varioqub.config.model.ConfigValue;
 import io.appmetrica.analytics.networktasks.internal.CommonUrlParts;
 import java.text.AttributedCharacterIterator;

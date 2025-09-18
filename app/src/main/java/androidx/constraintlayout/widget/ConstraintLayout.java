@@ -10,7 +10,6 @@ import android.util.SparseArray;
 import android.view.View;
 import android.view.ViewGroup;
 import androidx.emoji2.text.flatbuffer.FlexBuffers;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;
 import io.appmetrica.analytics.impl.C5043c9;
 import java.io.IOException;

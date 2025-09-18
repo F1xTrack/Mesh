@@ -9,7 +9,6 @@ import android.graphics.RectF;
 import android.graphics.Region;
 import android.view.View;
 import com.facebook.react.bridge.ReadableMap;
-import com.huawei.hms.rn.push.constants.LocalNotification;
 import defpackage.C6598qA0;
 import defpackage.C8372zU0;
 import defpackage.K10;

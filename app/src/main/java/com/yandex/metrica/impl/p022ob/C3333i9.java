@@ -4,8 +4,6 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.DatabaseUtils;
 import android.database.sqlite.SQLiteDatabase;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import com.yandex.metrica.impl.p022ob.C2825O8;
 import java.util.ArrayList;
 import java.util.Iterator;
