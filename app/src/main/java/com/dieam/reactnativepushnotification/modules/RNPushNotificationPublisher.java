@@ -5,8 +5,6 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import com.huawei.hms.p015rn.push.constants.Core;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import java.security.SecureRandom;
 import java.util.Objects;
 import p000.C9095dI0;

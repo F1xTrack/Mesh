@@ -38,8 +38,6 @@ import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.bridge.WritableNativeArray;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
 import com.google.android.gms.common.GoogleApiAvailability;
-import com.huawei.hms.api.HuaweiApiAvailability;
-import com.huawei.hms.push.AttributionReporter;
 import com.yandex.varioqub.config.model.ConfigValue;
 import io.appmetrica.analytics.networktasks.internal.CommonUrlParts;
 import java.lang.reflect.InvocationTargetException;

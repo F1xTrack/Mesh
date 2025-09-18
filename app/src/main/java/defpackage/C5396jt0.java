@@ -8,8 +8,6 @@ import android.util.Log;
 import com.bumptech.glide.a;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.perf.config.RemoteConfigManager;
-import com.huawei.hms.adapter.internal.AvailableCode;
-import com.huawei.hms.rn.push.constants.LocalNotification;
 import com.vk.push.core.filedatastore.JsonDeserializer;
 import java.io.IOException;
 import java.io.Serializable;

@@ -1,7 +1,6 @@
 package com.yandex.metrica.impl.ob;
 
 import android.text.TextUtils;
-import com.huawei.hms.framework.network.grs.GrsBaseInfo;
 import com.yandex.metrica.impl.ob.Wl;
 import org.json.JSONArray;
 import org.json.JSONObject;

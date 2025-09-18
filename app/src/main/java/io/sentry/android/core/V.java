@@ -1,7 +1,6 @@
 package io.sentry.android.core;
 
 import android.telephony.PhoneStateListener;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import io.sentry.C5122f;
 import io.sentry.EnumC5148n1;
 

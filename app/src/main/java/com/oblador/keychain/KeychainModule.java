@@ -10,7 +10,6 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.WritableMap;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
 import java.security.KeyStore;
 import java.security.KeyStoreException;
 import java.util.ArrayList;

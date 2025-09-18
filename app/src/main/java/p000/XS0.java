@@ -4,7 +4,6 @@ import android.app.Application;
 import android.os.Build;
 import android.os.Process;
 import com.google.android.gms.common.util.ProcessUtils;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import java.util.List;
 
 /* loaded from: classes2.dex */

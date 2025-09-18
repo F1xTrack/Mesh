@@ -14,8 +14,6 @@ import android.view.ViewGroup;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.emoji2.text.flatbuffer.FlexBuffers;
 import com.facebook.crypto.mac.NativeMac;
-import com.huawei.hms.adapter.internal.AvailableCode;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import com.swmansion.reanimated.BuildConfig;
 import com.vk.push.core.base.AidlException;
 import com.yandex.varioqub.config.model.ConfigValue;

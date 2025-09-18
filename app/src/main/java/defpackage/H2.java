@@ -6,7 +6,6 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import androidx.fragment.app.b;
 import androidx.fragment.app.q;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import java.util.ArrayList;
 
 /* loaded from: classes.dex */

@@ -3,7 +3,6 @@ package io.appmetrica.analytics.adrevenue.admob.v23.impl;
 import com.google.android.gms.ads.AdValue;
 import com.google.android.gms.ads.AdapterResponseInfo;
 import com.google.android.gms.ads.ResponseInfo;
-import com.huawei.hms.framework.network.grs.GrsBaseInfo;
 import com.yandex.varioqub.config.model.ConfigValue;
 import io.appmetrica.analytics.coreutils.internal.WrapUtils;
 import io.appmetrica.analytics.modulesapi.internal.client.adrevenue.ModuleAdRevenue;

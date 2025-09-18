@@ -1,6 +1,5 @@
 package io.sentry.util;
 
-import com.huawei.hms.rn.push.constants.LocalNotification;
 import io.sentry.EnumC5148n1;
 import io.sentry.ILogger;
 import io.sentry.S;

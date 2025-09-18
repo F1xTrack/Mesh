@@ -12,8 +12,6 @@ import com.facebook.react.bridge.ReadableType;
 import com.horcrux.svg.RenderableView;
 import com.horcrux.svg.VirtualViewManager;
 import com.horcrux.svg.events.SvgLoadEvent;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import com.swmansion.reanimated.layoutReanimation.Snapshot;
 import java.util.HashMap;
 import java.util.Map;

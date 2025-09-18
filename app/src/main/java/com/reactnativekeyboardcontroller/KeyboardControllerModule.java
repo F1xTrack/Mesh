@@ -6,7 +6,6 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.UiThreadUtil;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import java.lang.ref.WeakReference;
 import kotlin.Metadata;
 import p000.AbstractC10468o12;

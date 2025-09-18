@@ -5,7 +5,6 @@ import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.WritableMap;
-import com.huawei.hms.p015rn.push.constants.ResultCode;
 import java.io.File;
 
 /* renamed from: ah0 */

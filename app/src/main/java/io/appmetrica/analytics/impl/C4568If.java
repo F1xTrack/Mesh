@@ -2,7 +2,6 @@ package io.appmetrica.analytics.impl;
 
 import android.net.Uri;
 import android.text.TextUtils;
-import com.huawei.hms.framework.common.ContainerUtils;
 import java.util.HashMap;
 import java.util.Map;
 

@@ -23,8 +23,6 @@ import com.facebook.react.common.mapbuffer.ReadableMapBuffer;
 import com.facebook.react.uimanager.BaseViewManager;
 import com.facebook.react.views.textinput.ReactTextInputManager;
 import com.google.android.gms.common.Scopes;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import com.swmansion.reanimated.layoutReanimation.Snapshot;
 import java.lang.reflect.Field;
 import java.util.HashMap;

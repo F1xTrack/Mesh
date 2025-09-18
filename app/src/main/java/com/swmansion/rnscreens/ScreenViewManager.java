@@ -6,8 +6,6 @@ import com.facebook.react.bridge.JSApplicationIllegalArgumentException;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.uimanager.ViewGroupManager;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import java.lang.ref.WeakReference;
 import java.util.Collection;
 import java.util.Iterator;

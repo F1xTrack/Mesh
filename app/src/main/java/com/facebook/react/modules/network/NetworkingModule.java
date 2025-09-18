@@ -12,7 +12,6 @@ import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.WritableArray;
 import com.facebook.react.bridge.WritableMap;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;

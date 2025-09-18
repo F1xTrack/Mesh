@@ -2,7 +2,6 @@ package com.vk.push.core.base;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import com.huawei.hms.rn.push.constants.Core;
 import com.vk.push.core.utils.ResultExtensionsKt;
 import defpackage.O90;
 import kotlin.Metadata;

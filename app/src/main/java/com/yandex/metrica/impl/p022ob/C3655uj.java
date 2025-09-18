@@ -2,7 +2,6 @@ package com.yandex.metrica.impl.p022ob;
 
 import android.text.TextUtils;
 import android.util.Pair;
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
 import com.p019vk.push.core.analytics.AnalyticsBaseParamsConstantsKt;
 import com.yandex.metrica.impl.p022ob.C3392kg;
 import com.yandex.metrica.impl.p022ob.C3498oi;

@@ -1,6 +1,5 @@
 package com.yandex.metrica.impl.p022ob;
 
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import com.yandex.metrica.InterfaceC3800s;
 import com.yandex.metrica.impl.p022ob.C3418lg;
 import org.json.JSONObject;

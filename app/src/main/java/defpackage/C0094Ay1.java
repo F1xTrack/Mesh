@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelReader;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.yandex.varioqub.config.model.ConfigValue;
 
 /* renamed from: Ay1 */

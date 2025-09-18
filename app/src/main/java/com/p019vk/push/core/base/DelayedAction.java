@@ -1,6 +1,5 @@
 package com.p019vk.push.core.base;
 
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import kotlin.Metadata;
 import kotlin.jvm.internal.DefaultConstructorMarker;
 import p000.AbstractC11432vY1;

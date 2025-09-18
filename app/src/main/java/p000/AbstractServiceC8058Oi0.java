@@ -4,7 +4,6 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 import androidx.lifecycle.C1742a;
-import com.huawei.hms.support.api.entity.core.CommonCode;
 
 /* renamed from: Oi0, reason: case insensitive filesystem */
 /* loaded from: classes.dex */

@@ -2,7 +2,6 @@ package com.yandex.metrica.impl.ob;
 
 import android.location.Location;
 import android.text.TextUtils;
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
 import com.yandex.metrica.PreloadInfo;
 import com.yandex.metrica.YandexMetricaConfig;
 import java.util.HashMap;

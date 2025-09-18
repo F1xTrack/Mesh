@@ -8,7 +8,6 @@ import android.view.Window;
 import android.widget.EditText;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.WritableMap;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import java.lang.ref.WeakReference;
 import java.lang.reflect.Field;
 import java.util.ArrayList;

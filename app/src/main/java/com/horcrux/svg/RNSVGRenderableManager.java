@@ -11,7 +11,6 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.WritableMap;
-import com.huawei.hms.p015rn.push.constants.Core;
 import com.p003BV.LinearGradient.LinearGradientManager;
 import com.swmansion.reanimated.layoutReanimation.Snapshot;
 import com.yandex.varioqub.config.model.ConfigValue;

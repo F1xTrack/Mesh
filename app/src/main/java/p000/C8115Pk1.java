@@ -2,7 +2,6 @@ package p000;
 
 import android.content.Context;
 import com.facebook.react.bridge.ColorPropConverter;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import java.lang.reflect.Method;
 
 /* renamed from: Pk1, reason: case insensitive filesystem */

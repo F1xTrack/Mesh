@@ -4,7 +4,6 @@ import android.content.DialogInterface;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.WritableNativeMap;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 
 /* loaded from: classes2.dex */
 public final class XH0 implements DialogInterface.OnDismissListener {

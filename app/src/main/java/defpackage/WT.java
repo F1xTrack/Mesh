@@ -9,8 +9,6 @@ import android.os.Bundle;
 import android.os.Trace;
 import android.provider.DocumentsContract;
 import android.text.TextUtils;
-import com.huawei.hms.push.constant.RemoteMessageConst;
-import com.huawei.hms.rn.push.constants.Core;
 import expo.modules.filesystem.DeletingOptions;
 import expo.modules.filesystem.DownloadOptions;
 import expo.modules.filesystem.FileSystemUploadOptions;

@@ -7,7 +7,6 @@ import com.facebook.react.bridge.Dynamic;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableType;
 import com.facebook.react.uimanager.ViewGroupManager;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import com.p003BV.LinearGradient.LinearGradientManager;
 import java.util.HashMap;
 import java.util.Map;

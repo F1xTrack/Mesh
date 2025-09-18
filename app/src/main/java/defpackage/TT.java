@@ -8,7 +8,6 @@ import android.view.inputmethod.InputMethodManager;
 import com.facebook.react.bridge.ModuleSpec;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.yoga.YogaNative;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager;
 import com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager;
 import com.vk.push.common.DefaultLogger;

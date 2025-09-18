@@ -4,8 +4,6 @@ import android.view.View;
 import com.facebook.react.bridge.JSApplicationCausedNativeException;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewGroupManager;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import java.util.Map;
 import kotlin.Metadata;
 import p000.AbstractC10889rJ0;

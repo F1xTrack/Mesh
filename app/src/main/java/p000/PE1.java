@@ -5,7 +5,6 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelWriter;
 import com.google.android.gms.location.Geofence;
-import com.huawei.hms.framework.network.grs.GrsBaseInfo;
 import java.util.Locale;
 
 /* loaded from: classes.dex */

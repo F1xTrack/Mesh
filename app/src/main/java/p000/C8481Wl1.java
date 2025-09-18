@@ -1,6 +1,5 @@
 package p000;
 
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
 
 /* renamed from: Wl1, reason: case insensitive filesystem */
 /* loaded from: classes2.dex */

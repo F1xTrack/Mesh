@@ -2,7 +2,6 @@ package p000;
 
 import android.os.Build;
 import android.os.ParcelFileDescriptor;
-import com.huawei.hms.android.SystemUtils;
 
 /* renamed from: ok */
 /* loaded from: classes.dex */

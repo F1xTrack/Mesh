@@ -1,7 +1,6 @@
 package p000;
 
 import android.net.Uri;
-import com.huawei.hms.support.api.entity.core.JosStatusCodes;
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;

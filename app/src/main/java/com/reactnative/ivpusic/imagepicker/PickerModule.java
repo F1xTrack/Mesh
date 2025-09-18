@@ -22,7 +22,6 @@ import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.bridge.WritableNativeMap;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import com.reactnativecommunity.clipboard.ClipboardModule;
 import com.swmansion.reanimated.layoutReanimation.Snapshot;
 import com.yalantis.ucrop.UCropActivity;

@@ -17,9 +17,6 @@ import androidx.camera.video.internal.compat.quirk.StopCodecAfterSurfaceRemovalC
 import androidx.fragment.app.f;
 import com.facebook.imagepipeline.image.EncodedImage;
 import com.google.android.gms.common.util.BiConsumer;
-import com.huawei.hms.adapter.internal.AvailableCode;
-import com.huawei.hms.iap.entity.ProductInfoReq;
-import com.huawei.hms.iap.entity.ProductInfoResult;
 import com.my.tracker.campaign.CampaignService;
 import com.my.tracker.obfuscated.d;
 import com.yandex.varioqub.config.impl.B;

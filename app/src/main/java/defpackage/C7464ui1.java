@@ -15,7 +15,6 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.util.AttributeSet;
 import android.util.TypedValue;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import java.io.IOException;
 import java.util.ArrayDeque;
 import org.xmlpull.v1.XmlPullParser;

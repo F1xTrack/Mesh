@@ -1,6 +1,5 @@
 package io.appmetrica.analytics.impl;
 
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import io.appmetrica.analytics.coreutils.internal.collection.CollectionUtils;
 import java.util.List;
 import java.util.Locale;

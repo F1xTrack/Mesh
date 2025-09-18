@@ -1,6 +1,5 @@
 package com.yandex.metrica.impl.p022ob;
 
-import com.huawei.hms.framework.network.grs.GrsBaseInfo;
 
 /* renamed from: com.yandex.metrica.impl.ob.e1 */
 /* loaded from: classes2.dex */

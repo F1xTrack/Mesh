@@ -1,6 +1,5 @@
 package io.appmetrica.analytics.coreapi.internal.data;
 
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import java.util.Collection;
 import kotlin.Metadata;
 

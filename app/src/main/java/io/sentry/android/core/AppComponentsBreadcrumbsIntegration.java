@@ -3,7 +3,6 @@ package io.sentry.android.core;
 import android.content.ComponentCallbacks2;
 import android.content.Context;
 import android.content.res.Configuration;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import io.sentry.C5759D1;
 import io.sentry.C5760E;
 import io.sentry.C6017f;

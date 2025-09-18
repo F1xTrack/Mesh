@@ -1,6 +1,5 @@
 package io.appmetrica.analytics.impl;
 
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import io.appmetrica.analytics.protobuf.nano.CodedInputByteBufferNano;
 import io.appmetrica.analytics.protobuf.nano.CodedOutputByteBufferNano;
 import io.appmetrica.analytics.protobuf.nano.InternalNano;

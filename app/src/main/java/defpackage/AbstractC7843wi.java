@@ -1,7 +1,6 @@
 package defpackage;
 
 import android.graphics.BlendMode;
-import com.huawei.hms.adapter.internal.AvailableCode;
 
 /* renamed from: wi, reason: case insensitive filesystem */
 /* loaded from: classes.dex */

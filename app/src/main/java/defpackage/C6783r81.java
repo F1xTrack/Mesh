@@ -1,7 +1,6 @@
 package defpackage;
 
 import android.database.Cursor;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import java.util.AbstractSet;
 import java.util.ArrayList;
 import java.util.Iterator;

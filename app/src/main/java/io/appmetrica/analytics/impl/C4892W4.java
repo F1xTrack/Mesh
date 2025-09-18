@@ -3,8 +3,6 @@ package io.appmetrica.analytics.impl;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import io.appmetrica.analytics.coreapi.internal.p025db.DatabaseScript;
 
 /* renamed from: io.appmetrica.analytics.impl.W4 */

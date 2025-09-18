@@ -16,7 +16,6 @@ import com.facebook.react.bridge.UIManager;
 import com.facebook.react.uimanager.UIManagerModule;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.messaging.FirebaseMessaging;
-import com.huawei.hms.push.AttributionReporter;
 import expo.modules.kotlin.exception.CodedException;
 import expo.modules.kotlin.exception.UnexpectedException;
 import expo.modules.kotlin.jni.JNIAsyncFunctionBody;

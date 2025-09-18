@@ -5,7 +5,6 @@ import com.facebook.fbreact.specs.NativeAppearanceSpec;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.WritableMap;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
 import kotlin.Metadata;
 import kotlin.jvm.internal.DefaultConstructorMarker;
 import p000.AbstractC6928u6;

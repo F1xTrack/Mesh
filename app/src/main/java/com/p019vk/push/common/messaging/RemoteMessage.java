@@ -6,7 +6,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
-import com.huawei.hms.support.api.entity.core.CommonCode;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Locale;

@@ -2,7 +2,6 @@ package defpackage;
 
 import android.media.CamcorderProfile;
 import com.google.firebase.perf.network.FirebasePerfUrlConnection;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.vk.push.common.DefaultLogger;
 import com.vk.push.common.Logger;
 import com.vk.push.common.logger.LoggerProvider;

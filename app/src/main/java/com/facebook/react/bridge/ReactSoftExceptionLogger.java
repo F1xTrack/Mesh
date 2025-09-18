@@ -1,6 +1,5 @@
 package com.facebook.react.bridge;
 
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;
 import java.util.Iterator;
 import java.util.List;

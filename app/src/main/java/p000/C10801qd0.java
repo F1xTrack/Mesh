@@ -1,6 +1,5 @@
 package p000;
 
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.p019vk.push.common.messaging.RemoteMessage;
 import com.p019vk.push.core.data.source.ManifestDataSource;
 import expo.modules.adapters.react.NativeModulesProxy;

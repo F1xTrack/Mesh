@@ -6,7 +6,6 @@ import com.facebook.react.bridge.ColorPropConverter;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.ReadableType;
-import com.huawei.hms.rn.push.constants.Core;
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileInputStream;

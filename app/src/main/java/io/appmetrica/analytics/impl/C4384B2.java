@@ -4,7 +4,6 @@ import android.annotation.TargetApi;
 import android.app.ActivityManager;
 import android.app.usage.UsageStatsManager;
 import android.content.Context;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import io.appmetrica.analytics.coreapi.internal.annotations.DoNotInline;
 import io.appmetrica.analytics.coreutils.internal.AndroidUtils;
 import io.appmetrica.analytics.coreutils.internal.system.SystemServiceUtils;

@@ -9,7 +9,6 @@ import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.ReadableType;
 import com.facebook.react.common.JavascriptException;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import java.io.IOException;
 import java.io.StringWriter;
 import p000.AbstractC3929dS;

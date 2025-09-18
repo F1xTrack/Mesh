@@ -21,7 +21,6 @@ import com.google.android.gms.common.annotation.KeepForSdk;
 import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.common.api.Scope;
 import com.google.android.gms.common.wrappers.AttributionSourceWrapper;
-import com.huawei.hms.framework.network.grs.GrsBaseInfo;
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
 import java.text.SimpleDateFormat;

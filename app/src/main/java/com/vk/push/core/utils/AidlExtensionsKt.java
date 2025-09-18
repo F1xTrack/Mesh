@@ -2,7 +2,6 @@ package com.vk.push.core.utils;
 
 import android.os.Parcelable;
 import android.os.RemoteException;
-import com.huawei.hms.rn.push.constants.Core;
 import com.vk.push.common.Logger;
 import com.vk.push.core.base.AidlResult;
 import com.vk.push.core.base.AsyncCallback;

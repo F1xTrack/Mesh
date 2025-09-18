@@ -8,7 +8,6 @@ import android.content.res.Resources;
 import android.os.Build;
 import android.provider.Settings;
 import android.text.TextUtils;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import defpackage.AbstractC7538v51;
 import defpackage.O90;
 import io.appmetrica.analytics.networktasks.internal.CommonUrlParts;

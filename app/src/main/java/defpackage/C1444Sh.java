@@ -7,7 +7,6 @@ import com.burnweb.rnsendintent.RNSendIntentModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 import com.gzip.GzipModule;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.killserver.screenshotprev.RNScreenshotPreventModule;
 import com.learnium.RNDeviceInfo.RNDeviceModule;
 import com.mrousavy.camera.react.CameraDevicesManager;

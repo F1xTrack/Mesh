@@ -6,7 +6,6 @@ import com.google.android.gms.common.annotation.KeepForSdk;
 import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelWriter;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
-import com.huawei.hms.p015rn.push.constants.ResultCode;
 
 @KeepForSdk
 @SafeParcelable.Class(creator = "MethodInvocationCreator")

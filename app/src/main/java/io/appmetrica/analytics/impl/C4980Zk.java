@@ -1,7 +1,6 @@
 package io.appmetrica.analytics.impl;
 
 import android.text.TextUtils;
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
 import io.appmetrica.analytics.billinginterface.internal.config.BillingConfig;
 import io.appmetrica.analytics.coreutils.internal.parsing.RemoteConfigJsonUtils;
 import io.appmetrica.analytics.networktasks.internal.CommonUrlParts;

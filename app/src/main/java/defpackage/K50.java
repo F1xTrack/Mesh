@@ -11,7 +11,6 @@ import android.net.Uri;
 import android.os.Build;
 import android.text.TextUtils;
 import androidx.core.graphics.drawable.IconCompat;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;
 import java.io.File;
 import java.io.FileInputStream;

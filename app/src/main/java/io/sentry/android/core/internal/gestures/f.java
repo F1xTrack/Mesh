@@ -5,7 +5,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import androidx.core.view.GestureDetectorCompat;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import defpackage.C7352u70;
 import io.sentry.D1;
 import io.sentry.EnumC5148n1;

@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.rn.push.constants.LocalNotification;
 import java.io.Serializable;
 
 /* loaded from: classes2.dex */

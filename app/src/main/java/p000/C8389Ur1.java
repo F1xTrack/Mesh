@@ -13,8 +13,6 @@ import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.SleepSegmentRequest;
 import com.google.android.gms.location.zzm;
 import com.google.firebase.perf.network.FirebasePerfUrlConnection;
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
-import com.huawei.hms.push.AttributionReporter;
 import com.p019vk.push.common.Logger;
 import com.p019vk.push.common.clientid.ClientIdCallback;
 import com.p019vk.push.core.analytics.AnalyticsBaseParamsConstantsKt;

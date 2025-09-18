@@ -10,8 +10,6 @@ import com.android.billingclient.api.BillingResult;
 import com.android.billingclient.api.PurchasesUpdatedListener;
 import com.google.android.gms.common.api.Api;
 import com.google.android.gms.tasks.Task;
-import com.huawei.hms.adapter.internal.AvailableCode;
-import com.huawei.hms.support.api.entity.core.JosStatusCodes;
 import com.p019vk.push.common.HostInfoProvider;
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -8,7 +8,6 @@ import android.graphics.Matrix;
 import android.view.Choreographer;
 import android.view.Surface;
 import androidx.camera.lifecycle.a;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.my.tracker.obfuscated.C2612a;
 import com.my.tracker.obfuscated.b1;
 import com.my.tracker.obfuscated.b3;

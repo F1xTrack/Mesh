@@ -4,7 +4,6 @@ import android.location.Location;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.ReadableType;
-import com.huawei.hms.push.AttributionReporter;
 import io.appmetrica.analytics.AdRevenue;
 import io.appmetrica.analytics.AdType;
 import io.appmetrica.analytics.AppMetricaConfig;

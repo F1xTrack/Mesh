@@ -9,7 +9,6 @@ import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.UIManager;
 import com.facebook.react.bridge.UiThreadUtil;
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
 import kotlin.Metadata;
 import p000.C10115lG0;
 import p000.C10891rK0;

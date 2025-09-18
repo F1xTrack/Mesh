@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.rn.push.constants.LocalNotification;
 import java.util.HashMap;
 
 /* renamed from: qU, reason: case insensitive filesystem */

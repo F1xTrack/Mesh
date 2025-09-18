@@ -1,6 +1,5 @@
 package io.sentry;
 
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
 import com.vk.push.core.analytics.AnalyticsBaseParamsConstantsKt;
 import java.util.Arrays;
 import java.util.concurrent.ConcurrentHashMap;

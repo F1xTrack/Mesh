@@ -1,7 +1,6 @@
 package io.appmetrica.analytics.impl;
 
 import android.util.SparseArray;
-import com.huawei.hms.support.api.entity.core.CommonCode;
 import io.sentry.protocol.DebugImage;
 
 /* renamed from: io.appmetrica.analytics.impl.rc, reason: case insensitive filesystem */

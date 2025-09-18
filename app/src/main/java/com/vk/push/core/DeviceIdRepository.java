@@ -1,6 +1,5 @@
 package com.vk.push.core;
 
-import com.huawei.hms.rn.push.constants.Core;
 import defpackage.F91;
 import defpackage.InterfaceC1729Vy;
 import defpackage.InterfaceC6472pW;

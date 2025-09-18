@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.ProviderInfo;
 import android.net.Uri;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import com.vk.push.core.deviceid.DeviceIdReadOnlyDataSource;
 import com.vk.push.core.deviceid.contentprovider.DeviceIdUriMatcher;
 import defpackage.O90;

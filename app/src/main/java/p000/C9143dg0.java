@@ -1,7 +1,6 @@
 package p000;
 
 import android.widget.EditText;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 
 /* renamed from: dg0, reason: case insensitive filesystem */
 /* loaded from: classes2.dex */

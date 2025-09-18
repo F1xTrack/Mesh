@@ -1,7 +1,6 @@
 package p000;
 
 import android.graphics.BlendMode;
-import com.huawei.hms.adapter.internal.AvailableCode;
 
 /* renamed from: wi */
 /* loaded from: classes.dex */

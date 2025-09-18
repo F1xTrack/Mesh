@@ -6,7 +6,6 @@ import com.facebook.react.bridge.Dynamic;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.views.view.C1932a;
 import com.facebook.react.views.view.ReactViewManager;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Locale;

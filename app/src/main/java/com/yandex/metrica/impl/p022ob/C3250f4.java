@@ -2,7 +2,6 @@ package com.yandex.metrica.impl.p022ob;
 
 import android.content.Context;
 import android.text.TextUtils;
-import com.huawei.hms.p015rn.push.constants.ResultCode;
 import com.yandex.metrica.EnumC2458c;
 import com.yandex.metrica.YandexMetrica;
 import com.yandex.metrica.impl.p022ob.C2466A;

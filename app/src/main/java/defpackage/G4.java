@@ -6,7 +6,6 @@ import androidx.work.CoroutineWorker;
 import androidx.work.impl.workers.ConstraintTrackingWorker;
 import com.facebook.react.bridge.Promise;
 import com.google.android.material.carousel.CarouselLayoutManager;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.my.tracker.campaign.CampaignService;
 import com.swmansion.worklets.AndroidUIScheduler;
 import com.yandex.mapkit.offline_cache.internal.BackgroundDownloadInitializer;

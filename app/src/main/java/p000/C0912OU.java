@@ -19,7 +19,6 @@ import com.google.firebase.FirebaseCommonRegistrar;
 import com.google.firebase.installations.FirebaseInstallationsRegistrar;
 import com.google.firebase.perf.FirebasePerfRegistrar;
 import com.google.firebase.sessions.FirebaseSessionsRegistrar;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import java.io.IOException;
 import java.util.UUID;
 import javax.inject.Provider;

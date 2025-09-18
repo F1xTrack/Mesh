@@ -4,7 +4,6 @@ import android.content.Context;
 import com.google.android.gms.common.annotation.KeepForSdk;
 import com.google.android.gms.common.internal.Preconditions;
 import com.google.android.gms.common.internal.ShowFirstParty;
-import com.huawei.hms.p015rn.push.constants.ResultCode;
 
 @ShowFirstParty
 @KeepForSdk

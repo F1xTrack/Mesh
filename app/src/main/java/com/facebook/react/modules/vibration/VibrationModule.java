@@ -8,7 +8,6 @@ import android.os.VibratorManager;
 import com.facebook.fbreact.specs.NativeVibrationSpec;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReadableArray;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import kotlin.Metadata;
 import p000.AbstractC11592wp0;
 import p000.InterfaceC9101dL0;

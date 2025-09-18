@@ -22,8 +22,6 @@ import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.bridge.WritableNativeArray;
 import com.facebook.react.bridge.WritableNativeMap;
 import com.google.android.gms.common.Scopes;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import com.p019vk.push.core.base.AidlException;
 import com.reactnativecommunity.clipboard.ClipboardModule;
 import com.yandex.metrica.C2460e;

@@ -1,7 +1,6 @@
 package p000;
 
 import android.graphics.DashPathEffect;
-import com.huawei.hms.support.log.HMSLog;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;

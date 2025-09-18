@@ -1,7 +1,6 @@
 package defpackage;
 
 import android.content.Context;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import java.lang.reflect.Method;
 
 /* renamed from: Qk1, reason: case insensitive filesystem */

@@ -3,7 +3,6 @@ package com.yandex.metrica.impl.p022ob;
 import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Pair;
-import com.huawei.hms.framework.common.ContainerUtils;
 import com.yandex.metrica.impl.p022ob.C3498oi;
 import org.json.JSONObject;
 

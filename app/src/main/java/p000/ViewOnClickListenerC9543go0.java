@@ -5,7 +5,6 @@ import android.view.View;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.WritableNativeMap;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import java.util.Calendar;
 import java.util.Iterator;
 

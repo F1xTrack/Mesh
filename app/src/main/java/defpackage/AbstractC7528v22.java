@@ -2,7 +2,6 @@ package defpackage;
 
 import androidx.emoji2.text.flatbuffer.FlexBuffers;
 import com.facebook.crypto.mac.NativeMac;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.swmansion.reanimated.BuildConfig;
 import com.vk.push.core.base.AidlException;
 import io.appmetrica.analytics.impl.C4473c9;

@@ -28,7 +28,6 @@ import androidx.fragment.app.l;
 import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.load.ImageHeaderParser$ImageType;
 import com.google.firebase.messaging.FirebaseMessagingService;
-import com.huawei.hms.framework.common.ContainerUtils;
 import com.statstracker.data.MessageDatabase_Impl;
 import com.vk.push.common.AppInfo;
 import io.appmetrica.analytics.coreutils.internal.system.ConstantDeviceInfo;

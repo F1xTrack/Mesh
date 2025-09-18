@@ -9,8 +9,6 @@ import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.WritableMap;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import kotlin.Metadata;
 import p000.C9952k01;
 import p000.InterfaceC9101dL0;

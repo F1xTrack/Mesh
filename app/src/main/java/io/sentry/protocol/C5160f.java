@@ -1,6 +1,5 @@
 package io.sentry.protocol;
 
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import com.vk.push.core.analytics.AnalyticsBaseParamsConstantsKt;
 import io.appmetrica.analytics.networktasks.internal.CommonUrlParts;
 import io.sentry.A0;

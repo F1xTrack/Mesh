@@ -1,6 +1,5 @@
 package io.appmetrica.analytics.appsetid.internal;
 
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import io.appmetrica.analytics.coreapi.internal.identifiers.AppSetIdScope;
 import kotlin.Metadata;
 

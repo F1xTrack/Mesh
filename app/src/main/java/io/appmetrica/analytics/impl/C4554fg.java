@@ -3,7 +3,6 @@ package io.appmetrica.analytics.impl;
 import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Pair;
-import com.huawei.hms.framework.common.ContainerUtils;
 import io.appmetrica.analytics.coreapi.internal.data.IBinaryDataHelper;
 import io.appmetrica.analytics.protobuf.nano.MessageNano;
 import java.util.HashSet;

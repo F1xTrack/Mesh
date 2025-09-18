@@ -5,7 +5,6 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelWriter;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import java.util.Map;
 
 /* loaded from: classes.dex */

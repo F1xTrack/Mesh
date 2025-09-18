@@ -7,7 +7,6 @@ import android.database.sqlite.SQLiteStatement;
 import android.media.Image;
 import com.google.android.gms.common.internal.Preconditions;
 import com.google.mlkit.vision.barcode.internal.zzh;
-import com.huawei.hms.actions.SearchIntents;
 import java.io.Closeable;
 import java.io.File;
 import java.io.FileOutputStream;

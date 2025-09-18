@@ -3,7 +3,6 @@ package com.yandex.metrica.impl.ob;
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.Base64;
-import com.huawei.hms.framework.common.ContainerUtils;
 import com.swmansion.reanimated.layoutReanimation.Snapshot;
 import com.yandex.metrica.impl.ob.C2737em;
 import com.yandex.metrica.impl.ob.C2880kg;

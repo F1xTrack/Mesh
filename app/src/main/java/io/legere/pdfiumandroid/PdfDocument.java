@@ -2,7 +2,6 @@ package io.legere.pdfiumandroid;
 
 import android.graphics.RectF;
 import android.os.ParcelFileDescriptor;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import io.legere.pdfiumandroid.util.ConfigKt;
 import java.io.Closeable;
 import java.util.ArrayList;

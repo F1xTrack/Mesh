@@ -6,8 +6,6 @@ import androidx.fragment.app.Fragment;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.UiThreadUtil;
 import com.google.android.gms.common.Scopes;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
-import com.huawei.hms.support.log.HMSLog;
 
 /* loaded from: classes.dex */
 public abstract /* synthetic */ class NX {

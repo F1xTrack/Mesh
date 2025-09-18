@@ -7,7 +7,6 @@ import android.os.Trace;
 import android.util.Size;
 import com.facebook.soloader.SoLoader;
 import com.google.android.gms.common.api.internal.ListenerHolder;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import java.io.IOException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

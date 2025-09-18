@@ -2,7 +2,6 @@ package com.my.tracker.obfuscated;
 
 import android.os.Handler;
 import android.text.TextUtils;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import com.my.tracker.MyTracker;
 import com.my.tracker.MyTrackerConfig;
 import com.my.tracker.MyTrackerParams;

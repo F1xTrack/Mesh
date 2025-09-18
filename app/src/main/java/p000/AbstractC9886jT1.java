@@ -9,7 +9,6 @@ import androidx.fragment.app.DialogInterfaceOnCancelListenerC1725g;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReadableMap;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
 import com.yandex.varioqub.config.model.ConfigValue;
 import java.util.Calendar;
 import java.util.SimpleTimeZone;

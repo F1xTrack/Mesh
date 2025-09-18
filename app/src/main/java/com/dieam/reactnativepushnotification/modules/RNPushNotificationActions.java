@@ -8,7 +8,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import p000.C7621Fx1;
 import p000.JQ0;
 import p000.RunnableC1420WZ;

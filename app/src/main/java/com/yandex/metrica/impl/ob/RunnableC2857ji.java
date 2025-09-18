@@ -11,7 +11,6 @@ import android.os.IBinder;
 import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
-import com.huawei.hms.rn.push.constants.Core;
 import com.yandex.metrica.MetricaService;
 import com.yandex.metrica.impl.ob.InterfaceC2758fi;
 import com.yandex.metrica.impl.ob.M0;

@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.widget.TimePicker;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.WritableNativeMap;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import com.reactcommunity.rndatetimepicker.TimePickerModule;
 import java.util.Calendar;
 

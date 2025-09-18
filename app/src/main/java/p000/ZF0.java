@@ -1,6 +1,5 @@
 package p000;
 
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import java.util.concurrent.ConcurrentHashMap;
 
 /* loaded from: classes.dex */

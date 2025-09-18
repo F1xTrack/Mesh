@@ -3,7 +3,6 @@ package com.yandex.metrica.impl.ob;
 import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import com.yandex.metrica.impl.ob.C2642b2;
 import com.yandex.metrica.impl.ob.C2905lg;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;

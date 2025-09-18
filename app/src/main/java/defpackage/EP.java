@@ -2,7 +2,6 @@ package defpackage;
 
 import android.os.SystemClock;
 import android.text.TextUtils;
-import com.huawei.hms.rn.push.constants.Core;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;
 import java.io.IOException;
 import java.text.NumberFormat;

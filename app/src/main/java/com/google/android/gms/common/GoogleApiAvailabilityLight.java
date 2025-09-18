@@ -11,7 +11,6 @@ import com.google.android.gms.common.internal.HideFirstParty;
 import com.google.android.gms.common.internal.ShowFirstParty;
 import com.google.android.gms.common.util.DeviceProperties;
 import com.google.android.gms.common.wrappers.Wrappers;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 
 @ShowFirstParty
 @KeepForSdk

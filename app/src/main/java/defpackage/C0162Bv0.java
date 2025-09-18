@@ -8,7 +8,6 @@ import android.os.RemoteException;
 import android.util.Range;
 import com.google.android.gms.common.api.internal.RemoteCall;
 import com.google.android.gms.tasks.Task;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Collections;

@@ -12,9 +12,6 @@ import com.google.android.gms.common.internal.ShowFirstParty;
 import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelWriter;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
-import com.huawei.hms.adapter.internal.CommonCode;
-import com.huawei.hms.framework.network.grs.GrsBaseInfo;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import p000.AbstractC7222ym;
 
 @SafeParcelable.Class(creator = "ConnectionResultCreator")

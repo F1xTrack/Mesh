@@ -9,8 +9,6 @@ import com.facebook.react.bridge.ReadableMap;
 import com.facebook.yoga.YogaNative;
 import com.facebook.yoga.YogaNodeJNIBase;
 import com.facebook.yoga.YogaValue;
-import com.huawei.hms.rn.push.constants.LocalNotification;
-import com.huawei.hms.rn.push.constants.RemoteMessageAttributes;
 import com.swmansion.reanimated.layoutReanimation.Snapshot;
 import java.util.ArrayList;
 import java.util.HashMap;

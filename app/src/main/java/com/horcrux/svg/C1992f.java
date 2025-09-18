@@ -4,7 +4,6 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.view.View;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
 import p000.C11931zU0;
 
 /* renamed from: com.horcrux.svg.f */

@@ -8,7 +8,6 @@ import com.google.android.gms.common.util.BiConsumer;
 import com.google.android.gms.common.util.Clock;
 import com.google.android.gms.common.util.DefaultClock;
 import com.google.firebase.remoteconfig.internal.ConfigFetchHttpClient;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;

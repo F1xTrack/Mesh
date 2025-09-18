@@ -20,7 +20,6 @@ import com.facebook.react.uimanager.events.a;
 import com.facebook.react.uimanager.events.b;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.firebase.perf.metrics.AppStartTrace;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Iterator;

@@ -24,7 +24,6 @@ import android.view.ViewGroup;
 import android.widget.AutoCompleteTextView;
 import android.widget.ImageView;
 import androidx.appcompat.widget.SearchView$SearchAutoComplete;
-import com.huawei.hms.actions.SearchIntents;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.WeakHashMap;

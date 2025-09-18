@@ -19,7 +19,6 @@ import androidx.appcompat.widget.ActionMenuView;
 import androidx.appcompat.widget.Toolbar;
 import androidx.camera.camera2.internal.compat.quirk.CaptureSessionOnClosedNotCalledQuirk;
 import androidx.recyclerview.widget.RecyclerView;
-import com.huawei.hms.framework.common.ContainerUtils;
 import com.yandex.metrica.impl.interact.CellularNetworkInfo;
 import com.yandex.metrica.impl.p022ob.C2487Ak;
 import com.yandex.metrica.impl.p022ob.C3010Vj;

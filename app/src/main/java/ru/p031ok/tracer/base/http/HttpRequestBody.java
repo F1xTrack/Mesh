@@ -1,6 +1,5 @@
 package ru.p031ok.tracer.base.http;
 
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.charset.Charset;

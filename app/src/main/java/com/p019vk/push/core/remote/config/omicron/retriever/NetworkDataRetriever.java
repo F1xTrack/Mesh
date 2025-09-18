@@ -1,6 +1,5 @@
 package com.p019vk.push.core.remote.config.omicron.retriever;
 
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import com.p019vk.push.core.remote.config.omicron.AnalyticsHandler;
 import com.p019vk.push.core.remote.config.omicron.Data;
 import com.p019vk.push.core.remote.config.omicron.DataId;

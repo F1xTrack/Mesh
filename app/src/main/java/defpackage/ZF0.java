@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.rn.push.constants.RemoteMessageAttributes;
 import java.util.concurrent.ConcurrentHashMap;
 
 /* loaded from: classes.dex */

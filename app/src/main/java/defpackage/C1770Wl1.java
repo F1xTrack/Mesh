@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.rn.push.constants.LocalNotification;
 
 /* renamed from: Wl1, reason: case insensitive filesystem */
 /* loaded from: classes2.dex */

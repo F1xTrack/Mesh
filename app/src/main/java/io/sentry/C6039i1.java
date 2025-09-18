@@ -1,7 +1,5 @@
 package io.sentry;
 
-import com.huawei.hms.p015rn.push.constants.Core;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import io.sentry.config.AbstractC6003a;
 import io.sentry.exception.C6015a;
 import io.sentry.protocol.C6094j;

@@ -23,8 +23,6 @@ import android.widget.TextView;
 import androidx.camera.camera2.internal.compat.quirk.SmallDisplaySizeQuirk;
 import androidx.recyclerview.widget.RecyclerView;
 import com.facebook.imagepipeline.image.EncodedImage;
-import com.huawei.hms.framework.common.ContainerUtils;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
 import expo.modules.securestore.SecureStoreOptions;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;
 import java.io.IOException;

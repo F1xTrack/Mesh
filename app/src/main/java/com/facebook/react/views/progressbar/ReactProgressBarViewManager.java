@@ -11,7 +11,6 @@ import android.widget.ProgressBar;
 import com.facebook.react.bridge.JSApplicationIllegalArgumentException;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.uimanager.BaseViewManager;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import java.util.WeakHashMap;
 import p000.AbstractC11406vL1;
 import p000.AbstractC11746y12;

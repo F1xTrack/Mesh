@@ -3,7 +3,6 @@ package p000;
 import com.facebook.react.bridge.Dynamic;
 import com.facebook.yoga.YogaNative;
 import com.facebook.yoga.YogaNodeJNIBase;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
 import com.swmansion.reanimated.layoutReanimation.Snapshot;
 
 /* renamed from: lh0, reason: case insensitive filesystem */

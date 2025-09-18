@@ -1,7 +1,6 @@
 package com.yandex.metrica.impl.p022ob;
 
 import android.text.TextUtils;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import com.yandex.metrica.C3804w;
 import org.json.JSONObject;
 

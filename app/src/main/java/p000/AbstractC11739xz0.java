@@ -20,7 +20,6 @@ import android.widget.OverScroller;
 import android.widget.RelativeLayout;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.WritableMap;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import io.legere.pdfiumandroid.PdfDocument;
 import io.legere.pdfiumandroid.PdfiumCore;
 import io.legere.pdfiumandroid.util.Size;

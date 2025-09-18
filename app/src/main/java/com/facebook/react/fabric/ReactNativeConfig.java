@@ -1,6 +1,5 @@
 package com.facebook.react.fabric;
 
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import kotlin.Metadata;
 import p000.InterfaceC0965PK;
 

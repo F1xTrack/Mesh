@@ -1,7 +1,6 @@
 package com.yandex.metrica.impl.ob;
 
 import android.text.TextUtils;
-import com.huawei.hms.rn.push.constants.ResultCode;
 import com.yandex.metrica.impl.ob.C2744f4;
 import java.util.concurrent.TimeUnit;
 

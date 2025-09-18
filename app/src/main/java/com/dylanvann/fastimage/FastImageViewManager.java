@@ -12,7 +12,6 @@ import com.dylanvann.fastimage.events.FastImageLoadStartEvent;
 import com.dylanvann.fastimage.events.FastImageProgressEvent;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.uimanager.SimpleViewManager;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

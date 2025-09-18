@@ -20,8 +20,6 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
-import com.huawei.hms.p015rn.push.constants.ResultCode;
 import p000.C8687a81;
 import p000.C8815b81;
 import p000.C8943c81;

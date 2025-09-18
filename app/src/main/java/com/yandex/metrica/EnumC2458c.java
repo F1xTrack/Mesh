@@ -1,6 +1,5 @@
 package com.yandex.metrica;
 
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
 
 /* renamed from: com.yandex.metrica.c */
 /* loaded from: classes2.dex */

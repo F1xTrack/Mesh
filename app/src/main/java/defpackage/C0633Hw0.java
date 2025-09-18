@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.rn.push.constants.LocalNotification;
 import java.io.IOException;
 import java.io.Serializable;
 import java.math.BigDecimal;

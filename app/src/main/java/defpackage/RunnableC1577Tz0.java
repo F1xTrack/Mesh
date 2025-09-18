@@ -12,7 +12,6 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.WritableNativeMap;
 import com.facebook.react.uimanager.UIManagerModule;
 import com.google.android.material.sidesheet.SideSheetBehavior;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.remoteconfig.RemoteConfigModule;
 import com.rustorepush.RustorePushModule;
 import com.rustorepush.RustorePushService;

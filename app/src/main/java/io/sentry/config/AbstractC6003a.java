@@ -11,7 +11,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
 import com.yandex.varioqub.config.model.ConfigValue;
 import io.sentry.AbstractC5811V0;
 import io.sentry.C5759D1;

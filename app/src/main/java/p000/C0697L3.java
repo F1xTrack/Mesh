@@ -1,6 +1,5 @@
 package p000;
 
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
 import java.io.Serializable;
 
 /* renamed from: L3 */

@@ -15,8 +15,6 @@ import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.ReadableMapKeySetIterator;
 import com.facebook.react.bridge.ReadableType;
-import com.huawei.hms.p015rn.push.constants.LocalNotification;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import com.swmansion.reanimated.layoutReanimation.Snapshot;
 import com.yandex.varioqub.config.model.ConfigValue;
 import java.util.ArrayList;

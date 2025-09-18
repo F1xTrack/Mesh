@@ -1,7 +1,6 @@
 package com.yandex.metrica.impl.ob;
 
 import android.annotation.SuppressLint;
-import com.huawei.hms.framework.common.ContainerUtils;
 import java.util.LinkedHashMap;
 import java.util.Map;
 

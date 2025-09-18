@@ -1,7 +1,6 @@
 package io.appmetrica.analytics.coreutils.internal.permission;
 
 import android.content.Context;
-import com.huawei.hms.push.AttributionReporter;
 import io.appmetrica.analytics.coreapi.internal.permission.PermissionResolutionStrategy;
 import io.appmetrica.analytics.coreapi.internal.system.PermissionExtractor;
 import kotlin.Metadata;

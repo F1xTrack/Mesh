@@ -13,7 +13,6 @@ import android.content.pm.SigningInfo;
 import android.os.Build;
 import android.os.PowerManager;
 import android.os.RemoteException;
-import com.huawei.hms.support.api.entity.core.CommonCode;
 import com.p019vk.push.core.domain.ComponentActions;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

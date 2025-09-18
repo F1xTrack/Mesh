@@ -22,8 +22,6 @@ import com.facebook.react.bridge.WritableArray;
 import com.facebook.react.bridge.WritableMap;
 import com.google.android.gms.common.util.concurrent.NamedThreadFactory;
 import com.google.firebase.messaging.FirebaseMessaging;
-import com.huawei.hms.p015rn.push.constants.Core;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import io.appmetrica.analytics.impl.C5094ea;
 import java.security.SecureRandom;
 import java.util.ArrayList;

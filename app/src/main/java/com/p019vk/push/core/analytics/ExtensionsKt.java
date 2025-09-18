@@ -1,7 +1,6 @@
 package com.p019vk.push.core.analytics;
 
 import android.database.sqlite.SQLiteException;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import com.p019vk.push.core.base.exception.HostIsNotMasterException;
 import com.p019vk.push.core.base.exception.SdkIsNotInitializedException;
 import com.p019vk.push.core.base.exception.TransferredIpcDataException;

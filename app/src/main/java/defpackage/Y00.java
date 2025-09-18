@@ -5,7 +5,6 @@ import android.location.LocationListener;
 import android.os.Bundle;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.WritableNativeMap;
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
 
 /* loaded from: classes.dex */
 public final class Y00 implements LocationListener {

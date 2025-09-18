@@ -6,7 +6,6 @@ import android.media.MediaCryptoException;
 import android.media.MediaFormat;
 import android.os.Bundle;
 import android.os.SystemClock;
-import com.huawei.hms.support.api.entity.auth.AuthCode;
 import com.swmansion.reanimated.layoutReanimation.Snapshot;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

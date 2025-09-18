@@ -6,7 +6,6 @@ import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.RetryableMountingLayerException;
 import com.facebook.react.uimanager.ViewGroupManager;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import com.swmansion.reanimated.layoutReanimation.Snapshot;
 import java.util.ArrayList;
 import java.util.HashMap;

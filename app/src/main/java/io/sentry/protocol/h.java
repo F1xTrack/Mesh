@@ -1,6 +1,5 @@
 package io.sentry.protocol;
 
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import io.sentry.A0;
 import io.sentry.AbstractC5116d;
 import io.sentry.ILogger;

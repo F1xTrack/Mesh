@@ -2,7 +2,6 @@ package com.google.android.gms.common.internal;
 
 import android.content.ComponentName;
 import android.net.Uri;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 
 /* loaded from: classes.dex */
 public final class zzo {

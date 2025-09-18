@@ -5,7 +5,6 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.util.SparseIntArray;
 import androidx.emoji2.text.flatbuffer.FlexBuffers;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.swmansion.reanimated.BuildConfig;
 import io.appmetrica.analytics.impl.C4473c9;
 

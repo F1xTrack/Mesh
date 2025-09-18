@@ -2,7 +2,6 @@ package com.yandex.metrica.impl.ob;
 
 import android.annotation.TargetApi;
 import android.telephony.CellIdentityGsm;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.yandex.metrica.DoNotInline;
 import kotlin.Metadata;
 

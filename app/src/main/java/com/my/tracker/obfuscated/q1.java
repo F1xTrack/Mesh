@@ -2,7 +2,6 @@ package com.my.tracker.obfuscated;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import com.huawei.hms.push.AttributionReporter;
 
 /* loaded from: classes2.dex */
 public final class q1 {

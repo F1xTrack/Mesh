@@ -2,7 +2,6 @@ package io.appmetrica.analytics.impl;
 
 import android.content.Context;
 import android.text.TextUtils;
-import com.huawei.hms.rn.push.constants.ResultCode;
 import defpackage.AbstractC8259yu;
 import io.appmetrica.analytics.AppMetrica;
 import io.appmetrica.analytics.coreutils.internal.services.PackageManagerUtils;

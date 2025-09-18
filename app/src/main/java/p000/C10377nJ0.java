@@ -7,7 +7,6 @@ import android.content.res.Resources;
 import android.net.Uri;
 import android.text.TextUtils;
 import com.google.android.gms.location.GeofenceStatusCodes;
-import com.huawei.hms.p015rn.push.constants.Core;
 import io.appmetrica.analytics.coreutils.internal.StringUtils;
 import java.io.EOFException;
 import java.io.FileInputStream;

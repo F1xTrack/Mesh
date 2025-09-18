@@ -3,7 +3,6 @@ package com.yandex.metrica.impl.ob;
 import android.content.Context;
 import android.location.Location;
 import android.text.TextUtils;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import com.yandex.metrica.impl.ob.M;
 import com.yandex.metrica.impl.ob.Wc;
 import com.yandex.varioqub.config.model.ConfigValue;

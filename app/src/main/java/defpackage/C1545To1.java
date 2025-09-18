@@ -1,6 +1,5 @@
 package defpackage;
 
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import java.util.ArrayList;
 
 /* renamed from: To1, reason: case insensitive filesystem */

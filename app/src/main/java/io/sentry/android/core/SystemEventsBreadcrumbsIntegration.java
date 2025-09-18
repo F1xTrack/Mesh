@@ -3,7 +3,6 @@ package io.sentry.android.core;
 import android.content.Context;
 import android.content.IntentFilter;
 import android.os.Build;
-import com.huawei.hms.p015rn.push.constants.Core;
 import io.sentry.C5759D1;
 import io.sentry.EnumC6069n1;
 import io.sentry.InterfaceC5819Y;

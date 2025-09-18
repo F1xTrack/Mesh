@@ -1,6 +1,5 @@
 package io.sentry.react;
 
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import com.yandex.varioqub.config.model.ConfigValue;
 import io.sentry.C5122f;
 import io.sentry.rrweb.l;

@@ -2,7 +2,6 @@ package p000;
 
 import android.os.Handler;
 import android.os.Looper;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import com.p019vk.push.common.DefaultLogger;
 import com.p019vk.push.common.Logger;
 import com.p019vk.push.common.ads.PushAdsProvider;

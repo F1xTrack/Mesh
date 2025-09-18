@@ -4,7 +4,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Pair;
-import com.huawei.hms.support.api.entity.core.CommonCode;
 
 /* loaded from: classes.dex */
 public final /* synthetic */ class ZO1 implements Runnable {

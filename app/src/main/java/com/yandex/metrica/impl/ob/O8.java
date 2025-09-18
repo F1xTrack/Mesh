@@ -1,7 +1,5 @@
 package com.yandex.metrica.impl.ob;
 
-import com.huawei.hms.framework.common.hianalytics.CrashHianalyticsData;
-import com.huawei.hms.rn.push.constants.NotificationConstants;
 import com.yandex.metrica.YandexMetrica;
 import com.yandex.metrica.impl.ob.E8;
 import com.yandex.metrica.impl.ob.M;

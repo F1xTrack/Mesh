@@ -8,7 +8,6 @@ import android.media.MediaMetadataRetriever;
 import android.os.Build;
 import android.os.ParcelFileDescriptor;
 import android.os.Process;
-import com.huawei.hms.adapter.internal.AvailableCode;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;

@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.res.AssetFileDescriptor;
 import android.net.Uri;
 import android.os.Bundle;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;

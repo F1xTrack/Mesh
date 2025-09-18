@@ -2,12 +2,6 @@ package defpackage;
 
 import com.facebook.react.bridge.Promise;
 import com.google.android.gms.tasks.Task;
-import com.huawei.hms.aaid.entity.AAIDResult;
-import com.huawei.hms.adapter.internal.AvailableCode;
-import com.huawei.hms.rn.push.opendevice.HmsPushOpenDevice;
-import com.huawei.hms.rn.push.remote.HmsPushInstanceId;
-import com.huawei.hms.rn.push.remote.HmsPushMessaging;
-import com.huawei.hms.support.api.opendevice.OdidResult;
 import io.invertase.firebase.analytics.ReactNativeFirebaseAnalyticsModule;
 import io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsModule;
 import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingModule;

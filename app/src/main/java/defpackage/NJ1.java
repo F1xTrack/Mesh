@@ -4,7 +4,6 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.TextView;
 import com.google.android.material.appbar.MaterialToolbar;
-import com.huawei.hms.rn.push.constants.LocalNotification;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.ArrayList;

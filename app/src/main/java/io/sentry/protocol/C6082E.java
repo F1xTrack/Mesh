@@ -1,7 +1,6 @@
 package io.sentry.protocol;
 
 import com.google.android.gms.common.Scopes;
-import com.huawei.hms.p015rn.push.constants.NotificationConstants;
 import io.sentry.AbstractC6008d;
 import io.sentry.ILogger;
 import io.sentry.InterfaceC5749A0;

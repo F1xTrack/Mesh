@@ -3,7 +3,6 @@ package io.invertase.firebase.messaging;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.WritableMap;
 import com.google.firebase.messaging.FirebaseMessagingService;
-import com.huawei.hms.p015rn.push.constants.RemoteMessageAttributes;
 import p000.AbstractC11104t01;
 import p000.C0226Da;
 import p000.EL0;

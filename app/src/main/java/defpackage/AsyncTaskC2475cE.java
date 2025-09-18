@@ -8,7 +8,6 @@ import android.os.HandlerThread;
 import android.util.SizeF;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.WritableMap;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import io.legere.pdfiumandroid.PdfiumCore;
 import io.legere.pdfiumandroid.util.Size;
 import java.lang.ref.WeakReference;

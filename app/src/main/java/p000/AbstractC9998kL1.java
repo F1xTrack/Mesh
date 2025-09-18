@@ -5,8 +5,6 @@ import android.content.Context;
 import android.os.Binder;
 import android.os.Build;
 import android.os.Process;
-import com.huawei.hms.adapter.internal.CommonCode;
-import com.huawei.hms.push.constant.RemoteMessageConst;
 import java.util.Objects;
 
 /* renamed from: kL1, reason: case insensitive filesystem */

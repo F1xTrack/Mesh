@@ -1,7 +1,5 @@
 package io.sentry;
 
-import com.huawei.hms.rn.push.constants.Core;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 import java.util.AbstractMap;
 import java.util.Date;
 import java.util.Iterator;

@@ -2,7 +2,6 @@ package defpackage;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReadableMap;
-import com.huawei.hms.support.hianalytics.HiAnalyticsConstant;
 
 /* loaded from: classes2.dex */
 public final class IH0 extends JH0 {
