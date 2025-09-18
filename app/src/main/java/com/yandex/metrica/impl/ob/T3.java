@@ -1,0 +1,139 @@
+package com.yandex.metrica.impl.ob;
+
+import android.content.Context;
+import com.yandex.metrica.CounterConfiguration;
+import com.yandex.metrica.YandexMetrica;
+
+/* loaded from: classes2.dex */
+public class T3 {
+    private final U3 a;
+    private final CounterConfiguration b;
+
+    /* JADX WARN: Removed duplicated region for block: B:74:0x0017  */
+    /* JADX WARN: Removed duplicated region for block: B:76:0x001d  */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct code enable 'Show inconsistent code' option in preferences
+    */
+    public T3(android.os.Bundle r5) {
+        /*
+            r4 = this;
+            r4.<init>()
+            com.yandex.metrica.impl.ob.U3 r0 = com.yandex.metrica.impl.ob.U3.a(r5)
+            r4.a = r0
+            r0 = 0
+            if (r5 == 0) goto L15
+            java.lang.String r1 = "COUNTER_CFG_OBJ"
+            android.os.Parcelable r1 = r5.getParcelable(r1)     // Catch: java.lang.Throwable -> La5
+            com.yandex.metrica.CounterConfiguration r1 = (com.yandex.metrica.CounterConfiguration) r1     // Catch: java.lang.Throwable -> La5
+            r0 = r1
+        L15:
+            if (r0 != 0) goto L1c
+            com.yandex.metrica.CounterConfiguration r0 = new com.yandex.metrica.CounterConfiguration
+            r0.<init>()
+        L1c:
+            monitor-enter(r0)
+            if (r5 != 0) goto L21
+            goto La4
+        L21:
+            java.lang.String r1 = "CFG_DISPATCH_PERIOD"
+            int r1 = r5.getInt(r1)     // Catch: java.lang.Throwable -> L3d
+            if (r1 == 0) goto L42
+            java.lang.String r1 = "CFG_DISPATCH_PERIOD"
+            int r1 = r5.getInt(r1)     // Catch: java.lang.Throwable -> L3d
+            monitor-enter(r0)     // Catch: java.lang.Throwable -> L3d
+            android.content.ContentValues r2 = r0.a     // Catch: java.lang.Throwable -> L3f
+            java.lang.Integer r1 = java.lang.Integer.valueOf(r1)     // Catch: java.lang.Throwable -> L3f
+            java.lang.String r3 = "CFG_DISPATCH_PERIOD"
+            r2.put(r3, r1)     // Catch: java.lang.Throwable -> L3f
+            monitor-exit(r0)     // Catch: java.lang.Throwable -> L3d
+            goto L42
+        L3d:
+            r5 = move-exception
+            goto La8
+        L3f:
+            r5 = move-exception
+            monitor-exit(r0)     // Catch: java.lang.Throwable -> L3d
+            throw r5     // Catch: java.lang.Throwable -> L3d
+        L42:
+            java.lang.String r1 = "CFG_SESSION_TIMEOUT"
+            int r1 = r5.getInt(r1)     // Catch: java.lang.Throwable -> L3d
+            if (r1 == 0) goto L61
+            java.lang.String r1 = "CFG_SESSION_TIMEOUT"
+            int r1 = r5.getInt(r1)     // Catch: java.lang.Throwable -> L3d
+            monitor-enter(r0)     // Catch: java.lang.Throwable -> L3d
+            android.content.ContentValues r2 = r0.a     // Catch: java.lang.Throwable -> L5e
+            java.lang.Integer r1 = java.lang.Integer.valueOf(r1)     // Catch: java.lang.Throwable -> L5e
+            java.lang.String r3 = "CFG_SESSION_TIMEOUT"
+            r2.put(r3, r1)     // Catch: java.lang.Throwable -> L5e
+            monitor-exit(r0)     // Catch: java.lang.Throwable -> L3d
+            goto L61
+        L5e:
+            r5 = move-exception
+            monitor-exit(r0)     // Catch: java.lang.Throwable -> L3d
+            throw r5     // Catch: java.lang.Throwable -> L3d
+        L61:
+            java.lang.String r1 = "CFG_MAX_REPORTS_COUNT"
+            int r1 = r5.getInt(r1)     // Catch: java.lang.Throwable -> L3d
+            if (r1 == 0) goto L85
+            java.lang.String r1 = "CFG_MAX_REPORTS_COUNT"
+            int r1 = r5.getInt(r1)     // Catch: java.lang.Throwable -> L3d
+            monitor-enter(r0)     // Catch: java.lang.Throwable -> L3d
+            android.content.ContentValues r2 = r0.a     // Catch: java.lang.Throwable -> L82
+            java.lang.String r3 = "CFG_MAX_REPORTS_COUNT"
+            if (r1 > 0) goto L79
+            r1 = 2147483647(0x7fffffff, float:NaN)
+        L79:
+            java.lang.Integer r1 = java.lang.Integer.valueOf(r1)     // Catch: java.lang.Throwable -> L82
+            r2.put(r3, r1)     // Catch: java.lang.Throwable -> L82
+            monitor-exit(r0)     // Catch: java.lang.Throwable -> L3d
+            goto L85
+        L82:
+            r5 = move-exception
+            monitor-exit(r0)     // Catch: java.lang.Throwable -> L3d
+            throw r5     // Catch: java.lang.Throwable -> L3d
+        L85:
+            java.lang.String r1 = "CFG_API_KEY"
+            java.lang.String r1 = r5.getString(r1)     // Catch: java.lang.Throwable -> L3d
+            if (r1 == 0) goto La4
+            java.lang.String r1 = "CFG_API_KEY"
+            java.lang.String r1 = r5.getString(r1)     // Catch: java.lang.Throwable -> L3d
+            java.lang.String r2 = "-1"
+            boolean r1 = r2.equals(r1)     // Catch: java.lang.Throwable -> L3d
+            if (r1 != 0) goto La4
+            java.lang.String r1 = "CFG_API_KEY"
+            java.lang.String r5 = r5.getString(r1)     // Catch: java.lang.Throwable -> L3d
+            r0.j(r5)     // Catch: java.lang.Throwable -> L3d
+        La4:
+            monitor-exit(r0)
+        La5:
+            r4.b = r0
+            return
+        La8:
+            monitor-exit(r0)
+            throw r5
+        */
+        throw new UnsupportedOperationException("Method not decompiled: com.yandex.metrica.impl.ob.T3.<init>(android.os.Bundle):void");
+    }
+
+    public U3 a() {
+        return this.a;
+    }
+
+    public CounterConfiguration b() {
+        return this.b;
+    }
+
+    public String toString() {
+        return "ClientConfiguration{mProcessConfiguration=" + this.a + ", mCounterConfiguration=" + this.b + '}';
+    }
+
+    public static boolean a(T3 t3, Context context) {
+        return (t3.a != null && context.getPackageName().equals(t3.a.f()) && t3.a.i() == YandexMetrica.getLibraryApiLevel()) ? false : true;
+    }
+
+    public T3(U3 u3, CounterConfiguration counterConfiguration) {
+        this.a = u3;
+        this.b = counterConfiguration;
+    }
+}

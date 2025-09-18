@@ -1,0 +1,59 @@
+package defpackage;
+
+import android.text.TextUtils;
+import java.io.UnsupportedEncodingException;
+import java.util.Locale;
+
+/* loaded from: classes.dex */
+public abstract class L12 {
+    public static String a(byte[] bArr) {
+        if (bArr == null || bArr.length == 0) {
+            return "";
+        }
+        StringBuilder sb = new StringBuilder();
+        for (byte b : bArr) {
+            String hexString = Integer.toHexString(b & 255);
+            if (hexString.length() == 1) {
+                sb.append('0');
+            }
+            sb.append(hexString);
+        }
+        return sb.toString();
+    }
+
+    public static byte[] b(String str) throws UnsupportedEncodingException {
+        if (TextUtils.isEmpty(str)) {
+            return new byte[0];
+        }
+        try {
+            String upperCase = str.toUpperCase(Locale.ENGLISH);
+            int length = upperCase.length() / 2;
+            byte[] bArr = new byte[length];
+            try {
+                byte[] bytes = upperCase.getBytes("UTF-8");
+                for (int i = 0; i < length; i++) {
+                    StringBuilder sb = new StringBuilder();
+                    sb.append("0x");
+                    int i2 = i * 2;
+                    sb.append(new String(new byte[]{bytes[i2]}, "UTF-8"));
+                    bArr[i] = (byte) (((byte) (Byte.decode(sb.toString()).byteValue() << 4)) ^ Byte.decode("0x" + new String(new byte[]{bytes[i2 + 1]}, "UTF-8")).byteValue());
+                }
+                return bArr;
+            } catch (UnsupportedEncodingException | NumberFormatException e) {
+                e.getMessage();
+                return new byte[0];
+            }
+        } catch (Throwable th) {
+            th.getMessage();
+            return new byte[0];
+        }
+    }
+
+    public static void c(int i, Object[] objArr) {
+        for (int i2 = 0; i2 < i; i2++) {
+            if (objArr[i2] == null) {
+                throw new NullPointerException(AbstractC7209tN0.u(i2, "at index "));
+            }
+        }
+    }
+}

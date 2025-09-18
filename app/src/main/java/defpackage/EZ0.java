@@ -1,0 +1,52 @@
+package defpackage;
+
+import kotlin.jvm.functions.Function2;
+
+/* loaded from: classes.dex */
+public final class EZ0 extends AbstractC4286i71 implements Function2 {
+    public /* synthetic */ Object a;
+    public final /* synthetic */ Object b;
+    public final /* synthetic */ LC0 c;
+    public final /* synthetic */ FZ0 d;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public EZ0(Object obj, LC0 lc0, FZ0 fz0, InterfaceC1729Vy interfaceC1729Vy) {
+        super(2, interfaceC1729Vy);
+        this.b = obj;
+        this.c = lc0;
+        this.d = fz0;
+    }
+
+    @Override // defpackage.AbstractC1594Uf
+    public final InterfaceC1729Vy create(Object obj, InterfaceC1729Vy interfaceC1729Vy) {
+        EZ0 ez0 = new EZ0(this.b, this.c, this.d, interfaceC1729Vy);
+        ez0.a = obj;
+        return ez0;
+    }
+
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(Object obj, Object obj2) {
+        EZ0 ez0 = (EZ0) create((C0546Gt0) obj, (InterfaceC1729Vy) obj2);
+        C1518Tf1 c1518Tf1 = C1518Tf1.a;
+        ez0.invokeSuspend(c1518Tf1);
+        return c1518Tf1;
+    }
+
+    @Override // defpackage.AbstractC1594Uf
+    public final Object invokeSuspend(Object obj) {
+        EnumC1030Mz enumC1030Mz = EnumC1030Mz.a;
+        RQ1.d(obj);
+        C0546Gt0 c0546Gt0 = (C0546Gt0) this.a;
+        LC0 lc0 = this.c;
+        Object obj2 = this.b;
+        if (obj2 != null) {
+            c0546Gt0.getClass();
+            O90.f(lc0, "key");
+            c0546Gt0.d(lc0, obj2);
+        } else {
+            c0546Gt0.c(lc0);
+        }
+        FZ0.a(this.d, c0546Gt0);
+        return C1518Tf1.a;
+    }
+}

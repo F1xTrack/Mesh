@@ -1,0 +1,12 @@
+package androidx.camera.video.internal.compat.quirk;
+
+import java.util.Arrays;
+import java.util.List;
+import p000.CG0;
+
+/* loaded from: classes.dex */
+public class AudioTimestampFramePositionIncorrectQuirk implements CG0 {
+
+    /* renamed from: a */
+    public static final List f16041a = Arrays.asList("cph1920", "cph1923", "cph2015", "cph2083");
+}

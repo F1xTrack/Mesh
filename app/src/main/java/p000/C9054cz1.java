@@ -1,0 +1,272 @@
+package p000;
+
+import com.yandex.varioqub.config.model.ConfigValue;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.lang.reflect.InvocationTargetException;
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
+import java.nio.charset.Charset;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
+/* renamed from: cz1, reason: case insensitive filesystem */
+/* loaded from: classes.dex */
+public final class C9054cz1 implements InterfaceC8554Xw0 {
+
+    /* renamed from: f */
+    public static final Charset f25740f = Charset.forName("UTF-8");
+
+    /* renamed from: g */
+    public static final C1849cT f25741g = new C1849cT("key", AbstractC7222ym.m26242s(F91.m2542y(InterfaceC8039Ny1.class, new C10076ky1(1))));
+
+    /* renamed from: h */
+    public static final C1849cT f25742h = new C1849cT("value", AbstractC7222ym.m26242s(F91.m2542y(InterfaceC8039Ny1.class, new C10076ky1(2))));
+
+    /* renamed from: i */
+    public static final C8455Vy1 f25743i = C8455Vy1.f12893b;
+
+    /* renamed from: a */
+    public OutputStream f25744a;
+
+    /* renamed from: b */
+    public final HashMap f25745b;
+
+    /* renamed from: c */
+    public final HashMap f25746c;
+
+    /* renamed from: d */
+    public final C8455Vy1 f25747d;
+
+    /* renamed from: e */
+    public final C9091dG0 f25748e = new C9091dG0(this, 1);
+
+    public C9054cz1(ByteArrayOutputStream byteArrayOutputStream, HashMap map, HashMap map2, C8455Vy1 c8455Vy1) {
+        this.f25744a = byteArrayOutputStream;
+        this.f25745b = map;
+        this.f25746c = map2;
+        this.f25747d = c8455Vy1;
+    }
+
+    /* renamed from: i */
+    public static int m17445i(C1849cT c1849cT) {
+        InterfaceC8039Ny1 interfaceC8039Ny1 = (InterfaceC8039Ny1) c1849cT.m10702b(InterfaceC8039Ny1.class);
+        if (interfaceC8039Ny1 != null) {
+            return ((C10076ky1) interfaceC8039Ny1).f36791b;
+        }
+        throw new C7198yO("Field has no @Protobuf config");
+    }
+
+    @Override // p000.InterfaceC8554Xw0
+    /* renamed from: a */
+    public final InterfaceC8554Xw0 mo4359a(C1849cT c1849cT, Object obj) {
+        m17447g(c1849cT, obj, true);
+        return this;
+    }
+
+    /* renamed from: b */
+    public final void m17446b(C1849cT c1849cT, double d, boolean z) throws IOException {
+        if (z && d == ConfigValue.DOUBLE_DEFAULT_VALUE) {
+            return;
+        }
+        m17450k((m17445i(c1849cT) << 3) | 1);
+        this.f25744a.write(ByteBuffer.allocate(8).order(ByteOrder.LITTLE_ENDIAN).putDouble(d).array());
+    }
+
+    @Override // p000.InterfaceC8554Xw0
+    /* renamed from: c */
+    public final /* synthetic */ InterfaceC8554Xw0 mo4361c(C1849cT c1849cT, boolean z) {
+        m17448h(c1849cT, z ? 1 : 0, true);
+        return this;
+    }
+
+    @Override // p000.InterfaceC8554Xw0
+    /* renamed from: d */
+    public final /* synthetic */ InterfaceC8554Xw0 mo4362d(C1849cT c1849cT, int i) {
+        m17448h(c1849cT, i, true);
+        return this;
+    }
+
+    @Override // p000.InterfaceC8554Xw0
+    /* renamed from: e */
+    public final InterfaceC8554Xw0 mo4363e(C1849cT c1849cT, double d) throws IOException {
+        m17446b(c1849cT, d, true);
+        return this;
+    }
+
+    @Override // p000.InterfaceC8554Xw0
+    /* renamed from: f */
+    public final InterfaceC8554Xw0 mo4364f(C1849cT c1849cT, long j) throws IOException {
+        if (j != 0) {
+            InterfaceC8039Ny1 interfaceC8039Ny1 = (InterfaceC8039Ny1) c1849cT.m10702b(InterfaceC8039Ny1.class);
+            if (interfaceC8039Ny1 == null) {
+                throw new C7198yO("Field has no @Protobuf config");
+            }
+            m17450k(((C10076ky1) interfaceC8039Ny1).f36791b << 3);
+            m17451l(j);
+        }
+        return this;
+    }
+
+    /* renamed from: g */
+    public final void m17447g(C1849cT c1849cT, Object obj, boolean z) {
+        if (obj == null) {
+            return;
+        }
+        if (obj instanceof CharSequence) {
+            CharSequence charSequence = (CharSequence) obj;
+            if (z && charSequence.length() == 0) {
+                return;
+            }
+            m17450k((m17445i(c1849cT) << 3) | 2);
+            byte[] bytes = charSequence.toString().getBytes(f25740f);
+            m17450k(bytes.length);
+            this.f25744a.write(bytes);
+            return;
+        }
+        if (obj instanceof Collection) {
+            Iterator it = ((Collection) obj).iterator();
+            while (it.hasNext()) {
+                m17447g(c1849cT, it.next(), false);
+            }
+            return;
+        }
+        if (obj instanceof Map) {
+            Iterator it2 = ((Map) obj).entrySet().iterator();
+            while (it2.hasNext()) {
+                m17449j(f25743i, c1849cT, (Map.Entry) it2.next(), false);
+            }
+            return;
+        }
+        if (obj instanceof Double) {
+            m17446b(c1849cT, ((Double) obj).doubleValue(), z);
+            return;
+        }
+        if (obj instanceof Float) {
+            float fFloatValue = ((Float) obj).floatValue();
+            if (z && fFloatValue == 0.0f) {
+                return;
+            }
+            m17450k((m17445i(c1849cT) << 3) | 5);
+            this.f25744a.write(ByteBuffer.allocate(4).order(ByteOrder.LITTLE_ENDIAN).putFloat(fFloatValue).array());
+            return;
+        }
+        if (obj instanceof Number) {
+            long jLongValue = ((Number) obj).longValue();
+            if (z && jLongValue == 0) {
+                return;
+            }
+            InterfaceC8039Ny1 interfaceC8039Ny1 = (InterfaceC8039Ny1) c1849cT.m10702b(InterfaceC8039Ny1.class);
+            if (interfaceC8039Ny1 == null) {
+                throw new C7198yO("Field has no @Protobuf config");
+            }
+            m17450k(((C10076ky1) interfaceC8039Ny1).f36791b << 3);
+            m17451l(jLongValue);
+            return;
+        }
+        if (obj instanceof Boolean) {
+            m17448h(c1849cT, ((Boolean) obj).booleanValue() ? 1 : 0, z);
+            return;
+        }
+        if (obj instanceof byte[]) {
+            byte[] bArr = (byte[]) obj;
+            if (z && bArr.length == 0) {
+                return;
+            }
+            m17450k((m17445i(c1849cT) << 3) | 2);
+            m17450k(bArr.length);
+            this.f25744a.write(bArr);
+            return;
+        }
+        InterfaceC8502Ww0 interfaceC8502Ww0 = (InterfaceC8502Ww0) this.f25745b.get(obj.getClass());
+        if (interfaceC8502Ww0 != null) {
+            m17449j(interfaceC8502Ww0, c1849cT, obj, z);
+            return;
+        }
+        InterfaceC8213Rh1 interfaceC8213Rh1 = (InterfaceC8213Rh1) this.f25746c.get(obj.getClass());
+        if (interfaceC8213Rh1 != null) {
+            C9091dG0 c9091dG0 = this.f25748e;
+            c9091dG0.f25917b = false;
+            c9091dG0.f25919d = c1849cT;
+            c9091dG0.f25918c = z;
+            interfaceC8213Rh1.mo104a(obj, c9091dG0);
+            return;
+        }
+        if (obj instanceof InterfaceC7467Cy1) {
+            m17448h(c1849cT, ((InterfaceC7467Cy1) obj).zza(), true);
+        } else if (obj instanceof Enum) {
+            m17448h(c1849cT, ((Enum) obj).ordinal(), true);
+        } else {
+            m17449j(this.f25747d, c1849cT, obj, z);
+        }
+    }
+
+    /* renamed from: h */
+    public final void m17448h(C1849cT c1849cT, int i, boolean z) {
+        if (z && i == 0) {
+            return;
+        }
+        InterfaceC8039Ny1 interfaceC8039Ny1 = (InterfaceC8039Ny1) c1849cT.m10702b(InterfaceC8039Ny1.class);
+        if (interfaceC8039Ny1 == null) {
+            throw new C7198yO("Field has no @Protobuf config");
+        }
+        m17450k(((C10076ky1) interfaceC8039Ny1).f36791b << 3);
+        m17450k(i);
+    }
+
+    /* renamed from: j */
+    public final void m17449j(InterfaceC8502Ww0 interfaceC8502Ww0, C1849cT c1849cT, Object obj, boolean z) throws IllegalAccessException, IOException, IllegalArgumentException, InvocationTargetException {
+        C11067si0 c11067si0 = new C11067si0(1);
+        c11067si0.f42555b = 0L;
+        try {
+            OutputStream outputStream = this.f25744a;
+            this.f25744a = c11067si0;
+            try {
+                interfaceC8502Ww0.mo104a(obj, this);
+                this.f25744a = outputStream;
+                long j = c11067si0.f42555b;
+                c11067si0.close();
+                if (z && j == 0) {
+                    return;
+                }
+                m17450k((m17445i(c1849cT) << 3) | 2);
+                m17451l(j);
+                interfaceC8502Ww0.mo104a(obj, this);
+            } catch (Throwable th) {
+                this.f25744a = outputStream;
+                throw th;
+            }
+        } catch (Throwable th2) {
+            try {
+                c11067si0.close();
+            } catch (Throwable th3) {
+                try {
+                    Throwable.class.getDeclaredMethod("addSuppressed", Throwable.class).invoke(th2, th3);
+                } catch (Exception unused) {
+                }
+            }
+            throw th2;
+        }
+    }
+
+    /* renamed from: k */
+    public final void m17450k(int i) throws IOException {
+        while ((i & (-128)) != 0) {
+            this.f25744a.write((i & 127) | 128);
+            i >>>= 7;
+        }
+        this.f25744a.write(i & 127);
+    }
+
+    /* renamed from: l */
+    public final void m17451l(long j) throws IOException {
+        while (((-128) & j) != 0) {
+            this.f25744a.write((((int) j) & 127) | 128);
+            j >>>= 7;
+        }
+        this.f25744a.write(((int) j) & 127);
+    }
+}

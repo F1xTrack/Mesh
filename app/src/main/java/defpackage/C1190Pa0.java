@@ -1,0 +1,123 @@
+package defpackage;
+
+import java.io.Serializable;
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
+
+/* renamed from: Pa0, reason: case insensitive filesystem */
+/* loaded from: classes2.dex */
+public final class C1190Pa0 implements Serializable {
+    public static final /* synthetic */ int b = 0;
+    public final LinkedHashMap a;
+
+    static {
+        HashSet hashSet = new HashSet();
+        hashSet.add("iss");
+        hashSet.add("sub");
+        hashSet.add("aud");
+        hashSet.add("exp");
+        hashSet.add("nbf");
+        hashSet.add("iat");
+        hashSet.add("jti");
+        Collections.unmodifiableSet(hashSet);
+    }
+
+    public C1190Pa0(LinkedHashMap linkedHashMap) {
+        LinkedHashMap linkedHashMap2 = new LinkedHashMap();
+        this.a = linkedHashMap2;
+        linkedHashMap2.putAll(linkedHashMap);
+    }
+
+    public final List a() throws ParseException {
+        List list;
+        String[] strArr;
+        LinkedHashMap linkedHashMap = this.a;
+        if (linkedHashMap.get("aud") == null) {
+            list = null;
+        } else {
+            try {
+                list = (List) linkedHashMap.get("aud");
+            } catch (ClassCastException unused) {
+                throw new ParseException("The aud claim is not a list / JSON array", 0);
+            }
+        }
+        if (list == null) {
+            strArr = null;
+        } else {
+            int size = list.size();
+            strArr = new String[size];
+            for (int i = 0; i < size; i++) {
+                try {
+                    strArr[i] = (String) list.get(i);
+                } catch (ClassCastException unused2) {
+                    throw new ParseException("The aud claim is not a list / JSON array of strings", 0);
+                }
+            }
+        }
+        if (strArr == null) {
+            return null;
+        }
+        return Collections.unmodifiableList(Arrays.asList(strArr));
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj instanceof C1190Pa0) {
+            return Objects.equals(this.a, ((C1190Pa0) obj).a);
+        }
+        return false;
+    }
+
+    public final int hashCode() {
+        return Objects.hash(this.a);
+    }
+
+    public final String toString() {
+        List listEmptyList;
+        C2226aw c2226aw = AbstractC8390za0.a;
+        HashMap map = new HashMap();
+        LinkedHashMap linkedHashMap = this.a;
+        for (Map.Entry entry : linkedHashMap.entrySet()) {
+            if (entry.getValue() instanceof Date) {
+                map.put(entry.getKey(), Long.valueOf(((Date) entry.getValue()).getTime() / 1000));
+            } else if ("aud".equals(entry.getKey())) {
+                Object obj = linkedHashMap.get("aud");
+                if (obj instanceof String) {
+                    listEmptyList = Collections.singletonList((String) obj);
+                } else {
+                    try {
+                        listEmptyList = a();
+                        if (listEmptyList == null) {
+                            listEmptyList = Collections.emptyList();
+                        }
+                    } catch (ParseException unused) {
+                        listEmptyList = Collections.emptyList();
+                    }
+                }
+                if (listEmptyList != null && !listEmptyList.isEmpty()) {
+                    if (listEmptyList.size() == 1) {
+                        map.put("aud", listEmptyList.get(0));
+                    } else {
+                        ArrayList arrayList = new ArrayList();
+                        arrayList.addAll(listEmptyList);
+                        map.put("aud", arrayList);
+                    }
+                }
+            } else if (entry.getValue() != null) {
+                map.put(entry.getKey(), entry.getValue());
+            }
+        }
+        return AbstractC8390za0.h(map);
+    }
+}

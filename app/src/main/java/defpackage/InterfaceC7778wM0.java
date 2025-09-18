@@ -1,0 +1,11 @@
+package defpackage;
+
+/* renamed from: wM0, reason: case insensitive filesystem */
+/* loaded from: classes.dex */
+public interface InterfaceC7778wM0 {
+    long getLastScrollDispatchTime();
+
+    int getScrollEventThrottle();
+
+    void setLastScrollDispatchTime(long j);
+}

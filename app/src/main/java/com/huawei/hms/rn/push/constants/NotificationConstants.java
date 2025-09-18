@@ -1,0 +1,50 @@
+package com.huawei.hms.rn.push.constants;
+
+/* loaded from: classes.dex */
+public interface NotificationConstants {
+    public static final String ACTION = "action";
+    public static final String ACTIONS = "actions";
+    public static final String ALLOW_WHILE_IDLE = "allowWhileIdle";
+    public static final String AUTO_CANCEL = "autoCancel";
+    public static final String BIG_PICTURE_URL = "bigPictureUrl";
+    public static final String BIG_TEXT = "bigText";
+    public static final String BODY = "body";
+    public static final String CHANNEL_DESCRIPTION = "channelDescription";
+    public static final String CHANNEL_ID = "channelId";
+    public static final String CHANNEL_NAME = "channelName";
+    public static final String COLOR = "color";
+    public static final String DATA = "data";
+    public static final String DATE = "date";
+    public static final String DONT_NOTIFY_IN_FOREGROUND = "dontNotifyInForeground";
+    public static final String FIRE_DATE = "fireDate";
+    public static final String GROUP = "group";
+    public static final String GROUP_SUMMARY = "groupSummary";
+    public static final String ID = "id";
+    public static final String IDENTIFIER = "statusBarNotificationId";
+    public static final String IMPORTANCE = "importance";
+    public static final String INVOKE_APP = "invokeApp";
+    public static final String LARGE_ICON = "largeIcon";
+    public static final String LARGE_ICON_URL = "largeIconUrl";
+    public static final String MESSAGE = "message";
+    public static final String NOTIFICATION = "notification";
+    public static final String NUMBER = "number";
+    public static final String ONGOING = "ongoing";
+    public static final String ONLY_ALERT_ONCE = "onlyAlertOnce";
+    public static final String PLAY_SOUND = "playSound";
+    public static final String PRIORITY = "priority";
+    public static final String REPEAT_INTERVAL = "repeatInterval";
+    public static final String REPEAT_TIME = "repeatTime";
+    public static final String REPEAT_TYPE = "repeatType";
+    public static final String SHORTCUT_ID = "shortcutId";
+    public static final String SHOW_WHEN = "showWhen";
+    public static final String SMALL_ICON = "smallIcon";
+    public static final String SOUND = "sound";
+    public static final String SOUND_NAME = "soundName";
+    public static final String SUB_TEXT = "subText";
+    public static final String TAG = "tag";
+    public static final String TICKER = "ticker";
+    public static final String TITLE = "title";
+    public static final String VIBRATE = "vibrate";
+    public static final String VIBRATE_DURATION = "vibrateDuration";
+    public static final String VISIBILITY = "visibility";
+}

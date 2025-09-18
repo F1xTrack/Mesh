@@ -1,0 +1,22 @@
+package io.sentry.rrweb;
+
+import io.sentry.A0;
+import io.sentry.ILogger;
+import io.sentry.InterfaceC5141l0;
+import java.io.IOException;
+
+/* loaded from: classes2.dex */
+public enum c implements InterfaceC5141l0 {
+    DomContentLoaded,
+    Load,
+    FullSnapshot,
+    IncrementalSnapshot,
+    Meta,
+    Custom,
+    Plugin;
+
+    @Override // io.sentry.InterfaceC5141l0
+    public void serialize(A0 a0, ILogger iLogger) throws IOException {
+        a0.b(ordinal());
+    }
+}

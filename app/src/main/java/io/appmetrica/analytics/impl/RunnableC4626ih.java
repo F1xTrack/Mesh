@@ -1,0 +1,21 @@
+package io.appmetrica.analytics.impl;
+
+import io.appmetrica.analytics.ecommerce.ECommerceEvent;
+
+/* renamed from: io.appmetrica.analytics.impl.ih, reason: case insensitive filesystem */
+/* loaded from: classes2.dex */
+public final class RunnableC4626ih implements Runnable {
+    public final /* synthetic */ ECommerceEvent a;
+    public final /* synthetic */ C5009yh b;
+
+    public RunnableC4626ih(C5009yh c5009yh, ECommerceEvent eCommerceEvent) {
+        this.b = c5009yh;
+        this.a = eCommerceEvent;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        C5009yh c5009yh = this.b;
+        C5009yh.a(c5009yh.a, c5009yh.d, c5009yh.e).reportECommerce(this.a);
+    }
+}

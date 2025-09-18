@@ -1,0 +1,160 @@
+package defpackage;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import android.text.TextUtils;
+import com.google.android.gms.common.internal.Preconditions;
+import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
+import com.google.android.gms.common.internal.safeparcel.SafeParcelWriter;
+import java.util.ArrayList;
+import java.util.List;
+
+/* loaded from: classes.dex */
+public final class EY1 extends AbstractSafeParcelable {
+    public static final Parcelable.Creator<EY1> CREATOR = new C2093aD1(16);
+    public final String A;
+    public final int B;
+    public final long C;
+    public final String D;
+    public final String E;
+    public final long F;
+    public final int G;
+    public final String a;
+    public final String b;
+    public final String c;
+    public final String d;
+    public final long e;
+    public final long f;
+    public final String g;
+    public final boolean h;
+    public final boolean i;
+    public final long j;
+    public final String k;
+    public final long l;
+    public final int m;
+    public final boolean n;
+    public final boolean o;
+    public final String p;
+    public final Boolean q;
+    public final long r;
+    public final List s;
+    public final String t;
+    public final String u;
+    public final String v;
+    public final String w;
+    public final boolean x;
+    public final long y;
+    public final int z;
+
+    public EY1(String str, String str2, String str3, long j, String str4, long j2, long j3, String str5, boolean z, boolean z2, String str6, long j4, int i, boolean z3, boolean z4, String str7, Boolean bool, long j5, List list, String str8, String str9, String str10, boolean z5, long j6, int i2, String str11, int i3, long j7, String str12, String str13, long j8, int i4) {
+        Preconditions.checkNotEmpty(str);
+        this.a = str;
+        this.b = TextUtils.isEmpty(str2) ? null : str2;
+        this.c = str3;
+        this.j = j;
+        this.d = str4;
+        this.e = j2;
+        this.f = j3;
+        this.g = str5;
+        this.h = z;
+        this.i = z2;
+        this.k = str6;
+        this.l = j4;
+        this.m = i;
+        this.n = z3;
+        this.o = z4;
+        this.p = str7;
+        this.q = bool;
+        this.r = j5;
+        this.s = list;
+        this.t = null;
+        this.u = str8;
+        this.v = str9;
+        this.w = str10;
+        this.x = z5;
+        this.y = j6;
+        this.z = i2;
+        this.A = str11;
+        this.B = i3;
+        this.C = j7;
+        this.D = str12;
+        this.E = str13;
+        this.F = j8;
+        this.G = i4;
+    }
+
+    @Override // android.os.Parcelable
+    public final void writeToParcel(Parcel parcel, int i) {
+        int iBeginObjectHeader = SafeParcelWriter.beginObjectHeader(parcel);
+        SafeParcelWriter.writeString(parcel, 2, this.a, false);
+        SafeParcelWriter.writeString(parcel, 3, this.b, false);
+        SafeParcelWriter.writeString(parcel, 4, this.c, false);
+        SafeParcelWriter.writeString(parcel, 5, this.d, false);
+        SafeParcelWriter.writeLong(parcel, 6, this.e);
+        SafeParcelWriter.writeLong(parcel, 7, this.f);
+        SafeParcelWriter.writeString(parcel, 8, this.g, false);
+        SafeParcelWriter.writeBoolean(parcel, 9, this.h);
+        SafeParcelWriter.writeBoolean(parcel, 10, this.i);
+        SafeParcelWriter.writeLong(parcel, 11, this.j);
+        SafeParcelWriter.writeString(parcel, 12, this.k, false);
+        SafeParcelWriter.writeLong(parcel, 14, this.l);
+        SafeParcelWriter.writeInt(parcel, 15, this.m);
+        SafeParcelWriter.writeBoolean(parcel, 16, this.n);
+        SafeParcelWriter.writeBoolean(parcel, 18, this.o);
+        SafeParcelWriter.writeString(parcel, 19, this.p, false);
+        SafeParcelWriter.writeBooleanObject(parcel, 21, this.q, false);
+        SafeParcelWriter.writeLong(parcel, 22, this.r);
+        SafeParcelWriter.writeStringList(parcel, 23, this.s, false);
+        SafeParcelWriter.writeString(parcel, 24, this.t, false);
+        SafeParcelWriter.writeString(parcel, 25, this.u, false);
+        SafeParcelWriter.writeString(parcel, 26, this.v, false);
+        SafeParcelWriter.writeString(parcel, 27, this.w, false);
+        SafeParcelWriter.writeBoolean(parcel, 28, this.x);
+        SafeParcelWriter.writeLong(parcel, 29, this.y);
+        SafeParcelWriter.writeInt(parcel, 30, this.z);
+        SafeParcelWriter.writeString(parcel, 31, this.A, false);
+        SafeParcelWriter.writeInt(parcel, 32, this.B);
+        SafeParcelWriter.writeLong(parcel, 34, this.C);
+        SafeParcelWriter.writeString(parcel, 35, this.D, false);
+        SafeParcelWriter.writeString(parcel, 36, this.E, false);
+        SafeParcelWriter.writeLong(parcel, 37, this.F);
+        SafeParcelWriter.writeInt(parcel, 38, this.G);
+        SafeParcelWriter.finishObjectHeader(parcel, iBeginObjectHeader);
+    }
+
+    public EY1(String str, String str2, String str3, String str4, long j, long j2, String str5, boolean z, boolean z2, long j3, String str6, long j4, int i, boolean z3, boolean z4, String str7, Boolean bool, long j5, ArrayList arrayList, String str8, String str9, String str10, String str11, boolean z5, long j6, int i2, String str12, int i3, long j7, String str13, String str14, long j8, int i4) {
+        this.a = str;
+        this.b = str2;
+        this.c = str3;
+        this.j = j3;
+        this.d = str4;
+        this.e = j;
+        this.f = j2;
+        this.g = str5;
+        this.h = z;
+        this.i = z2;
+        this.k = str6;
+        this.l = j4;
+        this.m = i;
+        this.n = z3;
+        this.o = z4;
+        this.p = str7;
+        this.q = bool;
+        this.r = j5;
+        this.s = arrayList;
+        this.t = str8;
+        this.u = str9;
+        this.v = str10;
+        this.w = str11;
+        this.x = z5;
+        this.y = j6;
+        this.z = i2;
+        this.A = str12;
+        this.B = i3;
+        this.C = j7;
+        this.D = str13;
+        this.E = str14;
+        this.F = j8;
+        this.G = i4;
+    }
+}

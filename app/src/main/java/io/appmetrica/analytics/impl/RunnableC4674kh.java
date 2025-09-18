@@ -1,0 +1,19 @@
+package io.appmetrica.analytics.impl;
+
+/* renamed from: io.appmetrica.analytics.impl.kh, reason: case insensitive filesystem */
+/* loaded from: classes2.dex */
+public final class RunnableC4674kh implements Runnable {
+    public final /* synthetic */ boolean a;
+    public final /* synthetic */ C5009yh b;
+
+    public RunnableC4674kh(C5009yh c5009yh, boolean z) {
+        this.b = c5009yh;
+        this.a = z;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        C5009yh c5009yh = this.b;
+        C5009yh.a(c5009yh.a, c5009yh.d, c5009yh.e).setDataSendingEnabled(this.a);
+    }
+}

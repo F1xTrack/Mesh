@@ -1,0 +1,11 @@
+package com.yandex.metrica.impl.p022ob;
+
+/* renamed from: com.yandex.metrica.impl.ob.M7 */
+/* loaded from: classes2.dex */
+public interface InterfaceC2774M7<Crash> {
+    /* renamed from: a */
+    void mo14604a();
+
+    /* renamed from: a */
+    void mo14605a(Crash crash);
+}

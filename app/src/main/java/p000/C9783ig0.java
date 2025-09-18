@@ -1,0 +1,6 @@
+package p000;
+
+/* renamed from: ig0, reason: case insensitive filesystem */
+/* loaded from: classes2.dex */
+public final class C9783ig0 {
+}

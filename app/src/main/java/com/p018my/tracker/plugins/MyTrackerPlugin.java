@@ -1,0 +1,8 @@
+package com.p018my.tracker.plugins;
+
+import android.app.Application;
+
+/* loaded from: classes2.dex */
+public interface MyTrackerPlugin {
+    void init(MyTrackerPluginConfig myTrackerPluginConfig, PluginEventTracker pluginEventTracker, Application application);
+}

@@ -1,0 +1,15 @@
+package defpackage;
+
+/* loaded from: classes.dex */
+public final class BX1 implements InterfaceC1802Ww0 {
+    public static final BX1 a = new BX1();
+
+    static {
+        RI1.k(F91.z(InterfaceC6623qI1.class, new XH1(1)));
+    }
+
+    @Override // defpackage.InterfaceC2505cO
+    public final /* synthetic */ void a(Object obj, Object obj2) {
+        throw RI1.h(obj);
+    }
+}

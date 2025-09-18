@@ -1,0 +1,6 @@
+package p000;
+
+/* renamed from: Mv0, reason: case insensitive filesystem */
+/* loaded from: classes2.dex */
+public interface InterfaceC7980Mv0 {
+}

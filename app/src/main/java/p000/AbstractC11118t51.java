@@ -1,0 +1,26 @@
+package p000;
+
+import java.util.regex.Pattern;
+
+/* renamed from: t51, reason: case insensitive filesystem */
+/* loaded from: classes2.dex */
+public abstract class AbstractC11118t51 {
+
+    /* renamed from: a */
+    public static final Object f42830a;
+
+    static {
+        Pattern.compile("\\s+");
+        Pattern.compile("\\p{InCombiningDiacriticalMarks}+");
+        try {
+            Class<?> clsLoadClass = Thread.currentThread().getContextClassLoader().loadClass("java.text.Normalizer$Form");
+            f42830a = clsLoadClass.getField("NFD").get(null);
+            Thread.currentThread().getContextClassLoader().loadClass("java.text.Normalizer").getMethod("normalize", CharSequence.class, clsLoadClass);
+        } catch (ClassNotFoundException | IllegalAccessException | NoSuchFieldException | NoSuchMethodException unused) {
+        }
+        try {
+            Thread.currentThread().getContextClassLoader().loadClass("sun.text.Normalizer").getMethod("decompose", String.class, Boolean.TYPE, Integer.TYPE);
+        } catch (ClassNotFoundException | NoSuchMethodException unused2) {
+        }
+    }
+}

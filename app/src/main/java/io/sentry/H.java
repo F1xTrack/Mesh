@@ -1,0 +1,12 @@
+package io.sentry;
+
+/* loaded from: classes2.dex */
+public interface H {
+    String a();
+
+    F b();
+
+    boolean c(G g);
+
+    void d(G g);
+}

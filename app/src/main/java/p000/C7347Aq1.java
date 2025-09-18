@@ -1,0 +1,581 @@
+package p000;
+
+import com.p019vk.push.common.Logger;
+import com.p019vk.push.common.analytics.AnalyticsSender;
+import com.p019vk.push.common.analytics.AnalyticsTimingsStore;
+import java.util.LinkedList;
+
+/* renamed from: Aq1 */
+/* loaded from: classes2.dex */
+public final class C7347Aq1 {
+
+    /* renamed from: a */
+    public final C8233Rr1 f423a;
+
+    /* renamed from: b */
+    public final InterfaceC8439Vq1 f424b;
+
+    /* renamed from: c */
+    public final C8389Ur1 f425c;
+
+    /* renamed from: d */
+    public final C11287uQ0 f426d;
+
+    /* renamed from: e */
+    public final C10919rY0 f427e;
+
+    /* renamed from: f */
+    public final T71 f428f;
+
+    /* renamed from: g */
+    public final AnalyticsSender f429g;
+
+    /* renamed from: h */
+    public final AnalyticsTimingsStore f430h;
+
+    /* renamed from: i */
+    public final C8181Qr1 f431i;
+
+    /* renamed from: j */
+    public final LinkedList f432j;
+
+    /* renamed from: k */
+    public final C8028Nt0 f433k;
+
+    /* renamed from: l */
+    public final Logger f434l;
+
+    public C7347Aq1(C8233Rr1 c8233Rr1, InterfaceC8439Vq1 interfaceC8439Vq1, C8389Ur1 c8389Ur1, C11287uQ0 c11287uQ0, C10919rY0 c10919rY0, T71 t71, AnalyticsSender analyticsSender, AnalyticsTimingsStore analyticsTimingsStore, C8181Qr1 c8181Qr1, Logger logger) {
+        O90.m5968f(analyticsSender, "analyticsSender");
+        O90.m5968f(analyticsTimingsStore, "analyticsTimingsStore");
+        O90.m5968f(c8181Qr1, "arbiterRepository");
+        O90.m5968f(logger, "logger");
+        this.f423a = c8233Rr1;
+        this.f424b = interfaceC8439Vq1;
+        this.f425c = c8389Ur1;
+        this.f426d = c11287uQ0;
+        this.f427e = c10919rY0;
+        this.f428f = t71;
+        this.f429g = analyticsSender;
+        this.f430h = analyticsTimingsStore;
+        this.f431i = c8181Qr1;
+        this.f432j = new LinkedList();
+        this.f433k = SA1.m7187a();
+        this.f434l = logger.createLogger("SubscribeComponent");
+    }
+
+    /* JADX WARN: Removed duplicated region for block: B:29:0x0013  */
+    /* renamed from: a */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct code enable 'Show inconsistent code' option in preferences
+    */
+    public final java.lang.Object m348a(p000.AbstractC1571Yy r7) {
+        /*
+            r6 = this;
+            boolean r0 = r7 instanceof p000.C10316mq1
+            if (r0 == 0) goto L13
+            r0 = r7
+            mq1 r0 = (p000.C10316mq1) r0
+            int r1 = r0.f37964d
+            r2 = -2147483648(0xffffffff80000000, float:-0.0)
+            r3 = r1 & r2
+            if (r3 == 0) goto L13
+            int r1 = r1 - r2
+            r0.f37964d = r1
+            goto L18
+        L13:
+            mq1 r0 = new mq1
+            r0.<init>(r6, r7)
+        L18:
+            java.lang.Object r7 = r0.f37962b
+            Mz r1 = p000.EnumC0817Mz.f7418a
+            int r2 = r0.f37964d
+            r3 = 2
+            r4 = 1
+            r5 = 0
+            if (r2 == 0) goto L37
+            if (r2 != r4) goto L2f
+            Aq1 r0 = r0.f37961a
+            p000.RQ1.m7017d(r7)
+            Wq1 r7 = (p000.C8491Wq1) r7
+            java.lang.String r7 = r7.f13419a
+            goto L4f
+        L2f:
+            java.lang.IllegalStateException r7 = new java.lang.IllegalStateException
+            java.lang.String r0 = "call to 'resume' before 'invoke' with coroutine"
+            r7.<init>(r0)
+            throw r7
+        L37:
+            p000.RQ1.m7017d(r7)
+            com.vk.push.common.Logger r7 = r6.f434l
+            java.lang.String r2 = "Get current push token"
+            com.vk.push.common.Logger.DefaultImpls.info$default(r7, r2, r5, r3, r5)
+            r0.f37961a = r6
+            r0.f37964d = r4
+            Vq1 r7 = r6.f424b
+            java.lang.Object r7 = r7.mo6147a(r0)
+            if (r7 != r1) goto L4e
+            return r1
+        L4e:
+            r0 = r6
+        L4f:
+            java.lang.String r7 = (java.lang.String) r7
+            boolean r1 = p000.AbstractC11374v51.m25328C(r7)
+            if (r1 == 0) goto L5e
+            com.vk.push.common.Logger r0 = r0.f434l
+            java.lang.String r1 = "No saved push token found"
+            com.vk.push.common.Logger.DefaultImpls.warn$default(r0, r1, r5, r3, r5)
+        L5e:
+            return r7
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.C7347Aq1.m348a(Yy):java.lang.Object");
+    }
+
+    /* JADX WARN: Removed duplicated region for block: B:40:0x0013  */
+    /* JADX WARN: Removed duplicated region for block: B:63:0x0090  */
+    /* JADX WARN: Removed duplicated region for block: B:64:0x00aa  */
+    /* renamed from: b */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct code enable 'Show inconsistent code' option in preferences
+    */
+    public final java.lang.Object m349b(p000.K81 r9, p000.AbstractC1571Yy r10) {
+        /*
+            r8 = this;
+            boolean r0 = r10 instanceof p000.C9548gq1
+            if (r0 == 0) goto L13
+            r0 = r10
+            gq1 r0 = (p000.C9548gq1) r0
+            int r1 = r0.f28064f
+            r2 = -2147483648(0xffffffff80000000, float:-0.0)
+            r3 = r1 & r2
+            if (r3 == 0) goto L13
+            int r1 = r1 - r2
+            r0.f28064f = r1
+            goto L18
+        L13:
+            gq1 r0 = new gq1
+            r0.<init>(r8, r10)
+        L18:
+            java.lang.Object r10 = r0.f28062d
+            Mz r1 = p000.EnumC0817Mz.f7418a
+            int r2 = r0.f28064f
+            Tf1 r3 = p000.C8313Tf1.f11463a
+            r4 = 1
+            r5 = 2
+            r6 = 0
+            if (r2 == 0) goto L47
+            if (r2 == r4) goto L3f
+            if (r2 != r5) goto L37
+            java.lang.String r9 = r0.f28061c
+            K81 r1 = r0.f28060b
+            Aq1 r0 = r0.f28059a
+            p000.RQ1.m7017d(r10)
+            PS0 r10 = (p000.PS0) r10
+            java.lang.Object r10 = r10.f9075a
+            goto L8c
+        L37:
+            java.lang.IllegalStateException r9 = new java.lang.IllegalStateException
+            java.lang.String r10 = "call to 'resume' before 'invoke' with coroutine"
+            r9.<init>(r10)
+            throw r9
+        L3f:
+            K81 r9 = r0.f28060b
+            Aq1 r2 = r0.f28059a
+            p000.RQ1.m7017d(r10)
+            goto L5f
+        L47:
+            p000.RQ1.m7017d(r10)
+            com.vk.push.common.Logger r10 = r8.f434l
+            java.lang.String r2 = "Deletion current push token"
+            com.vk.push.common.Logger.DefaultImpls.warn$default(r10, r2, r6, r5, r6)
+            r0.f28059a = r8
+            r0.f28060b = r9
+            r0.f28064f = r4
+            java.lang.Object r10 = r8.m348a(r0)
+            if (r10 != r1) goto L5e
+            return r1
+        L5e:
+            r2 = r8
+        L5f:
+            java.lang.String r10 = (java.lang.String) r10
+            boolean r7 = p000.AbstractC11374v51.m25328C(r10)
+            if (r7 == 0) goto L77
+            com.vk.push.common.Logger r10 = r2.f434l
+            java.lang.String r0 = "No saved push token to delete"
+            com.vk.push.common.Logger.DefaultImpls.warn$default(r10, r0, r6, r5, r6)
+            java.lang.IllegalStateException r10 = new java.lang.IllegalStateException
+            r10.<init>(r0)
+            r9.m4568a(r10)
+            return r3
+        L77:
+            Vq1 r7 = r2.f424b
+            r0.f28059a = r2
+            r0.f28060b = r9
+            r0.f28061c = r10
+            r0.f28064f = r5
+            java.lang.Object r0 = r7.mo6148b(r10, r0)
+            if (r0 != r1) goto L88
+            return r1
+        L88:
+            r1 = r9
+            r9 = r10
+            r10 = r0
+            r0 = r2
+        L8c:
+            boolean r2 = r10 instanceof p000.OS0
+            if (r2 != 0) goto Laa
+            com.vk.push.common.Logger r10 = r0.f434l
+            java.lang.String r2 = "Push token successfully deleted"
+            com.vk.push.common.Logger.DefaultImpls.info$default(r10, r2, r6, r5, r6)
+            java.lang.String r10 = "pushToken"
+            p000.O90.m5968f(r9, r10)
+            Bs1 r10 = new Bs1
+            r10.<init>(r9, r4)
+            com.vk.push.common.analytics.AnalyticsSender r9 = r0.f429g
+            r9.send(r10)
+            r1.m4569b(r3)
+            goto Lbd
+        Laa:
+            java.lang.RuntimeException r9 = new java.lang.RuntimeException
+            java.lang.Throwable r10 = p000.PS0.m6365a(r10)
+            java.lang.String r2 = "Push token deletion failed"
+            r9.<init>(r2, r10)
+            com.vk.push.common.Logger r10 = r0.f434l
+            com.vk.push.common.Logger.DefaultImpls.warn$default(r10, r2, r6, r5, r6)
+            r1.m4568a(r9)
+        Lbd:
+            return r3
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.C7347Aq1.m349b(K81, Yy):java.lang.Object");
+    }
+
+    /* JADX WARN: Removed duplicated region for block: B:35:0x0013  */
+    /* renamed from: c */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct code enable 'Show inconsistent code' option in preferences
+    */
+    public final java.lang.Object m350c(java.lang.String r7, p000.AbstractC1571Yy r8) {
+        /*
+            r6 = this;
+            boolean r0 = r8 instanceof p000.C10700pq1
+            if (r0 == 0) goto L13
+            r0 = r8
+            pq1 r0 = (p000.C10700pq1) r0
+            int r1 = r0.f40417f
+            r2 = -2147483648(0xffffffff80000000, float:-0.0)
+            r3 = r1 & r2
+            if (r3 == 0) goto L13
+            int r1 = r1 - r2
+            r0.f40417f = r1
+            goto L18
+        L13:
+            pq1 r0 = new pq1
+            r0.<init>(r6, r8)
+        L18:
+            java.lang.Object r8 = r0.f40415d
+            Mz r1 = p000.EnumC0817Mz.f7418a
+            int r2 = r0.f40417f
+            r3 = 1
+            r4 = 2
+            r5 = 0
+            if (r2 == 0) goto L3d
+            if (r2 == r3) goto L35
+            if (r2 != r4) goto L2d
+            boolean r7 = r0.f40414c
+            p000.RQ1.m7017d(r8)
+            goto L6f
+        L2d:
+            java.lang.IllegalStateException r7 = new java.lang.IllegalStateException
+            java.lang.String r8 = "call to 'resume' before 'invoke' with coroutine"
+            r7.<init>(r8)
+            throw r7
+        L35:
+            java.lang.String r7 = r0.f40413b
+            Aq1 r2 = r0.f40412a
+            p000.RQ1.m7017d(r8)
+            goto L57
+        L3d:
+            p000.RQ1.m7017d(r8)
+            com.vk.push.common.Logger r8 = r6.f434l
+            java.lang.String r2 = "Saving new push token to the storage"
+            com.vk.push.common.Logger.DefaultImpls.info$default(r8, r2, r5, r4, r5)
+            r0.f40412a = r6
+            r0.f40413b = r7
+            r0.f40417f = r3
+            Vq1 r8 = r6.f424b
+            java.lang.Object r8 = r8.mo6151i(r7, r0)
+            if (r8 != r1) goto L56
+            return r1
+        L56:
+            r2 = r6
+        L57:
+            java.lang.Boolean r8 = (java.lang.Boolean) r8
+            boolean r8 = r8.booleanValue()
+            if (r8 == 0) goto L6e
+            r0.f40412a = r5
+            r0.f40413b = r5
+            r0.f40414c = r8
+            r0.f40417f = r4
+            java.lang.Object r7 = r2.m355h(r7, r0)
+            if (r7 != r1) goto L6e
+            return r1
+        L6e:
+            r7 = r8
+        L6f:
+            java.lang.Boolean r7 = java.lang.Boolean.valueOf(r7)
+            return r7
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.C7347Aq1.m350c(java.lang.String, Yy):java.lang.Object");
+    }
+
+    /* JADX WARN: Removed duplicated region for block: B:27:0x0016  */
+    /* renamed from: d */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct code enable 'Show inconsistent code' option in preferences
+    */
+    public final java.lang.Object m351d(java.lang.String r16, java.lang.Object r17, p000.AbstractC1571Yy r18) {
+        /*
+            r15 = this;
+            r0 = r15
+            r1 = r18
+            boolean r2 = r1 instanceof p000.C11595wq1
+            if (r2 == 0) goto L16
+            r2 = r1
+            wq1 r2 = (p000.C11595wq1) r2
+            int r3 = r2.f45140g
+            r4 = -2147483648(0xffffffff80000000, float:-0.0)
+            r5 = r3 & r4
+            if (r5 == 0) goto L16
+            int r3 = r3 - r4
+            r2.f45140g = r3
+            goto L1b
+        L16:
+            wq1 r2 = new wq1
+            r2.<init>(r15, r1)
+        L1b:
+            java.lang.Object r1 = r2.f45138e
+            Mz r3 = p000.EnumC0817Mz.f7418a
+            int r4 = r2.f45140g
+            r5 = 1
+            if (r4 == 0) goto L3d
+            if (r4 != r5) goto L35
+            long r3 = r2.f45137d
+            java.lang.Object r5 = r2.f45136c
+            java.lang.String r6 = r2.f45135b
+            com.vk.push.common.analytics.AnalyticsSender r2 = r2.f45134a
+            p000.RQ1.m7017d(r1)
+            r9 = r3
+            r11 = r5
+            r12 = r6
+            goto L67
+        L35:
+            java.lang.IllegalStateException r1 = new java.lang.IllegalStateException
+            java.lang.String r2 = "call to 'resume' before 'invoke' with coroutine"
+            r1.<init>(r2)
+            throw r1
+        L3d:
+            p000.RQ1.m7017d(r1)
+            com.vk.push.common.analytics.AnalyticsTimingsStore r1 = r0.f430h
+            java.lang.Class<Fq1> r4 = p000.C7607Fq1.class
+            long r6 = r1.getTimePassed(r4)
+            com.vk.push.common.analytics.AnalyticsSender r1 = r0.f429g
+            r2.f45134a = r1
+            r4 = r16
+            r2.f45135b = r4
+            r8 = r17
+            r2.f45136c = r8
+            r2.f45137d = r6
+            r2.f45140g = r5
+            Qr1 r5 = r0.f431i
+            java.lang.Object r2 = r5.m6798e(r2)
+            if (r2 != r3) goto L61
+            return r3
+        L61:
+            r12 = r4
+            r9 = r6
+            r11 = r8
+            r14 = r2
+            r2 = r1
+            r1 = r14
+        L67:
+            com.vk.push.common.AppInfo r1 = (com.p019vk.push.common.AppInfo) r1
+            java.lang.String r13 = r1.getPackageName()
+            nt1 r1 = new nt1
+            r8 = r1
+            r8.<init>(r9, r11, r12, r13)
+            r2.send(r1)
+            Tf1 r1 = p000.C8313Tf1.f11463a
+            return r1
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.C7347Aq1.m351d(java.lang.String, java.lang.Object, Yy):java.lang.Object");
+    }
+
+    /* renamed from: e */
+    public final void m352e(Throwable th) {
+        C8313Tf1 c8313Tf1;
+        synchronized (this.f432j) {
+            do {
+                K81 k81 = (K81) this.f432j.poll();
+                if (k81 != null) {
+                    k81.m4568a(th);
+                    c8313Tf1 = C8313Tf1.f11463a;
+                } else {
+                    c8313Tf1 = null;
+                }
+            } while (c8313Tf1 != null);
+        }
+    }
+
+    /* JADX WARN: Removed duplicated region for block: B:39:0x0013  */
+    /* renamed from: f */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct code enable 'Show inconsistent code' option in preferences
+    */
+    public final java.lang.Object m353f(p000.AbstractC1571Yy r9) {
+        /*
+            r8 = this;
+            boolean r0 = r9 instanceof p000.C11084sq1
+            if (r0 == 0) goto L13
+            r0 = r9
+            sq1 r0 = (p000.C11084sq1) r0
+            int r1 = r0.f42641d
+            r2 = -2147483648(0xffffffff80000000, float:-0.0)
+            r3 = r1 & r2
+            if (r3 == 0) goto L13
+            int r1 = r1 - r2
+            r0.f42641d = r1
+            goto L18
+        L13:
+            sq1 r0 = new sq1
+            r0.<init>(r8, r9)
+        L18:
+            java.lang.Object r9 = r0.f42639b
+            Mz r1 = p000.EnumC0817Mz.f7418a
+            int r2 = r0.f42641d
+            Tf1 r3 = p000.C8313Tf1.f11463a
+            r4 = 3
+            r5 = 1
+            r6 = 2
+            r7 = 0
+            if (r2 == 0) goto L46
+            if (r2 == r5) goto L3c
+            if (r2 == r6) goto L38
+            if (r2 != r4) goto L30
+            p000.RQ1.m7017d(r9)
+            goto L8e
+        L30:
+            java.lang.IllegalStateException r9 = new java.lang.IllegalStateException
+            java.lang.String r0 = "call to 'resume' before 'invoke' with coroutine"
+            r9.<init>(r0)
+            throw r9
+        L38:
+            p000.RQ1.m7017d(r9)
+            goto L82
+        L3c:
+            Aq1 r2 = r0.f42638a
+            p000.RQ1.m7017d(r9)
+            Wq1 r9 = (p000.C8491Wq1) r9
+            java.lang.String r9 = r9.f13419a
+            goto L5e
+        L46:
+            p000.RQ1.m7017d(r9)
+            com.vk.push.common.Logger r9 = r8.f434l
+            java.lang.String r2 = "Calling register for pushes"
+            com.vk.push.common.Logger.DefaultImpls.info$default(r9, r2, r7, r6, r7)
+            r0.f42638a = r8
+            r0.f42641d = r5
+            Vq1 r9 = r8.f424b
+            java.lang.Object r9 = r9.mo6147a(r0)
+            if (r9 != r1) goto L5d
+            return r1
+        L5d:
+            r2 = r8
+        L5e:
+            java.lang.String r9 = (java.lang.String) r9
+            boolean r5 = p000.AbstractC11374v51.m25328C(r9)
+            if (r5 == 0) goto L83
+            com.vk.push.common.Logger r9 = r2.f434l
+            java.lang.String r4 = "No saved push token found."
+            com.vk.push.common.Logger.DefaultImpls.warn$default(r9, r4, r7, r6, r7)
+            Q81 r9 = new Q81
+            r9.<init>()
+            K81 r4 = new K81
+            r4.<init>(r9)
+            r0.f42638a = r7
+            r0.f42641d = r6
+            java.lang.Object r9 = r2.m354g(r4, r0)
+            if (r9 != r1) goto L82
+            return r1
+        L82:
+            return r3
+        L83:
+            r0.f42638a = r7
+            r0.f42641d = r4
+            java.lang.Object r9 = r2.m355h(r9, r0)
+            if (r9 != r1) goto L8e
+            return r1
+        L8e:
+            return r3
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.C7347Aq1.m353f(Yy):java.lang.Object");
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    /* JADX WARN: Removed duplicated region for block: B:170:0x0014  */
+    /* JADX WARN: Removed duplicated region for block: B:218:0x00bf A[RETURN] */
+    /* JADX WARN: Removed duplicated region for block: B:221:0x00e9 A[RETURN] */
+    /* JADX WARN: Removed duplicated region for block: B:222:0x00ea  */
+    /* JADX WARN: Removed duplicated region for block: B:225:0x0105 A[Catch: Exception -> 0x0113, TryCatch #7 {Exception -> 0x0113, blocks: (B:223:0x00ed, B:225:0x0105, B:227:0x010b, B:230:0x0117, B:232:0x0124, B:234:0x0140, B:237:0x0150), top: B:319:0x00ed }] */
+    /* JADX WARN: Removed duplicated region for block: B:232:0x0124 A[Catch: Exception -> 0x0113, TryCatch #7 {Exception -> 0x0113, blocks: (B:223:0x00ed, B:225:0x0105, B:227:0x010b, B:230:0x0117, B:232:0x0124, B:234:0x0140, B:237:0x0150), top: B:319:0x00ed }] */
+    /* JADX WARN: Removed duplicated region for block: B:245:0x0170 A[RETURN] */
+    /* JADX WARN: Removed duplicated region for block: B:249:0x0187 A[Catch: Exception -> 0x01da, TryCatch #2 {Exception -> 0x01da, blocks: (B:269:0x01be, B:271:0x01c6, B:275:0x01dd, B:276:0x01e6, B:285:0x01fc, B:287:0x01fe, B:288:0x01ff, B:247:0x0183, B:249:0x0187, B:253:0x018e, B:261:0x019b, B:264:0x01a2, B:266:0x01b2, B:289:0x0200, B:291:0x0206, B:292:0x020d, B:277:0x01e7, B:279:0x01f1), top: B:313:0x0183, inners: #4 }] */
+    /* JADX WARN: Removed duplicated region for block: B:271:0x01c6 A[Catch: Exception -> 0x01da, TryCatch #2 {Exception -> 0x01da, blocks: (B:269:0x01be, B:271:0x01c6, B:275:0x01dd, B:276:0x01e6, B:285:0x01fc, B:287:0x01fe, B:288:0x01ff, B:247:0x0183, B:249:0x0187, B:253:0x018e, B:261:0x019b, B:264:0x01a2, B:266:0x01b2, B:289:0x0200, B:291:0x0206, B:292:0x020d, B:277:0x01e7, B:279:0x01f1), top: B:313:0x0183, inners: #4 }] */
+    /* JADX WARN: Removed duplicated region for block: B:275:0x01dd A[Catch: Exception -> 0x01da, TryCatch #2 {Exception -> 0x01da, blocks: (B:269:0x01be, B:271:0x01c6, B:275:0x01dd, B:276:0x01e6, B:285:0x01fc, B:287:0x01fe, B:288:0x01ff, B:247:0x0183, B:249:0x0187, B:253:0x018e, B:261:0x019b, B:264:0x01a2, B:266:0x01b2, B:289:0x0200, B:291:0x0206, B:292:0x020d, B:277:0x01e7, B:279:0x01f1), top: B:313:0x0183, inners: #4 }] */
+    /* JADX WARN: Removed duplicated region for block: B:291:0x0206 A[Catch: Exception -> 0x01da, TryCatch #2 {Exception -> 0x01da, blocks: (B:269:0x01be, B:271:0x01c6, B:275:0x01dd, B:276:0x01e6, B:285:0x01fc, B:287:0x01fe, B:288:0x01ff, B:247:0x0183, B:249:0x0187, B:253:0x018e, B:261:0x019b, B:264:0x01a2, B:266:0x01b2, B:289:0x0200, B:291:0x0206, B:292:0x020d, B:277:0x01e7, B:279:0x01f1), top: B:313:0x0183, inners: #4 }] */
+    /* JADX WARN: Removed duplicated region for block: B:304:0x0234  */
+    /* JADX WARN: Type inference failed for: r0v0 */
+    /* JADX WARN: Type inference failed for: r0v1, types: [Aq1] */
+    /* JADX WARN: Type inference failed for: r0v13 */
+    /* JADX WARN: Type inference failed for: r0v2 */
+    /* JADX WARN: Type inference failed for: r0v3 */
+    /* JADX WARN: Type inference failed for: r0v6 */
+    /* JADX WARN: Type inference failed for: r12v0, types: [K81, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r12v10 */
+    /* JADX WARN: Type inference failed for: r12v57 */
+    /* JADX WARN: Type inference failed for: r12v6 */
+    /* renamed from: g */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct code enable 'Show inconsistent code' option in preferences
+    */
+    public final java.lang.Object m354g(p000.K81 r12, p000.AbstractC1571Yy r13) {
+        /*
+            Method dump skipped, instructions count: 596
+            To view this dump change 'Code comments level' option to 'DEBUG'
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.C7347Aq1.m354g(K81, Yy):java.lang.Object");
+    }
+
+    /* JADX WARN: Removed duplicated region for block: B:117:0x00c7 A[RETURN] */
+    /* JADX WARN: Removed duplicated region for block: B:120:0x00cc A[Catch: all -> 0x0079, TryCatch #3 {all -> 0x0079, blocks: (B:118:0x00c8, B:120:0x00cc, B:127:0x0109, B:126:0x0106, B:125:0x00f4, B:101:0x006e, B:115:0x00b7), top: B:146:0x006e }] */
+    /* JADX WARN: Removed duplicated region for block: B:129:0x011b A[RETURN] */
+    /* JADX WARN: Removed duplicated region for block: B:133:0x0125 A[Catch: all -> 0x0042, TRY_LEAVE, TryCatch #1 {all -> 0x0042, blocks: (B:89:0x003d, B:131:0x011f, B:133:0x0125), top: B:142:0x003d }] */
+    /* JADX WARN: Removed duplicated region for block: B:81:0x001b  */
+    /* renamed from: h */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct code enable 'Show inconsistent code' option in preferences
+    */
+    public final java.lang.Object m355h(java.lang.String r18, p000.AbstractC1571Yy r19) throws java.lang.Throwable {
+        /*
+            Method dump skipped, instructions count: 317
+            To view this dump change 'Code comments level' option to 'DEBUG'
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.C7347Aq1.m355h(java.lang.String, Yy):java.lang.Object");
+    }
+}

@@ -1,0 +1,65 @@
+package p000;
+
+import com.p019vk.push.common.Logger;
+import com.p019vk.push.common.clientid.ClientId;
+import kotlin.jvm.functions.Function2;
+
+/* renamed from: xs1, reason: case insensitive filesystem */
+/* loaded from: classes2.dex */
+public final class C11726xs1 extends AbstractC9714i71 implements Function2 {
+
+    /* renamed from: a */
+    public int f45867a;
+
+    /* renamed from: b */
+    public final /* synthetic */ C8071Oo1 f45868b;
+
+    /* renamed from: c */
+    public final /* synthetic */ String f45869c;
+
+    /* renamed from: d */
+    public final /* synthetic */ ClientId f45870d;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C11726xs1(C8071Oo1 c8071Oo1, String str, ClientId clientId, InterfaceC1382Vy interfaceC1382Vy) {
+        super(2, interfaceC1382Vy);
+        this.f45868b = c8071Oo1;
+        this.f45869c = str;
+        this.f45870d = clientId;
+    }
+
+    @Override // p000.AbstractC1300Uf
+    public final InterfaceC1382Vy create(Object obj, InterfaceC1382Vy interfaceC1382Vy) {
+        return new C11726xs1(this.f45868b, this.f45869c, this.f45870d, interfaceC1382Vy);
+    }
+
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(Object obj, Object obj2) {
+        return ((C11726xs1) create((InterfaceC0754Lz) obj, (InterfaceC1382Vy) obj2)).invokeSuspend(C8313Tf1.f11463a);
+    }
+
+    @Override // p000.AbstractC1300Uf
+    public final Object invokeSuspend(Object obj) {
+        Object objM26679invokegIAlus;
+        EnumC0817Mz enumC0817Mz = EnumC0817Mz.f7418a;
+        int i = this.f45867a;
+        if (i == 0) {
+            RQ1.m7017d(obj);
+            C8071Oo1 c8071Oo1 = this.f45868b;
+            C7559Es1 c7559Es1 = new C7559Es1((Logger) c8071Oo1.f8629c);
+            C11599ws1 c11599ws1 = new C11599ws1(c8071Oo1, this.f45869c, this.f45870d, null);
+            this.f45867a = 1;
+            objM26679invokegIAlus = c7559Es1.m26679invokegIAlus(c11599ws1, this);
+            if (objM26679invokegIAlus == enumC0817Mz) {
+                return enumC0817Mz;
+            }
+        } else {
+            if (i != 1) {
+                throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+            }
+            RQ1.m7017d(obj);
+            objM26679invokegIAlus = ((PS0) obj).f9075a;
+        }
+        return new PS0(objM26679invokegIAlus);
+    }
+}

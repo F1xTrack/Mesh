@@ -1,0 +1,69 @@
+package defpackage;
+
+/* renamed from: yD1, reason: case insensitive filesystem */
+/* loaded from: classes.dex */
+public final class C8132yD1 extends QG1 implements KI1 {
+    private static final C8132yD1 zzb;
+    private int zzd;
+    private int zze;
+    private String zzf = "";
+
+    static {
+        C8132yD1 c8132yD1 = new C8132yD1();
+        zzb = c8132yD1;
+        QG1.h(C8132yD1.class, c8132yD1);
+    }
+
+    public static C8132yD1 n() {
+        return zzb;
+    }
+
+    @Override // defpackage.QG1
+    public final Object m(int i, QG1 qg1) {
+        int i2 = i - 1;
+        if (i2 == 0) {
+            return (byte) 1;
+        }
+        if (i2 == 2) {
+            return new C8340zJ1(zzb, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001᠌\u0000\u0002ဈ\u0001", new Object[]{"zzd", "zze", C0172By1.f, "zzf"});
+        }
+        if (i2 == 3) {
+            return new C8132yD1();
+        }
+        if (i2 == 4) {
+            return new DR1(11, zzb);
+        }
+        if (i2 != 5) {
+            return null;
+        }
+        return zzb;
+    }
+
+    public final String o() {
+        return this.zzf;
+    }
+
+    public final int p() {
+        int i;
+        int i2 = this.zze;
+        if (i2 != 0) {
+            i = 2;
+            if (i2 != 1) {
+                if (i2 != 2) {
+                    i = 4;
+                    if (i2 != 3) {
+                        i = i2 != 4 ? 0 : 5;
+                    }
+                } else {
+                    i = 3;
+                }
+            }
+        } else {
+            i = 1;
+        }
+        if (i == 0) {
+            return 1;
+        }
+        return i;
+    }
+}

@@ -1,0 +1,55 @@
+package defpackage;
+
+/* loaded from: classes.dex */
+public final class CK1 extends AbstractC6843rS1 {
+    private static final CK1 zzc;
+    private static volatile KU1 zzd;
+    private int zze;
+    private String zzf = "";
+    private String zzg = "";
+    private String zzh = "";
+    private String zzi = "";
+    private String zzj = "";
+    private String zzk = "";
+    private String zzl = "";
+
+    static {
+        CK1 ck1 = new CK1();
+        zzc = ck1;
+        AbstractC6843rS1.g(CK1.class, ck1);
+    }
+
+    @Override // defpackage.AbstractC6843rS1
+    public final Object d(int i) {
+        int i2 = 3;
+        switch (AbstractC7395uL1.a[i - 1]) {
+            case 1:
+                return new CK1();
+            case 2:
+                return new C7389uJ1(zzc);
+            case 3:
+                return new YU1(zzc, "\u0004\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005ဈ\u0004\u0006ဈ\u0005\u0007ဈ\u0006", new Object[]{"zze", "zzf", "zzg", "zzh", "zzi", "zzj", "zzk", "zzl"});
+            case 4:
+                return zzc;
+            case 5:
+                KU1 c5856mH1 = zzd;
+                if (c5856mH1 == null) {
+                    synchronized (CK1.class) {
+                        try {
+                            c5856mH1 = zzd;
+                            if (c5856mH1 == null) {
+                                c5856mH1 = new C5856mH1(i2);
+                                zzd = c5856mH1;
+                            }
+                        } finally {
+                        }
+                    }
+                }
+                return c5856mH1;
+            case 6:
+                return (byte) 1;
+            default:
+                throw null;
+        }
+    }
+}
