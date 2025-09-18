@@ -14,6 +14,7 @@
 
 ### ✅ Удалены файлы:
 - `app/agconnect-services.json` - конфигурация Huawei HMS
+- `app/src/main/java/com/huawei/` - вся папка с Huawei Java классами
 
 ### ✅ Очищен AndroidManifest.xml:
 - Удалены все Huawei-специфичные элементы
@@ -21,6 +22,10 @@
 - Удалены Huawei провайдеры
 - Удалены Huawei активности
 - Удалены Huawei метаданные
+
+### ✅ Очищены Java файлы:
+- Удалены все Huawei импорты из всех Java файлов
+- Обработано более 1000 файлов с Huawei импортами
 
 ### ✅ Обновлен package.json:
 - Удалены Huawei зависимости
