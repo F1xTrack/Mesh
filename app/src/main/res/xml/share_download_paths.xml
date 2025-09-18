@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<paths xmlns:android="http://schemas.android.com/apk/res/android">
+<paths>
     <external-path
-        name="rnshare1"
-        path="Download/"/>
+        name="external_files"
+        path="."/>
+    <external-files-path
+        name="external_files_path"
+        path="."/>
     <cache-path
-        name="rnshare2"
-        path="/"/>
-    <root-path
-        name="rnshare_sdcard"
+        name="cache"
+        path="."/>
+    <external-cache-path
+        name="external_cache"
+        path="."/>
+    <files-path
+        name="files"
         path="."/>
 </paths>
