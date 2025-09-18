@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:versionCode="1757332198"
     android:versionName="3.64.24"
     android:compileSdkVersion="34"
     android:compileSdkVersionCodename="14"
-    package="ru.mes.dnevnik"
     platformBuildVersionCode="34"
     platformBuildVersionName="14">
     <uses-sdk
@@ -407,7 +407,8 @@
             android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader"/>
         <meta-data
             android:name="com.facebook.soloader.enabled"
-            android:value="true"/>
+            android:value="true"
+            tools:replace="android:value"/>
         <service
             android:name="com.yandex.metrica.MetricaService"
             android:enabled="true"
