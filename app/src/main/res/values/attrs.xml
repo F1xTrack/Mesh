@@ -24,4 +24,5 @@
     <attr name="scrubber_enabled_size" format="dimension" />
     <attr name="touch_target_height" format="dimension" />
     <attr name="enforceNavigationBarContrast" format="boolean" />
+    <attr name="tone" format="float" />
 </resources>
