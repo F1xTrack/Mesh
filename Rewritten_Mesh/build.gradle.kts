@@ -6,3 +6,18 @@ plugins {
     id("com.google.gms.google-services") version "4.4.1" apply false
     id("com.google.firebase.crashlytics") version "2.9.9" apply false
 }
+
+// Global configuration for all subprojects
+subprojects {
+    afterEvaluate {
+        if (hasProperty("android")) {
+            configure<com.android.build.gradle.BaseExtension> {
+                packagingOptions {
+                    pickFirst("**/R.class")
+                    pickFirst("**/R$*.class")
+                    pickFirst("META-INF/MANIFEST.MF")
+                }
+            }
+        }
+    }
+}
