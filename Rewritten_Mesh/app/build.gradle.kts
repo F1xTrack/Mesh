@@ -42,7 +42,7 @@ android {
         // compose = true // Compose is not used
         buildConfig = true
     }
-    packagingOptions {
+    packaging {
         resources {
             pickFirsts += "**/libc++_shared.so"
             pickFirsts += "**/libjsc.so"
@@ -60,6 +60,24 @@ android {
             pickFirsts += "**/R.class"
             pickFirsts += "**/R$*.class"
         }
+    }
+    
+    // Legacy packaging options for broader coverage
+    packagingOptions {
+        pickFirst("**/R.class")
+        pickFirst("**/R$*.class")
+        pickFirst("META-INF/MANIFEST.MF")
+        pickFirst("**/libc++_shared.so")
+        pickFirst("**/libjsc.so")
+        exclude("META-INF/DEPENDENCIES")
+        exclude("META-INF/LICENSE")
+        exclude("META-INF/LICENSE.txt")
+        exclude("META-INF/license.txt")
+        exclude("META-INF/NOTICE")
+        exclude("META-INF/NOTICE.txt")
+        exclude("META-INF/notice.txt")
+        exclude("META-INF/ASL2.0")
+        exclude("META-INF/*.kotlin_module")
     }
 }
 

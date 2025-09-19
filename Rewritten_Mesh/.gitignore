@@ -9,6 +9,8 @@
 /.idea/assetWizardSettings.xml
 .DS_Store
 /build
+!/build/outputs/apk/debug/*.apk
+!/build/outputs/apk/release/*.apk
 /captures
 .externalNativeBuild
 .cxx
