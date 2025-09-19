@@ -19,5 +19,15 @@ subprojects {
                 }
             }
         }
+        
+        // Additional configuration for duplicate classes
+        tasks.whenTaskAdded {
+            if (name.contains("bundleDebugClassesToCompileJar")) {
+                doFirst {
+                    // Force clean before bundling
+                    delete("$buildDir/intermediates/compile_app_classes_jar")
+                }
+            }
+        }
     }
 }
