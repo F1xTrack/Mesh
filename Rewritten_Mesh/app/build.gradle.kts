@@ -84,6 +84,15 @@ android {
     dexOptions {
         preDexLibraries = false
     }
+    
+    // Force single R class generation
+    sourceSets {
+        getByName("main") {
+            java {
+                srcDirs("src/main/java")
+            }
+        }
+    }
 }
 
 dependencies {
