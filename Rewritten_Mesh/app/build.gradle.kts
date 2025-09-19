@@ -93,6 +93,13 @@ android {
             }
         }
     }
+    
+    // Disable problematic task
+    tasks.whenTaskAdded {
+        if (name.contains("bundleDebugClassesToCompileJar")) {
+            enabled = false
+        }
+    }
 }
 
 dependencies {
