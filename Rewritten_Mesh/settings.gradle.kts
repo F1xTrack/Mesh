@@ -16,6 +16,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven("https://www.jitpack.io")
+        maven("https://artifactory-external.vkpartner.ru/artifactory/maven")
     }
 }
 
