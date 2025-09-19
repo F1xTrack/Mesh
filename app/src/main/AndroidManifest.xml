@@ -359,7 +359,8 @@
         </provider>
         <activity
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-            android:name="com.yalantis.ucrop.UCropActivity"/>
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"/>
         <service
             android:name="com.google.android.gms.metadata.ModuleDependencies"
             android:enabled="false"
@@ -373,7 +374,8 @@
         </service>
         <activity
             android:name="com.proyecto26.inappbrowser.ChromeTabsManagerActivity"
-            android:exported="false"/>
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <service
             android:name="com.rustorepush.RustorePushService"
             android:exported="true">
@@ -520,12 +522,14 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:name="com.android.billingclient.api.ProxyBillingActivity"
             android:exported="false"
-            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:screenOrientation="portrait"/>
         <activity
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:name="com.android.billingclient.api.ProxyBillingActivityV2"
             android:exported="false"
-            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:screenOrientation="portrait"/>
         <service
             android:name="io.appmetrica.analytics.internal.AppMetricaService"
             android:enabled="true"
