@@ -79,7 +79,7 @@
     </style>
     
     <!-- Стили для переключателей -->
-    <style name="Widget.AppCompat.Switch" parent="android:Widget.Switch">
+    <style name="Widget.AppCompat.Switch" parent="Widget.AppCompat.CompoundButton.Switch">
         <item name="android:thumb">@drawable/switch_thumb</item>
         <item name="android:track">@drawable/switch_track</item>
     </style>
