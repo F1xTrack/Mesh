@@ -56,9 +56,9 @@ android {
             excludes += "META-INF/ASL2.0"
             excludes += "META-INF/*.kotlin_module"
             pickFirsts += "META-INF/MANIFEST.MF"
-            // Exclude duplicate R classes, but pickFirst for other potential duplicates
-            excludes += "**/R.class"
-            excludes += "**/R$*.class"
+            // Pick first for R classes to resolve duplicate conflicts
+            pickFirsts += "**/R.class"
+            pickFirsts += "**/R$*.class"
         }
     }
 }
