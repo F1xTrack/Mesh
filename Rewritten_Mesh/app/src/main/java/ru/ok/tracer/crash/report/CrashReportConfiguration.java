@@ -1,0 +1,151 @@
+package ru.ok.tracer.crash.report;
+
+import defpackage.InterfaceC6099nZ;
+import defpackage.O90;
+import kotlin.Metadata;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import ru.ok.tracer.Tracer;
+import ru.ok.tracer.TracerConfiguration;
+import ru.ok.tracer.TracerFeature;
+
+@Metadata(d1 = {"\u0000\"\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u000b\n\u0002\b\u0007\n\u0002\u0018\u0002\n\u0002\b\u0003\u0018\u0000 \u00102\u00020\u0001:\u0002\u000f\u0010B\u000f\b\u0002\u0012\u0006\u0010\u0002\u001a\u00020\u0003¢\u0006\u0002\u0010\u0004J\b\u0010\r\u001a\u00020\u000eH\u0016R\u0014\u0010\u0005\u001a\u00020\u0006X\u0080\u0004¢\u0006\b\n\u0000\u001a\u0004\b\u0007\u0010\bR\u0014\u0010\t\u001a\u00020\u0006X\u0080\u0004¢\u0006\b\n\u0000\u001a\u0004\b\n\u0010\bR\u0014\u0010\u000b\u001a\u00020\u0006X\u0080\u0004¢\u0006\b\n\u0000\u001a\u0004\b\f\u0010\b¨\u0006\u0011"}, d2 = {"Lru/ok/tracer/crash/report/CrashReportConfiguration;", "Lru/ok/tracer/TracerConfiguration;", "builder", "Lru/ok/tracer/crash/report/CrashReportConfiguration$Builder;", "(Lru/ok/tracer/crash/report/CrashReportConfiguration$Builder;)V", "enabled", "", "getEnabled$tracer_crash_report_release", "()Z", "nativeEnabled", "getNativeEnabled$tracer_crash_report_release", "sendAnr", "getSendAnr$tracer_crash_report_release", "getFeature", "Lru/ok/tracer/TracerFeature;", "Builder", "Companion", "tracer-crash-report_release"}, k = 1, mv = {1, 7, 1}, xi = 48)
+/* loaded from: classes2.dex */
+public final class CrashReportConfiguration implements TracerConfiguration {
+
+    /* renamed from: Companion, reason: from kotlin metadata */
+    public static final Companion INSTANCE = new Companion(null);
+    private final boolean enabled;
+    private final boolean nativeEnabled;
+    private final boolean sendAnr;
+
+    @Metadata(d1 = {"\u0000,\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0010\u000b\n\u0002\b\u0006\n\u0002\u0010\u000e\n\u0002\b\u000b\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\b\n\u0002\b\u0007\u0018\u00002\u00020\u0001B\u0005¢\u0006\u0002\u0010\u0002J\u0006\u0010\u0016\u001a\u00020\u0017J\u000e\u0010\u0018\u001a\u00020\u00002\u0006\u0010\u0003\u001a\u00020\u0004J\u0010\u0010\u0019\u001a\u00020\u00002\u0006\u0010\u001a\u001a\u00020\u001bH\u0007J\u0010\u0010\u001c\u001a\u00020\u00002\u0006\u0010\u001d\u001a\u00020\u001bH\u0007J\u0010\u0010\u001e\u001a\u00020\u00002\u0006\u0010\u001f\u001a\u00020\u001bH\u0007J\u000e\u0010 \u001a\u00020\u00002\u0006\u0010\u0003\u001a\u00020\u0004J\u000e\u0010!\u001a\u00020\u00002\u0006\u0010\u0013\u001a\u00020\u0004R\u001e\u0010\u0003\u001a\u0004\u0018\u00010\u0004X\u0080\u000e¢\u0006\u0010\n\u0002\u0010\t\u001a\u0004\b\u0005\u0010\u0006\"\u0004\b\u0007\u0010\bR\u001c\u0010\n\u001a\u0004\u0018\u00010\u000bX\u0080\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\f\u0010\r\"\u0004\b\u000e\u0010\u000fR\u001e\u0010\u0010\u001a\u0004\u0018\u00010\u0004X\u0080\u000e¢\u0006\u0010\n\u0002\u0010\t\u001a\u0004\b\u0011\u0010\u0006\"\u0004\b\u0012\u0010\bR\u001e\u0010\u0013\u001a\u0004\u0018\u00010\u0004X\u0080\u000e¢\u0006\u0010\n\u0002\u0010\t\u001a\u0004\b\u0014\u0010\u0006\"\u0004\b\u0015\u0010\b¨\u0006\""}, d2 = {"Lru/ok/tracer/crash/report/CrashReportConfiguration$Builder;", "", "()V", "enabled", "", "getEnabled$tracer_crash_report_release", "()Ljava/lang/Boolean;", "setEnabled$tracer_crash_report_release", "(Ljava/lang/Boolean;)V", "Ljava/lang/Boolean;", "host", "", "getHost$tracer_crash_report_release", "()Ljava/lang/String;", "setHost$tracer_crash_report_release", "(Ljava/lang/String;)V", "nativeEnabled", "getNativeEnabled$tracer_crash_report_release", "setNativeEnabled$tracer_crash_report_release", "sendAnr", "getSendAnr$tracer_crash_report_release", "setSendAnr$tracer_crash_report_release", "build", "Lru/ok/tracer/crash/report/CrashReportConfiguration;", "setEnabled", "setExperimentalMaxCrashReportTtlSeconds", "maxCrashTtl", "", "setExperimentalMaxCrashReportsStored", "maxCrashReports", "setExperimentalMaxNonFatalsPerSession", "maxNonFatals", "setNativeEnabled", "setSendAnr", "tracer-crash-report_release"}, k = 1, mv = {1, 7, 1}, xi = 48)
+    public static final class Builder {
+        private Boolean enabled;
+        private String host;
+        private Boolean nativeEnabled;
+        private Boolean sendAnr;
+
+        public final CrashReportConfiguration build() {
+            return new CrashReportConfiguration(this, null);
+        }
+
+        /* renamed from: getEnabled$tracer_crash_report_release, reason: from getter */
+        public final Boolean getEnabled() {
+            return this.enabled;
+        }
+
+        /* renamed from: getHost$tracer_crash_report_release, reason: from getter */
+        public final String getHost() {
+            return this.host;
+        }
+
+        /* renamed from: getNativeEnabled$tracer_crash_report_release, reason: from getter */
+        public final Boolean getNativeEnabled() {
+            return this.nativeEnabled;
+        }
+
+        /* renamed from: getSendAnr$tracer_crash_report_release, reason: from getter */
+        public final Boolean getSendAnr() {
+            return this.sendAnr;
+        }
+
+        public final Builder setEnabled(boolean enabled) {
+            this.enabled = Boolean.valueOf(enabled);
+            return this;
+        }
+
+        public final void setEnabled$tracer_crash_report_release(Boolean bool) {
+            this.enabled = bool;
+        }
+
+        public final Builder setExperimentalMaxCrashReportTtlSeconds(int maxCrashTtl) {
+            return this;
+        }
+
+        public final Builder setExperimentalMaxCrashReportsStored(int maxCrashReports) {
+            return this;
+        }
+
+        public final Builder setExperimentalMaxNonFatalsPerSession(int maxNonFatals) {
+            return this;
+        }
+
+        public final void setHost$tracer_crash_report_release(String str) {
+            this.host = str;
+        }
+
+        public final Builder setNativeEnabled(boolean enabled) {
+            this.nativeEnabled = Boolean.valueOf(enabled);
+            return this;
+        }
+
+        public final void setNativeEnabled$tracer_crash_report_release(Boolean bool) {
+            this.nativeEnabled = bool;
+        }
+
+        public final Builder setSendAnr(boolean sendAnr) {
+            this.sendAnr = Boolean.valueOf(sendAnr);
+            return this;
+        }
+
+        public final void setSendAnr$tracer_crash_report_release(Boolean bool) {
+            this.sendAnr = bool;
+        }
+    }
+
+    @Metadata(d1 = {"\u0000\"\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0007\b\u0086\u0003\u0018\u00002\u00020\u0001B\t\b\u0002¢\u0006\u0004\b\u0002\u0010\u0003J'\u0010\u000b\u001a\u00020\b2\u0012\u0010\u0007\u001a\u000e\u0012\u0004\u0012\u00020\u0005\u0012\u0004\u0012\u00020\u00060\u0004H\u0087\bø\u0001\u0000¢\u0006\u0004\b\t\u0010\nJ\u000f\u0010\u000e\u001a\u00020\bH\u0000¢\u0006\u0004\b\f\u0010\r\u0082\u0002\u0007\n\u0005\b\u009920\u0001¨\u0006\u000f"}, d2 = {"Lru/ok/tracer/crash/report/CrashReportConfiguration$Companion;", "", "<init>", "()V", "Lkotlin/Function1;", "Lru/ok/tracer/crash/report/CrashReportConfiguration$Builder;", "LTf1;", "block", "Lru/ok/tracer/crash/report/CrashReportConfiguration;", LocalNotification.Visibility.PRIVATE, "(LnZ;)Lru/ok/tracer/crash/report/CrashReportConfiguration;", "build", "get$tracer_crash_report_release", "()Lru/ok/tracer/crash/report/CrashReportConfiguration;", "get", "tracer-crash-report_release"}, k = 1, mv = {1, 7, 1}, xi = 48)
+    public static final class Companion {
+        public /* synthetic */ Companion(DefaultConstructorMarker defaultConstructorMarker) {
+            this();
+        }
+
+        public final CrashReportConfiguration get$tracer_crash_report_release() {
+            TracerConfiguration tracerConfiguration = Tracer.INSTANCE.getRuntimeConfigs().get(FEATURE_CRASH_REPORTKt.getFEATURE_CRASH_REPORT());
+            CrashReportConfiguration crashReportConfiguration = tracerConfiguration instanceof CrashReportConfiguration ? (CrashReportConfiguration) tracerConfiguration : null;
+            return crashReportConfiguration == null ? new Builder().build() : crashReportConfiguration;
+        }
+
+        /* renamed from: private */
+        public final CrashReportConfiguration m99private(InterfaceC6099nZ interfaceC6099nZ) {
+            O90.f(interfaceC6099nZ, "block");
+            Builder builder = new Builder();
+            interfaceC6099nZ.invoke(builder);
+            return builder.build();
+        }
+
+        private Companion() {
+        }
+    }
+
+    public /* synthetic */ CrashReportConfiguration(Builder builder, DefaultConstructorMarker defaultConstructorMarker) {
+        this(builder);
+    }
+
+    /* renamed from: getEnabled$tracer_crash_report_release, reason: from getter */
+    public final boolean getEnabled() {
+        return this.enabled;
+    }
+
+    @Override // ru.ok.tracer.TracerConfiguration
+    public TracerFeature getFeature() {
+        return FEATURE_CRASH_REPORTKt.getFEATURE_CRASH_REPORT();
+    }
+
+    /* renamed from: getNativeEnabled$tracer_crash_report_release, reason: from getter */
+    public final boolean getNativeEnabled() {
+        return this.nativeEnabled;
+    }
+
+    /* renamed from: getSendAnr$tracer_crash_report_release, reason: from getter */
+    public final boolean getSendAnr() {
+        return this.sendAnr;
+    }
+
+    private CrashReportConfiguration(Builder builder) {
+        Boolean enabled = builder.getEnabled();
+        this.enabled = enabled != null ? enabled.booleanValue() : true;
+        this.nativeEnabled = TracerNativeCrashReport.INSTANCE.calculateEnabled$tracer_crash_report_release(builder.getNativeEnabled());
+        Boolean sendAnr = builder.getSendAnr();
+        this.sendAnr = sendAnr != null ? sendAnr.booleanValue() : true;
+    }
+}
