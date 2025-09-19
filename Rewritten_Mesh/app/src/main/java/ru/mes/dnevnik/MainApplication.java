@@ -10,7 +10,7 @@ import com.facebook.react.ReactPackage;
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
 import com.facebook.react.defaults.DefaultReactNativeHost;
 import com.facebook.soloader.SoLoader;
-import java.util.ArrayList; // Using ArrayList instead of PackageList for now
+import java.util.ArrayList;
 import java.util.List;
 import ru.mes.dnevnik.BuildConfig;
 
@@ -48,11 +48,10 @@ public final class MainApplication extends Application implements ReactApplicati
 
         @Override
         protected List<ReactPackage> getPackages() {
-            // @SuppressWarnings("UnnecessaryLocalVariable")
-            // List<ReactPackage> packages = new PackageList(this).getPackages();
+            List<ReactPackage> packages = new ArrayList<>();
             // Packages that cannot be autolinked yet can be added manually here, for example:
-            // packages.add(new MyReactNativePackage());
-            return new ArrayList<>(); // Return empty list for now
+            packages.add(new NativeEnvironmentsModulePackage());
+            return packages;
         }
 
         @Override
