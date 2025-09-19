@@ -61,45 +61,6 @@ android {
             pickFirsts += "**/R$*.class"
         }
     }
-    
-    // Legacy packaging options for broader coverage
-    packagingOptions {
-        pickFirst("**/R.class")
-        pickFirst("**/R$*.class")
-        pickFirst("META-INF/MANIFEST.MF")
-        pickFirst("**/libc++_shared.so")
-        pickFirst("**/libjsc.so")
-        exclude("META-INF/DEPENDENCIES")
-        exclude("META-INF/LICENSE")
-        exclude("META-INF/LICENSE.txt")
-        exclude("META-INF/license.txt")
-        exclude("META-INF/NOTICE")
-        exclude("META-INF/NOTICE.txt")
-        exclude("META-INF/notice.txt")
-        exclude("META-INF/ASL2.0")
-        exclude("META-INF/*.kotlin_module")
-    }
-    
-    // Additional configuration for duplicate classes
-    dexOptions {
-        preDexLibraries = false
-    }
-    
-    // Force single R class generation
-    sourceSets {
-        getByName("main") {
-            java {
-                srcDirs("src/main/java")
-            }
-        }
-    }
-    
-    // Disable problematic task
-    tasks.whenTaskAdded {
-        if (name.contains("bundleDebugClassesToCompileJar")) {
-            enabled = false
-        }
-    }
 }
 
 dependencies {
