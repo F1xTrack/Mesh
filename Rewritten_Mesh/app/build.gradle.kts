@@ -79,6 +79,11 @@ android {
         exclude("META-INF/ASL2.0")
         exclude("META-INF/*.kotlin_module")
     }
+    
+    // Additional configuration for duplicate classes
+    dexOptions {
+        preDexLibraries = false
+    }
 }
 
 dependencies {
