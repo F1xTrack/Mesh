@@ -40,7 +40,7 @@ android {
     }
     buildFeatures {
         // compose = true // Compose is not used
-        buildConfig = false
+        buildConfig = true
     }
     packagingOptions {
         resources {

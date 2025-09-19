@@ -1,7 +1,0 @@
-package cl.json;
-
-import p000.AbstractC0345FT;
-
-/* loaded from: classes.dex */
-public class RNShareFileProvider extends AbstractC0345FT {
-}
