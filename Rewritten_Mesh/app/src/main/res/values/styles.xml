@@ -1,15 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base application theme. -->
+    <!-- Основные стили приложения -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/notification_color</item>
-        <item name="colorPrimaryDark">@color/notification_color</item>
-        <item name="colorAccent">@color/notification_color</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
+    
+    <!-- Стили для React Native -->
+    <style name="Theme.App.SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+    
+    <!-- Базовые стили -->
+    <style name="Base.CardView" parent="android:Widget">
+        <item name="cardCornerRadius">4dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardMaxElevation">8dp</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardUseCompatPadding">false</item>
+    </style>
+    
+    <style name="CardView" parent="@style/Base.CardView">
+        <item name="cardBackgroundColor">@android:color/white</item>
+    </style>
+    
+    <!-- Стили для текста -->
+    <style name="TextAppearance.AppCompat.Subhead" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    
+    <!-- Стили для кнопок -->
+    <style name="Widget.AppCompat.Button" parent="android:Widget.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/btn_default</item>
+    </style>
+    
+    <!-- Стили для диалогов -->
+    <style name="Theme.AppCompat.Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+    
+    <!-- Стили для списков -->
+    <style name="Widget.AppCompat.ListView" parent="android:Widget.ListView">
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+    
+    <!-- Стили для полей ввода -->
+    <style name="Widget.AppCompat.EditText" parent="android:Widget.EditText">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+    </style>
+    
+    <!-- Стили для заголовков -->
+    <style name="TextAppearance.AppCompat.Title" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    
+    <!-- Стили для подзаголовков -->
+    <style name="TextAppearance.AppCompat.Subtitle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+    
+    <!-- Стили для элементов меню -->
+    <style name="Widget.AppCompat.PopupMenu" parent="android:Widget.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item>
+    </style>
+    
+    <!-- Стили для прогресс-баров -->
+    <style name="Widget.AppCompat.ProgressBar" parent="android:Widget.ProgressBar">
+        <item name="android:progressDrawable">@drawable/progress_horizontal</item>
+    </style>
+    
+    <!-- Стили для переключателей -->
+    <style name="Widget.AppCompat.Switch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:thumb">@drawable/switch_thumb</item>
+        <item name="android:track">@drawable/switch_track</item>
+    </style>
+    
+    <!-- Стили для вкладок -->
+    <style name="Widget.AppCompat.TabLayout" parent="android:Widget.TabWidget">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    
+    <!-- Стили для панелей инструментов -->
+    <style name="Widget.AppCompat.Toolbar" parent="android:Widget.Toolbar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:titleTextColor">@android:color/white</item>
+    </style>
+    
+    <!-- Стили для навигации -->
+    <style name="Widget.AppCompat.NavigationView" parent="android:Widget">
+        <item name="android:background">@android:color/white</item>
+    </style>
+    
+    <!-- Стили для календаря -->
+    <style name="CalendarDatePickerStyle" parent="android:Widget.DatePicker">
+        <item name="android:datePickerMode">calendar</item>
+    </style>
+    
+    <!-- Стили для анимаций -->
+    <style name="DialogAnimationFade" parent="">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    
+    <style name="DialogAnimationSlide" parent="">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+    
+    <!-- Дополнительные стили для исправления ошибок -->
+    <style name="SpinnerDatePickerDialogBase" parent="android:Widget.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+    
+    <style name="SpinnerTimePickerDialogBase" parent="android:Widget">
+        <item name="android:timePickerMode">spinner</item>
+    </style>
+    
+    <style name="Theme.EdgeToEdge.DayNight.Common" parent="Theme.AppCompat.DayNight">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+    
+    <style name="Theme.EdgeToEdge.Light.Common" parent="Theme.AppCompat.Light">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+    
+    <style name="Theme.EdgeToEdge.Material2.DayNight.Common" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+    
+    <style name="Theme.EdgeToEdge.Material2.Light.Common" parent="Theme.MaterialComponents.Light">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+    
+    <style name="Theme.EdgeToEdge.Material3.DayNight.Common" parent="Theme.Material3.DayNight">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+    
+    <style name="Theme.EdgeToEdge.Material3.Dynamic.DayNight.Common" parent="Theme.Material3.DayNight">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+    
+    <style name="Theme.EdgeToEdge.Material3.Dynamic.Light.Common" parent="Theme.Material3.Light">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+    
+    <!-- Material3 EdgeToEdge placeholders to satisfy references -->
+    <style name="Theme.EdgeToEdge.Material3.Light.Common" parent="Theme.Material3.Light">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+    <style name="Theme.Material3.DynamicColors.Dark.NoActionBar" parent="Theme.Material3.Dark.NoActionBar"/>
     
     <style name="Theme.ActivityLauncher.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
 </resources>
