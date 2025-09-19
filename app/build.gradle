@@ -7,7 +7,6 @@ plugins {
 android {
 	namespace "ru.mes.dnevnik"
     compileSdkVersion 34
-    buildToolsVersion "34.0.0"
 
     defaultConfig {
         applicationId 'ru.mes.dnevnik'
@@ -44,7 +43,7 @@ android {
     aaptOptions {
         ignoreAssetsPattern "!.svn:!.git:.*:!CVS:!thumbs.db:!picasa.ini:!*.scc:*~"
         noCompress 'tflite'
-        additionalParameters '--no-auto-version'
+        additionalParameters '--no-auto-version', '--keep-raw-values'
     }
     
     packagingOptions {
