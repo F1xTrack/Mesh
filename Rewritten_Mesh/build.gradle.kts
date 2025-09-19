@@ -20,13 +20,10 @@ subprojects {
             }
         }
         
-        // Additional configuration for duplicate classes
+        // Disable problematic task completely
         tasks.whenTaskAdded {
             if (name.contains("bundleDebugClassesToCompileJar")) {
-                doFirst {
-                    // Force clean before bundling
-                    delete("$buildDir/intermediates/compile_app_classes_jar")
-                }
+                enabled = false
             }
         }
     }
